@@ -1,0 +1,8 @@
+# Scoped to the official /seismiki/ installation on Apache 2.4.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^dos\.gr(?::80)?$ [NC]
+    RewriteCond %{HTTPS} !=on
+    RewriteCond %{REQUEST_URI} ^/seismiki(?:/|$)
+    RewriteRule ^ https://dos.gr%{REQUEST_URI} [R=301,END,NE]
+</IfModule>

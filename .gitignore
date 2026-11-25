@@ -1,0 +1,23 @@
+# Generated releases and deployment archives
+/releases/
+/dist/
+/source.zip
+/Seismiki-Chartomanteia-source.zip
+/Seismiki-Chartomanteia-*-install.zip
+/Seismiki-Chartomanteia-*-source.zip
+
+# Private browser session exports and local checks
+/cards-*.json
+/.qa-*
+/coverage/
+/node_modules/
+__pycache__/
+*.py[cod]
+
+# Local settings and editor metadata
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

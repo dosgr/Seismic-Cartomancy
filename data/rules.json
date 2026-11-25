@@ -1,0 +1,1210 @@
+{
+  "version": "thesavros-770-method-7.v1",
+  "cards": {
+    "KD": {
+      "el": "Πρόσωπο με δύναμη που προσφέρει προστασία",
+      "en": "A powerful protector",
+      "page": 26
+    },
+    "KH": {
+      "el": "Ισχυρή προστασία",
+      "en": "Strong protection",
+      "page": 26
+    },
+    "KS": {
+      "el": "Δίκες, δυσάρεστες περιπλοκές και μπλεξίματα στις υποθέσεις",
+      "en": "Lawsuits, unpleasant complications and tangles in your affairs",
+      "page": 26
+    },
+    "KC": {
+      "el": "Οικονομική και ηθική στήριξη",
+      "en": "Financial and moral support",
+      "page": 26
+    },
+    "QD": {
+      "el": "Ξανθή γυναίκα, επιπόλαιη και υποκρίτρια",
+      "en": "A fair-haired woman, frivolous and hypocritical",
+      "page": 26
+    },
+    "QH": {
+      "el": "Ξανθή γυναίκα, καλόκαρδη και αφοσιωμένη",
+      "en": "A fair-haired, kind and devoted woman",
+      "page": 26
+    },
+    "QS": {
+      "el": "Δύστροπη και κακεντρεχής γυναίκα",
+      "en": "An ill-tempered, spiteful woman",
+      "page": 26
+    },
+    "QC": {
+      "el": "Βοήθεια από μελαχρινή γυναίκα",
+      "en": "Help from a dark-haired woman",
+      "page": 26
+    },
+    "JD": {
+      "el": "Καλή είδηση",
+      "en": "Good news",
+      "page": 26
+    },
+    "JH": {
+      "el": "Ξανθός νέος ευγενικών αισθημάτων. Για μια νέα, γάμος που\nπλησιάζει",
+      "en": "A fair-haired young man with noble feelings. For a young woman, an approaching marriage",
+      "page": 26
+    },
+    "JS": {
+      "el": "Μελαχρινό πρόσωπο που επιδιώκει να σας βλάψει",
+      "en": "A dark-haired person who seeks to harm you",
+      "page": 26
+    },
+    "JC": {
+      "el": "Ειλικρινής, έντιμος και πιστός νέος",
+      "en": "An honest, upright and faithful young man",
+      "page": 26
+    },
+    "10D": {
+      "el": "Κερδοφόρο ταξίδι",
+      "en": "A profitable trip",
+      "page": 26
+    },
+    "10H": {
+      "el": "Ευτυχία στα αισθηματικά",
+      "en": "Happiness in love",
+      "page": 26
+    },
+    "10S": {
+      "el": "Λύπες, ασθένειες, πένθος",
+      "en": "Sorrow, illness and mourning",
+      "page": 26
+    },
+    "10C": {
+      "el": "Επιτυχία και ευημερία",
+      "en": "Success and prosperity",
+      "page": 26
+    },
+    "9D": {
+      "el": "Καθυστέρηση",
+      "en": "A delay",
+      "page": 26
+    },
+    "9H": {
+      "el": "Επιτυχία στις αισθηματικές υποθέσεις",
+      "en": "Success in affairs of the heart",
+      "page": 26
+    },
+    "9S": {
+      "el": "Εχθρότητες που προκαλούν μεγάλη στενοχώρια",
+      "en": "Hostility that causes considerable distress",
+      "page": 26
+    },
+    "9C": {
+      "el": "Κέρδος από επιχειρήσεις ή δίκη",
+      "en": "Profit from business or a lawsuit",
+      "page": 26
+    },
+    "8D": {
+      "el": "Σύντομη, ευχάριστη μετακίνηση",
+      "en": "A short, pleasant outing",
+      "page": 26
+    },
+    "8H": {
+      "el": "Εξομολόγηση αισθημάτων",
+      "en": "A declaration of feelings",
+      "page": 26
+    },
+    "8S": {
+      "el": "Ζημιές και καταστροφές",
+      "en": "Damage and setbacks",
+      "page": 26
+    },
+    "8C": {
+      "el": "Κέρδη χάρη στην επιμονή",
+      "en": "Gains through persistence",
+      "page": 26
+    },
+    "7D": {
+      "el": "Δυσκολίες",
+      "en": "Difficulties",
+      "page": 26
+    },
+    "7H": {
+      "el": "Ήρεμη και ευτυχισμένη ερωτική σχέση",
+      "en": "A peaceful, happy romance",
+      "page": 26
+    },
+    "7S": {
+      "el": "Υπέρβαση εμποδίων",
+      "en": "Overcoming obstacles",
+      "page": 26
+    },
+    "7C": {
+      "el": "Χρηματικά κέρδη",
+      "en": "Financial gains",
+      "page": 26
+    },
+    "6D": {
+      "el": "Η απερισκεψία σάς βλάπτει",
+      "en": "Recklessness harms you",
+      "page": 26
+    },
+    "6H": {
+      "el": "Δισταγμός και αναποφασιστικότητα. Βάρος του παρελθόντος",
+      "en": "Hesitation and indecision. The weight of the past",
+      "page": 26
+    },
+    "6S": {
+      "el": "Ταξίδι που πλησιάζει, με καλή έκβαση",
+      "en": "An approaching trip with a good outcome",
+      "page": 26
+    },
+    "6C": {
+      "el": "Χρειάζεται τόλμη για την επιτυχία",
+      "en": "Success calls for courage",
+      "page": 26
+    },
+    "5D": {
+      "el": "Επιτυχία και πλούτος",
+      "en": "Success and wealth",
+      "page": 26
+    },
+    "5H": {
+      "el": "Συμφιλίωση. Για μια νέα, ευτυχισμένος γάμος με οικονομική άνεση",
+      "en": "Reconciliation. For a young woman, a happy and prosperous marriage",
+      "page": 26
+    },
+    "5S": {
+      "el": "Δυσάρεστη εξέλιξη των υποθέσεων",
+      "en": "An unpleasant turn in your affairs",
+      "page": 26
+    },
+    "5C": {
+      "el": "Ευημερία",
+      "en": "Prosperity",
+      "page": 26
+    },
+    "4D": {
+      "el": "Φιλίες που αποδεικνύονται ωφέλιμες",
+      "en": "Friendships that prove helpful",
+      "page": 26
+    },
+    "4H": {
+      "el": "Δυσκολίες και έγνοιες",
+      "en": "Difficulties and worries",
+      "page": 26
+    },
+    "4S": {
+      "el": "Απογοητεύσεις",
+      "en": "Disappointments",
+      "page": 26
+    },
+    "4C": {
+      "el": "Δώρο ή απροσδόκητα κέρδη",
+      "en": "A gift or unexpected gains",
+      "page": 26
+    },
+    "3D": {
+      "el": "Δύσκολο εγχείρημα",
+      "en": "A difficult undertaking",
+      "page": 26
+    },
+    "3H": {
+      "el": "Ευόδωση αισθηματικών επιδιώξεων",
+      "en": "Success in your romantic hopes",
+      "page": 26
+    },
+    "3S": {
+      "el": "Ταξίδι που πλησιάζει",
+      "en": "An approaching trip",
+      "page": 26
+    },
+    "3C": {
+      "el": "Οι προσπάθειες αποδίδουν",
+      "en": "Your efforts bear fruit",
+      "page": 26
+    },
+    "2D": {
+      "el": "Στενοχώρια και λύπη",
+      "en": "Distress and sorrow",
+      "page": 26
+    },
+    "2H": {
+      "el": "Σταθερός ερωτικός δεσμός",
+      "en": "A lasting romantic bond",
+      "page": 26
+    },
+    "2S": {
+      "el": "Πλήρης αρμονία",
+      "en": "Complete harmony",
+      "page": 26
+    },
+    "2C": {
+      "el": "Οικονομικά προβλήματα",
+      "en": "Financial worries",
+      "page": 26
+    },
+    "AD": {
+      "el": "Ευχάριστα νέα και ευημερία",
+      "en": "Good news and prosperity",
+      "page": 26
+    },
+    "AH": {
+      "el": "Ερωτική επιστολή ή καλά νέα για τα αισθηματικά",
+      "en": "A love letter or good news about your love life",
+      "page": 26
+    },
+    "AS": {
+      "el": "Βοήθεια από εκεί που δεν αναμένεται, όταν όλα φαίνονται χαμένα",
+      "en": "Unexpected help when all seems lost",
+      "page": 26
+    },
+    "AC": {
+      "el": "Σημαντική βελτίωση της οικονομικής κατάστασης",
+      "en": "A significant improvement in your finances",
+      "page": 26
+    }
+  },
+  "pairs": [
+    {
+      "id": "P01",
+      "match": [
+        "KD",
+        "AC"
+      ],
+      "el": "Άνοδος ή ανέλιξη",
+      "en": "Advancement or a rise in standing",
+      "page": 26
+    },
+    {
+      "id": "P02",
+      "match": [
+        "QD",
+        "10S"
+      ],
+      "el": "Απειλή κινδύνου",
+      "en": "A threat of danger",
+      "page": 26
+    },
+    {
+      "id": "P03",
+      "match": [
+        "QD",
+        "AS"
+      ],
+      "el": "Απόκτηση παιδιού",
+      "en": "Having a child",
+      "page": 26
+    },
+    {
+      "id": "P04",
+      "match": [
+        "JD",
+        "7S"
+      ],
+      "el": "Επιτυχία στις επιχειρήσεις",
+      "en": "Business success",
+      "page": 26
+    },
+    {
+      "id": "P05",
+      "match": [
+        "10D",
+        "QD"
+      ],
+      "el": "Ειλικρινής, πιστή γυναίκα",
+      "en": "An honest, faithful woman",
+      "page": 26
+    },
+    {
+      "id": "P06",
+      "match": [
+        "10D",
+        "QH"
+      ],
+      "el": "Ειλικρινής, πιστή γυναίκα",
+      "en": "An honest, faithful woman",
+      "page": 26
+    },
+    {
+      "id": "P07",
+      "match": [
+        "10D",
+        "QC"
+      ],
+      "el": "Επιπόλαιη, επικίνδυνη γυναίκα",
+      "en": "A frivolous, dangerous woman",
+      "page": 26
+    },
+    {
+      "id": "P08",
+      "match": [
+        "9D",
+        "KD"
+      ],
+      "el": "Ωφέλιμες συμβουλές",
+      "en": "Helpful advice",
+      "page": 26
+    },
+    {
+      "id": "P09",
+      "match": [
+        "9D",
+        "7D"
+      ],
+      "el": "Καθυστερήσεις",
+      "en": "Delays",
+      "page": 26
+    },
+    {
+      "id": "P10",
+      "match": [
+        "8D",
+        "2C"
+      ],
+      "el": "Θυμός και φιλονικίες",
+      "en": "Anger and quarrels",
+      "page": 26
+    },
+    {
+      "id": "P11",
+      "match": [
+        "8D",
+        "7S"
+      ],
+      "el": "Συμφιλίωση",
+      "en": "Reconciliation",
+      "page": 26
+    },
+    {
+      "id": "P12",
+      "match": [
+        "7D",
+        "9H"
+      ],
+      "el": "Εύνοια της τύχης",
+      "en": "Good fortune",
+      "page": 26
+    },
+    {
+      "id": "P13",
+      "match": [
+        "6D",
+        "8H"
+      ],
+      "el": "Ανανεωμένη εμπιστοσύνη από τους γύρω",
+      "en": "Renewed trust from others",
+      "page": 26
+    },
+    {
+      "id": "P14",
+      "match": [
+        "5D",
+        "4D"
+      ],
+      "el": "Οικονομική επιτυχία",
+      "en": "Financial success",
+      "page": 26
+    },
+    {
+      "id": "P15",
+      "match": [
+        "5D",
+        "KS"
+      ],
+      "el": "Κέρδος από δίκη",
+      "en": "Gains from a lawsuit",
+      "page": 26
+    },
+    {
+      "id": "P16",
+      "match": [
+        "5D",
+        "AH"
+      ],
+      "el": "Διακοπή ερωτικών σχέσεων",
+      "en": "A romantic breakup",
+      "page": 26
+    },
+    {
+      "id": "P17",
+      "match": [
+        "4D",
+        "QC"
+      ],
+      "el": "Δώρα",
+      "en": "Gifts",
+      "page": 26
+    },
+    {
+      "id": "P18",
+      "match": [
+        "3D",
+        "K*"
+      ],
+      "el": "Ισχυρή προστασία",
+      "en": "Strong protection",
+      "page": 26
+    },
+    {
+      "id": "P19",
+      "match": [
+        "3D",
+        "Q*"
+      ],
+      "el": "Ισχυρή γυναικεία προστασία (η πηγή αφήνει αμφίσημο τον ρόλο της γυναίκας)",
+      "en": "Strong protection associated with a woman (the source leaves her role ambiguous)",
+      "page": 26
+    },
+    {
+      "id": "P20",
+      "match": [
+        "2D",
+        "KS"
+      ],
+      "el": "Κίνδυνος",
+      "en": "Danger",
+      "page": 26
+    },
+    {
+      "id": "P21",
+      "match": [
+        "AD",
+        "2H"
+      ],
+      "el": "Παγίδες",
+      "en": "Traps",
+      "page": 26
+    },
+    {
+      "id": "P22",
+      "match": [
+        "KH",
+        "AS"
+      ],
+      "el": "Κίνδυνοι για μια νέα",
+      "en": "Dangers for a young woman",
+      "page": 26
+    },
+    {
+      "id": "P23",
+      "match": [
+        "KH",
+        "8H"
+      ],
+      "el": "Γάμος που πλησιάζει",
+      "en": "An approaching marriage",
+      "page": 26
+    },
+    {
+      "id": "P24",
+      "match": [
+        "QH",
+        "AH"
+      ],
+      "el": "Γάμος με οικονομική άνεση",
+      "en": "A prosperous marriage",
+      "page": 26
+    },
+    {
+      "id": "P25",
+      "match": [
+        "JH",
+        "9D"
+      ],
+      "el": "Καθυστερήσεις και στενοχώρια",
+      "en": "Delays and distress",
+      "page": 26
+    },
+    {
+      "id": "P26",
+      "match": [
+        "10H",
+        "7D"
+      ],
+      "el": "Διχόνοια στο σπίτι",
+      "en": "Discord at home",
+      "page": 26
+    },
+    {
+      "id": "P27",
+      "match": [
+        "9H",
+        "7C"
+      ],
+      "el": "Επικερδές εγχείρημα",
+      "en": "A profitable undertaking",
+      "page": 26
+    },
+    {
+      "id": "P28",
+      "match": [
+        "8H",
+        "9H"
+      ],
+      "el": "Καλός γάμος",
+      "en": "A good marriage",
+      "page": 26
+    },
+    {
+      "id": "P29",
+      "match": [
+        "7H",
+        "10S"
+      ],
+      "el": "Αποτυχία σχεδίων",
+      "en": "Plans failing",
+      "page": 26
+    },
+    {
+      "id": "P30",
+      "match": [
+        "6H",
+        "10D"
+      ],
+      "el": "Αποφυγή παγίδων",
+      "en": "Escaping traps",
+      "page": 26
+    },
+    {
+      "id": "P31",
+      "match": [
+        "6H",
+        "10S"
+      ],
+      "el": "Λύπες και βάσανα",
+      "en": "Sorrow and hardship",
+      "page": 26
+    },
+    {
+      "id": "P32",
+      "match": [
+        "5H",
+        "JD"
+      ],
+      "el": "Γάμος με συγγενικό πρόσωπο",
+      "en": "Marriage to a relative",
+      "page": 26
+    },
+    {
+      "id": "P33",
+      "match": [
+        "4H",
+        "8D"
+      ],
+      "el": "Ματαίωση γιορτής",
+      "en": "A celebration called off",
+      "page": 26
+    },
+    {
+      "id": "P34",
+      "match": [
+        "4H",
+        "5S"
+      ],
+      "el": "Ζημιές από πυρκαγιά",
+      "en": "Fire damage",
+      "page": 26
+    },
+    {
+      "id": "P35",
+      "match": [
+        "2H",
+        "10S"
+      ],
+      "el": "Ματαίωση γάμου",
+      "en": "A marriage called off",
+      "page": 26
+    },
+    {
+      "id": "P36",
+      "match": [
+        "AH",
+        "10D"
+      ],
+      "el": "Ταξίδι του μνηστήρα",
+      "en": "The fiancé travels",
+      "page": 26
+    },
+    {
+      "id": "P37",
+      "match": [
+        "AH",
+        "QH"
+      ],
+      "el": "Ευχάριστες ειδήσεις",
+      "en": "Good news",
+      "page": 26
+    },
+    {
+      "id": "P38",
+      "match": [
+        "KS",
+        "KH"
+      ],
+      "el": "Κέρδος από δίκη",
+      "en": "Gains from a lawsuit",
+      "page": 26
+    },
+    {
+      "id": "P39",
+      "match": [
+        "KS",
+        "9S"
+      ],
+      "el": "Μελαχρινός που σας καταδιώκει",
+      "en": "A dark-haired man pursues you",
+      "page": 26
+    },
+    {
+      "id": "P40",
+      "match": [
+        "QS",
+        "JC"
+      ],
+      "el": "Απερισκεψίες που σας εκθέτουν",
+      "en": "Reckless acts that expose you",
+      "page": 26
+    },
+    {
+      "id": "P41",
+      "match": [
+        "QS",
+        "7C"
+      ],
+      "el": "Απερισκεψίες που σας εκθέτουν",
+      "en": "Reckless acts that expose you",
+      "page": 26
+    },
+    {
+      "id": "P42",
+      "match": [
+        "JS",
+        "KS"
+      ],
+      "el": "Αντίζηλος",
+      "en": "A rival",
+      "page": 26
+    },
+    {
+      "id": "P43",
+      "match": [
+        "10S",
+        "10D"
+      ],
+      "el": "Εγκατάλειψη",
+      "en": "Abandonment",
+      "page": 26
+    },
+    {
+      "id": "P44",
+      "match": [
+        "10S",
+        "7C"
+      ],
+      "el": "Επιχειρηματικά κέρδη",
+      "en": "Business gains",
+      "page": 26
+    },
+    {
+      "id": "P45",
+      "match": [
+        "9S",
+        "JC"
+      ],
+      "el": "Βοήθεια από άλλους",
+      "en": "Help from others",
+      "page": 26
+    },
+    {
+      "id": "P46",
+      "match": [
+        "8S",
+        "KH"
+      ],
+      "el": "Βελτίωση της κατάστασης",
+      "en": "Circumstances improve",
+      "page": 26
+    },
+    {
+      "id": "P47",
+      "match": [
+        "7S",
+        "7C"
+      ],
+      "el": "Δυσκολίες σε αναμενόμενη κληρονομιά",
+      "en": "Difficulties with an expected inheritance",
+      "page": 26
+    },
+    {
+      "id": "P48",
+      "match": [
+        "6S",
+        "3D"
+      ],
+      "el": "Εχθρότητες στην οικογένεια",
+      "en": "Hostility in the family",
+      "page": 27
+    },
+    {
+      "id": "P49",
+      "match": [
+        "5S",
+        "2D"
+      ],
+      "el": "Η αγάπη των άλλων έχει σβήσει",
+      "en": "The affection of others has faded",
+      "page": 27
+    },
+    {
+      "id": "P50",
+      "match": [
+        "5S",
+        "JS"
+      ],
+      "el": "Διχόνοια στο σπίτι",
+      "en": "Discord at home",
+      "page": 27
+    },
+    {
+      "id": "P51",
+      "match": [
+        "4S",
+        "8S"
+      ],
+      "el": "Χρηματική ζημιά",
+      "en": "Financial loss",
+      "page": 27
+    },
+    {
+      "id": "P52",
+      "match": [
+        "3S",
+        "5H"
+      ],
+      "el": "Συμφιλίωση",
+      "en": "Reconciliation",
+      "page": 27
+    },
+    {
+      "id": "P53",
+      "match": [
+        "2S",
+        "9S"
+      ],
+      "el": "Ανάγκη προφύλαξης",
+      "en": "A need for caution",
+      "page": 27
+    },
+    {
+      "id": "P54",
+      "match": [
+        "AS",
+        "7H"
+      ],
+      "el": "Για μια γυναίκα, εγκυμοσύνη",
+      "en": "For a woman, pregnancy",
+      "page": 27
+    },
+    {
+      "id": "P55",
+      "match": [
+        "KC",
+        "7S"
+      ],
+      "el": "Ωφέλιμη στήριξη",
+      "en": "Helpful support",
+      "page": 27
+    },
+    {
+      "id": "P56",
+      "match": [
+        "QC",
+        "9C"
+      ],
+      "el": "Για μια γυναίκα, βλαπτική φιλαρέσκεια",
+      "en": "For a woman, vanity that causes harm",
+      "page": 27
+    },
+    {
+      "id": "P57",
+      "match": [
+        "JC",
+        "5C"
+      ],
+      "el": "Για σύζυγο, κάποιος προσπαθεί να γοητεύσει τη γυναίκα\nτου",
+      "en": "For a husband, someone tries to charm his wife",
+      "page": 27
+    },
+    {
+      "id": "P58",
+      "match": [
+        "10C",
+        "5D"
+      ],
+      "el": "Καλή έμπνευση",
+      "en": "A fortunate inspiration",
+      "page": 27
+    },
+    {
+      "id": "P59",
+      "match": [
+        "10C",
+        "3H"
+      ],
+      "el": "Απροσδόκητη είσπραξη χρημάτων",
+      "en": "Unexpected money received",
+      "page": 27
+    },
+    {
+      "id": "P60",
+      "match": [
+        "9C",
+        "3D"
+      ],
+      "el": "Μικρή απώλεια χρημάτων",
+      "en": "A small financial loss",
+      "page": 27
+    },
+    {
+      "id": "P61",
+      "match": [
+        "9C",
+        "7C"
+      ],
+      "el": "Δεν εισπράττονται τα αναμενόμενα χρήματα",
+      "en": "Expected money fails to arrive",
+      "page": 27
+    },
+    {
+      "id": "P62",
+      "match": [
+        "8C",
+        "5H"
+      ],
+      "el": "Μικρές, προσωρινές έγνοιες",
+      "en": "Minor passing worries",
+      "page": 27
+    },
+    {
+      "id": "P63",
+      "match": [
+        "7C",
+        "5D"
+      ],
+      "el": "Είσπραξη χρημάτων",
+      "en": "Money received",
+      "page": 27
+    },
+    {
+      "id": "P64",
+      "match": [
+        "7C",
+        "5H"
+      ],
+      "el": "Κληρονομιά",
+      "en": "An inheritance",
+      "page": 27
+    },
+    {
+      "id": "P65",
+      "match": [
+        "7C",
+        "2C"
+      ],
+      "el": "Σημαντική χρηματική απώλεια",
+      "en": "A substantial financial loss",
+      "page": 27
+    },
+    {
+      "id": "P66",
+      "match": [
+        "6C",
+        "2C"
+      ],
+      "el": "Γρήγορο ξεπέρασμα δυσκολιών",
+      "en": "Quickly overcoming difficulties",
+      "page": 27
+    },
+    {
+      "id": "P67",
+      "match": [
+        "5C",
+        "2S"
+      ],
+      "el": "Συμφιλίωση",
+      "en": "Reconciliation",
+      "page": 27
+    },
+    {
+      "id": "P68",
+      "match": [
+        "4C",
+        "QH"
+      ],
+      "el": "Ωφέλιμες φιλίες",
+      "en": "Helpful friendships",
+      "page": 27
+    },
+    {
+      "id": "P69",
+      "match": [
+        "4C",
+        "3S"
+      ],
+      "el": "Απρόσμενο δώρο",
+      "en": "An unexpected gift",
+      "page": 27
+    },
+    {
+      "id": "P70",
+      "match": [
+        "4C",
+        "JC"
+      ],
+      "el": "Επιτυχία στις υποθέσεις",
+      "en": "Success in your affairs",
+      "page": 27
+    },
+    {
+      "id": "P71",
+      "match": [
+        "3C",
+        "10C"
+      ],
+      "el": "Στήριξη και επιτυχία",
+      "en": "Support and success",
+      "page": 27
+    },
+    {
+      "id": "P72",
+      "match": [
+        "2C",
+        "QH"
+      ],
+      "el": "Ασθένεια στην οικογένεια",
+      "en": "Illness in the family",
+      "page": 27
+    }
+  ],
+  "multiples": {
+    "K": {
+      "2": {
+        "el": "Ανεκπλήρωτα σχέδια",
+        "en": "Unfulfilled plans",
+        "page": 27
+      },
+      "3": {
+        "el": "Χρήσιμες συμβουλές",
+        "en": "Helpful advice",
+        "page": 27
+      },
+      "4": {
+        "el": "Δόξα, τιμές, άνοδος",
+        "en": "Glory, honours and advancement",
+        "page": 27
+      }
+    },
+    "Q": {
+      "2": {
+        "el": "Αφοσιωμένη φίλη",
+        "en": "A devoted friend",
+        "page": 27
+      },
+      "3": {
+        "el": "Προδοσία από την αγαπημένη",
+        "en": "Betrayal by the woman you love",
+        "page": 27
+      },
+      "4": {
+        "el": "Φλυαρία",
+        "en": "Chatter",
+        "page": 27
+      }
+    },
+    "J": {
+      "2": {
+        "el": "Έγνοιες και μπλεξίματα",
+        "en": "Worries and entanglements",
+        "page": 27
+      },
+      "3": {
+        "el": "Φιλονικίες",
+        "en": "Quarrels",
+        "page": 27
+      },
+      "4": {
+        "el": "Σοβαρή ασθένεια",
+        "en": "Serious illness",
+        "page": 27
+      }
+    },
+    "10": {
+      "2": {
+        "el": "Σύντομο ταξίδι",
+        "en": "A short trip",
+        "page": 27
+      },
+      "3": {
+        "el": "Αλλαγή της κατάστασης",
+        "en": "A change in circumstances",
+        "page": 27
+      },
+      "4": {
+        "el": "Απώλεια της ελευθερίας",
+        "en": "Loss of freedom",
+        "page": 27
+      }
+    },
+    "9": {
+      "2": {
+        "el": "Μικρό χρηματικό κέρδος",
+        "en": "A small financial gain",
+        "page": 27
+      },
+      "3": {
+        "el": "Επιτυχία",
+        "en": "Success",
+        "page": 27
+      },
+      "4": {
+        "el": "Συμπάθεια από άλλους",
+        "en": "Affection from others",
+        "page": 27
+      }
+    },
+    "8": {
+      "2": {
+        "el": "Καινούργιες φιλίες",
+        "en": "New friendships",
+        "page": 27
+      },
+      "3": {
+        "el": "Γάμος που θεωρείται βέβαιος",
+        "en": "A marriage considered certain",
+        "page": 27
+      },
+      "4": {
+        "el": "Καταστροφή ή μεγάλη ζημιά",
+        "en": "Disaster or substantial loss",
+        "page": 27
+      }
+    },
+    "7": {
+      "2": {
+        "el": "Νέα μικρής σημασίας",
+        "en": "News of little importance",
+        "page": 27
+      },
+      "3": {
+        "el": "Προσοχή στην υγεία",
+        "en": "Take care of your health",
+        "page": 27
+      },
+      "4": {
+        "el": "Δυσπιστία απέναντι στις προτάσεις που θα γίνουν",
+        "en": "Be wary of offers you receive",
+        "page": 27
+      }
+    },
+    "6": {
+      "2": {
+        "el": "Πίκρες και απογοητεύσεις",
+        "en": "Bitterness and disappointment",
+        "page": 27
+      },
+      "3": {
+        "el": "Κέρδη",
+        "en": "Gains",
+        "page": 27
+      },
+      "4": {
+        "el": "Υγεία και ευημερία",
+        "en": "Health and prosperity",
+        "page": 27
+      }
+    },
+    "5": {
+      "2": {
+        "el": "Δυσκολίες που απαιτούν θάρρος",
+        "en": "Difficulties that call for courage",
+        "page": 27
+      },
+      "3": {
+        "el": "Αρμονία με το περιβάλλον",
+        "en": "Harmony with those around you",
+        "page": 27
+      },
+      "4": {
+        "el": "Χρειάζεται περίσκεψη και αποφυγή βιασύνης",
+        "en": "Think carefully and avoid haste",
+        "page": 27
+      }
+    },
+    "4": {
+      "2": {
+        "el": "Νευρικότητα ή μελαγχολική διάθεση",
+        "en": "Nervousness or a low mood",
+        "page": 27
+      },
+      "3": {
+        "el": "Αποφυγή απερίσκεπτων πράξεων",
+        "en": "Avoid reckless acts",
+        "page": 27
+      },
+      "4": {
+        "el": "Μετακίνηση ή ταξίδι",
+        "en": "A move or a trip",
+        "page": 27
+      }
+    },
+    "3": {
+      "2": {
+        "el": "Ηρεμία",
+        "en": "Calm",
+        "page": 27
+      },
+      "3": {
+        "el": "Ψυχική ικανοποίηση",
+        "en": "Inner satisfaction",
+        "page": 27
+      },
+      "4": {
+        "el": "Πρόοδος και επιτυχία",
+        "en": "Progress and success",
+        "page": 27
+      }
+    },
+    "2": {
+      "2": {
+        "el": "Ψυχική γαλήνη",
+        "en": "Peace of mind",
+        "page": 27
+      },
+      "3": {
+        "el": "Ηρεμία και γαλήνη",
+        "en": "Calm and tranquility",
+        "page": 27
+      },
+      "4": {
+        "el": "Διχόνοιες με τον περίγυρο",
+        "en": "Discord with those around you",
+        "page": 27
+      }
+    },
+    "A": {
+      "2": {
+        "el": "Απογοητεύσεις",
+        "en": "Disappointments",
+        "page": 27
+      },
+      "3": {
+        "el": "Μικρές επιτυχίες",
+        "en": "Small successes",
+        "page": 27
+      },
+      "4": {
+        "el": "Εύνοια της τύχης",
+        "en": "Good fortune",
+        "page": 27
+      }
+    }
+  }
+}

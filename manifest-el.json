@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "scope": "./",
+  "name": "Σεισμική Χαρτομαντεία — Seismic Cartomancy",
+  "short_name": "SEISMO Cards",
+  "description": "Ανακάλυψε την ελληνική χαρτομαντεία του 1953 με 52 φύλλα και πραγματικές σεισμολογικές καταγραφές. Προσωπική αφήγηση, δωρεάν, δίγλωσση και επαληθεύσιμη.",
+  "lang": "el",
+  "display": "standalone",
+  "start_url": "./",
+  "theme_color": "#241820",
+  "background_color": "#21161e",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

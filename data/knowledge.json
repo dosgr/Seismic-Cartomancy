@@ -1,0 +1,1063 @@
+{
+  "version": "thesavros-narrative-2026.11",
+  "cards": {
+    "KD": [
+      "support",
+      "+",
+      "Μια ισχυρή παρουσία μοιάζει πρόθυμη να σε στηρίξει",
+      "Someone with influence seems ready to lend you their support"
+    ],
+    "KH": [
+      "support",
+      "+",
+      "Έχεις στο πλευρό σου μια ισχυρή προστασία",
+      "You have strong protection on your side"
+    ],
+    "KS": [
+      "work",
+      "-",
+      "Οι υποθέσεις σου σκοντάφτουν σε περιπλοκές, ίσως και σε δικαστική διαμάχη",
+      "Your affairs meet complications, possibly including a legal dispute"
+    ],
+    "KC": [
+      "money",
+      "+",
+      "Ξεχωρίζει για σένα στήριξη τόσο στα οικονομικά όσο και στο ηθικό σου",
+      "The support available to you looks both financial and moral"
+    ],
+    "QD": [
+      "social",
+      "-",
+      "Μια ξανθή παρουσία ξεχωρίζει για επιπολαιότητα και υποκρισία",
+      "A fair-haired figure stands out for frivolity and hypocrisy"
+    ],
+    "QH": [
+      "social",
+      "+",
+      "Δίπλα σου διακρίνεται μια ξανθή γυναίκα με καλοσύνη και αφοσίωση",
+      "Near you stands a kind and devoted fair-haired woman"
+    ],
+    "QS": [
+      "social",
+      "-",
+      "Στον περίγυρό σου διακρίνεται μια δύστροπη παρουσία με κακή προαίρεση",
+      "A difficult, spiteful presence shows up among the people around you"
+    ],
+    "QC": [
+      "support",
+      "+",
+      "Η βοήθεια για σένα συνδέεται με μια μελαχρινή γυναίκα",
+      "Help for you is linked to a dark-haired woman"
+    ],
+    "JD": [
+      "change",
+      "+",
+      "Ξεχωρίζει μια ευχάριστη είδηση που έρχεται προς το μέρος σου",
+      "A welcome piece of news stands out for you"
+    ],
+    "JH": [
+      "love",
+      "+",
+      "Ένας ξανθός νέος συμβολίζει ευγενικά αισθήματα, με προοπτική γάμου στην παλιά ανάγνωση για μια νέα",
+      "A fair-haired young man suggests noble feelings, with marriage a possibility in the old reading for a young woman"
+    ],
+    "JS": [
+      "social",
+      "-",
+      "Μια μελαχρινή παρουσία παρουσιάζεται με πρόθεση να σε βλάψει",
+      "A dark-haired figure appears with an intention to harm you"
+    ],
+    "JC": [
+      "social",
+      "+",
+      "Στο άνοιγμά σου ξεχωρίζει ένας νέος με ειλικρίνεια, εντιμότητα και πίστη",
+      "An honest and faithful young man stands out in your spread"
+    ],
+    "10D": [
+      "money",
+      "+",
+      "Ένα ταξίδι συνδέεται με όφελος για σένα",
+      "Travel is linked to a gain for you"
+    ],
+    "10H": [
+      "love",
+      "+",
+      "Στα αισθηματικά σου διακρίνεται χαρά",
+      "There is a note of happiness in your love life"
+    ],
+    "10S": [
+      "obstacles",
+      "-",
+      "Στην παλιά ανάγνωση αυτό το φύλλο συνδέεται με λύπη, ασθένεια ή πένθος",
+      "In the old reading, this card is associated with sorrow, illness or mourning"
+    ],
+    "10C": [
+      "work",
+      "+",
+      "Στις προσπάθειές σου ξεχωρίζουν επιτυχία και ευημερία",
+      "Success and prosperity stand out in what you are pursuing"
+    ],
+    "9D": [
+      "obstacles",
+      "-",
+      "Κάτι που περιμένεις φαίνεται να θέλει περισσότερο χρόνο",
+      "Something you are waiting for seems to take longer"
+    ],
+    "9H": [
+      "love",
+      "+",
+      "Τα αισθηματικά σου έχουν ευνοϊκή ένδειξη",
+      "The outlook for your affairs of the heart is favourable"
+    ],
+    "9S": [
+      "social",
+      "-",
+      "Η ένταση με ανθρώπους γύρω σου βαραίνει το άνοιγμά σου",
+      "Strained relations with people around you weigh on the spread"
+    ],
+    "9C": [
+      "money",
+      "+",
+      "Το κέρδος στο άνοιγμά σου συνδέεται με δουλειά ή με δικαστική υπόθεση",
+      "A gain in your spread is connected with business or a legal case"
+    ],
+    "8D": [
+      "change",
+      "+",
+      "Μια σύντομη μετακίνηση παίρνει ευχάριστο τόνο για σένα",
+      "A short outing carries a pleasant note for you"
+    ],
+    "8H": [
+      "love",
+      "+",
+      "Στο άνοιγμά σου χωρά η εξωτερίκευση αισθημάτων",
+      "Your spread makes room for feelings to be spoken aloud"
+    ],
+    "8S": [
+      "obstacles",
+      "-",
+      "Οι ζημιές και οι αναποδιές βαραίνουν όσα σε απασχολούν",
+      "Losses and setbacks weigh on what concerns you"
+    ],
+    "8C": [
+      "money",
+      "+",
+      "Η επιμονή σου συνδέεται με κέρδος",
+      "Your persistence is linked to a gain"
+    ],
+    "7D": [
+      "obstacles",
+      "-",
+      "Οι δυσκολίες ξεχωρίζουν στην υπόθεση που σε απασχολεί",
+      "Difficulties stand out in what concerns you"
+    ],
+    "7H": [
+      "love",
+      "+",
+      "Μια ήρεμη ερωτική σχέση δίνει γλυκό τόνο στην ανάγνωσή σου",
+      "A peaceful romance lends your reading a gentle note"
+    ],
+    "7S": [
+      "obstacles",
+      "+",
+      "Το άνοιγμά σου δείχνει περιθώριο να ξεπεράσεις ένα εμπόδιο",
+      "Your spread points to room for overcoming an obstacle"
+    ],
+    "7C": [
+      "money",
+      "+",
+      "Στα οικονομικά σου υπάρχει ένδειξη κέρδους",
+      "Your finances carry a sign of gain"
+    ],
+    "6D": [
+      "obstacles",
+      "-",
+      "Η βιαστική ή απερίσκεπτη κίνηση παρουσιάζεται ως κάτι που σε βλάπτει",
+      "A rash move appears as something that works against you"
+    ],
+    "6H": [
+      "inner",
+      "-",
+      "Στην απόφασή σου διακρίνεται δισταγμός και το βάρος του παρελθόντος",
+      "Hesitation and the weight of the past both figure in your decision"
+    ],
+    "6S": [
+      "change",
+      "+",
+      "Ένα ταξίδι που πλησιάζει έχει ευνοϊκή έκβαση στην ανάγνωσή σου",
+      "An approaching journey has a favourable outcome in your reading"
+    ],
+    "6C": [
+      "work",
+      "~",
+      "Η επιτυχία εμφανίζεται δεμένη με την τόλμη σου",
+      "Success in the spread is tied to your willingness to act bravely"
+    ],
+    "5D": [
+      "money",
+      "+",
+      "Η επιτυχία στο άνοιγμά σου παίρνει και υλική μορφή",
+      "Success takes a material form in your spread"
+    ],
+    "5H": [
+      "love",
+      "+",
+      "Η συμφιλίωση είναι εφικτή στην ανάγνωσή σου, και για μια νέα η παλιά ερμηνεία μιλά για ευτυχισμένο, εύπορο γάμο",
+      "Reconciliation has a place in your reading, and the old meaning for a young woman adds a happy, prosperous marriage"
+    ],
+    "5S": [
+      "obstacles",
+      "-",
+      "Μια υπόθεσή σου παίρνει δυσάρεστη τροπή στο άνοιγμα",
+      "An affair of yours takes an unwelcome turn in the spread"
+    ],
+    "5C": [
+      "money",
+      "+",
+      "Η ευημερία δίνει ευνοϊκό τόνο στα πρακτικά σου ζητήματα",
+      "Prosperity lends your practical affairs a favourable tone"
+    ],
+    "4D": [
+      "social",
+      "+",
+      "Οι φιλίες σου διακρίνονται για τη βοήθεια που μπορούν να προσφέρουν",
+      "Your friendships stand out for the help they can offer"
+    ],
+    "4H": [
+      "inner",
+      "-",
+      "Οι έγνοιες σου συνοδεύονται από δυσκολίες",
+      "Your worries are accompanied by difficulties"
+    ],
+    "4S": [
+      "inner",
+      "-",
+      "Η απογοήτευση έχει αισθητή θέση στην ανάγνωσή σου",
+      "Disappointment has a noticeable place in your reading"
+    ],
+    "4C": [
+      "money",
+      "+",
+      "Ένα δώρο ή ένα απρόσμενο κέρδος ξεχωρίζει στο άνοιγμά σου",
+      "A gift or an unexpected gain stands out in your spread"
+    ],
+    "3D": [
+      "work",
+      "-",
+      "Το εγχείρημά σου φαίνεται δύσκολο",
+      "Your undertaking looks demanding"
+    ],
+    "3H": [
+      "love",
+      "+",
+      "Μια αισθηματική σου επιθυμία παίρνει ευνοϊκή ένδειξη",
+      "A hope you hold in love receives a favourable sign"
+    ],
+    "3S": [
+      "change",
+      "~",
+      "Ένα ταξίδι πλησιάζει στην εικόνα που δίνουν τα φύλλα σου",
+      "A journey is coming into view in the picture your cards draw"
+    ],
+    "3C": [
+      "work",
+      "+",
+      "Οι προσπάθειές σου φαίνεται να έχουν αντίκρισμα",
+      "Your efforts look likely to bear fruit in the reading"
+    ],
+    "2D": [
+      "inner",
+      "-",
+      "Η στενοχώρια και η λύπη αφήνουν το ίχνος τους στην ανάγνωσή σου",
+      "Sorrow and distress leave their mark on the reading"
+    ],
+    "2H": [
+      "love",
+      "+",
+      "Ένας δεσμός σου εμφανίζεται με διάρκεια",
+      "A bond in your life appears to have staying power"
+    ],
+    "2S": [
+      "inner",
+      "+",
+      "Η αρμονία είναι μια καθαρή ένδειξη στο άνοιγμά σου",
+      "Harmony is a clear indication in your spread"
+    ],
+    "2C": [
+      "money",
+      "-",
+      "Οι οικονομικές έγνοιες χρειάζονται χώρο στην ανάγνωσή σου",
+      "Financial worries have a place in your reading"
+    ],
+    "AD": [
+      "money",
+      "+",
+      "Διακρίνονται καλά νέα και μια προοπτική ευημερίας για σένα",
+      "Good news and a prospect of prosperity stand out for you"
+    ],
+    "AH": [
+      "love",
+      "+",
+      "Μια επιστολή αγάπης ή μια χαρμόσυνη είδηση δίνει τον τόνο στα αισθηματικά σου",
+      "A love letter or good news sets the tone for your love life"
+    ],
+    "AS": [
+      "support",
+      "+",
+      "Ακόμη και εκεί που όλα μοιάζουν χαμένα, η ανάγνωση αφήνει χώρο για απρόσμενη βοήθεια",
+      "Even where things seem lost, the reading leaves room for unexpected help"
+    ],
+    "AC": [
+      "money",
+      "+",
+      "Ξεχωρίζει μια αισθητή βελτίωση στα οικονομικά σου",
+      "A significant improvement in your finances stands out"
+    ]
+  },
+  "pairs": {
+    "P01": [
+      "work",
+      "+"
+    ],
+    "P02": [
+      "obstacles",
+      "-"
+    ],
+    "P03": [
+      "family",
+      "~"
+    ],
+    "P04": [
+      "work",
+      "+"
+    ],
+    "P05": [
+      "social",
+      "+"
+    ],
+    "P06": [
+      "social",
+      "+"
+    ],
+    "P07": [
+      "social",
+      "-"
+    ],
+    "P08": [
+      "support",
+      "+"
+    ],
+    "P09": [
+      "obstacles",
+      "-"
+    ],
+    "P10": [
+      "social",
+      "-"
+    ],
+    "P11": [
+      "love",
+      "+"
+    ],
+    "P12": [
+      "change",
+      "+"
+    ],
+    "P13": [
+      "social",
+      "+"
+    ],
+    "P14": [
+      "money",
+      "+"
+    ],
+    "P15": [
+      "money",
+      "+"
+    ],
+    "P16": [
+      "love",
+      "-"
+    ],
+    "P17": [
+      "money",
+      "+"
+    ],
+    "P18": [
+      "support",
+      "+"
+    ],
+    "P19": [
+      "support",
+      "+"
+    ],
+    "P20": [
+      "obstacles",
+      "-"
+    ],
+    "P21": [
+      "obstacles",
+      "-"
+    ],
+    "P22": [
+      "obstacles",
+      "-"
+    ],
+    "P23": [
+      "love",
+      "+"
+    ],
+    "P24": [
+      "love",
+      "+"
+    ],
+    "P25": [
+      "obstacles",
+      "-"
+    ],
+    "P26": [
+      "family",
+      "-"
+    ],
+    "P27": [
+      "work",
+      "+"
+    ],
+    "P28": [
+      "love",
+      "+"
+    ],
+    "P29": [
+      "obstacles",
+      "-"
+    ],
+    "P30": [
+      "obstacles",
+      "+"
+    ],
+    "P31": [
+      "inner",
+      "-"
+    ],
+    "P32": [
+      "love",
+      "+"
+    ],
+    "P33": [
+      "social",
+      "-"
+    ],
+    "P34": [
+      "family",
+      "-"
+    ],
+    "P35": [
+      "love",
+      "-"
+    ],
+    "P36": [
+      "change",
+      "~"
+    ],
+    "P37": [
+      "change",
+      "+"
+    ],
+    "P38": [
+      "money",
+      "+"
+    ],
+    "P39": [
+      "social",
+      "-"
+    ],
+    "P40": [
+      "obstacles",
+      "-"
+    ],
+    "P41": [
+      "obstacles",
+      "-"
+    ],
+    "P42": [
+      "love",
+      "-"
+    ],
+    "P43": [
+      "love",
+      "-"
+    ],
+    "P44": [
+      "money",
+      "+"
+    ],
+    "P45": [
+      "support",
+      "+"
+    ],
+    "P46": [
+      "obstacles",
+      "+"
+    ],
+    "P47": [
+      "money",
+      "-"
+    ],
+    "P48": [
+      "family",
+      "-"
+    ],
+    "P49": [
+      "love",
+      "-"
+    ],
+    "P50": [
+      "family",
+      "-"
+    ],
+    "P51": [
+      "money",
+      "-"
+    ],
+    "P52": [
+      "love",
+      "+"
+    ],
+    "P53": [
+      "obstacles",
+      "-"
+    ],
+    "P54": [
+      "family",
+      "~"
+    ],
+    "P55": [
+      "support",
+      "+"
+    ],
+    "P56": [
+      "social",
+      "-"
+    ],
+    "P57": [
+      "love",
+      "-"
+    ],
+    "P58": [
+      "work",
+      "+"
+    ],
+    "P59": [
+      "money",
+      "+"
+    ],
+    "P60": [
+      "money",
+      "-"
+    ],
+    "P61": [
+      "money",
+      "-"
+    ],
+    "P62": [
+      "inner",
+      "-"
+    ],
+    "P63": [
+      "money",
+      "+"
+    ],
+    "P64": [
+      "money",
+      "+"
+    ],
+    "P65": [
+      "money",
+      "-"
+    ],
+    "P66": [
+      "obstacles",
+      "+"
+    ],
+    "P67": [
+      "love",
+      "+"
+    ],
+    "P68": [
+      "social",
+      "+"
+    ],
+    "P69": [
+      "money",
+      "+"
+    ],
+    "P70": [
+      "work",
+      "+"
+    ],
+    "P71": [
+      "work",
+      "+"
+    ],
+    "P72": [
+      "family",
+      "-"
+    ]
+  },
+  "multiples": {
+    "K": [
+      [
+        "work",
+        "-"
+      ],
+      [
+        "support",
+        "+"
+      ],
+      [
+        "work",
+        "+"
+      ]
+    ],
+    "Q": [
+      [
+        "social",
+        "+"
+      ],
+      [
+        "love",
+        "-"
+      ],
+      [
+        "social",
+        "~"
+      ]
+    ],
+    "J": [
+      [
+        "obstacles",
+        "-"
+      ],
+      [
+        "social",
+        "-"
+      ],
+      [
+        "inner",
+        "-"
+      ]
+    ],
+    "10": [
+      [
+        "change",
+        "~"
+      ],
+      [
+        "change",
+        "~"
+      ],
+      [
+        "obstacles",
+        "-"
+      ]
+    ],
+    "9": [
+      [
+        "money",
+        "+"
+      ],
+      [
+        "work",
+        "+"
+      ],
+      [
+        "social",
+        "+"
+      ]
+    ],
+    "8": [
+      [
+        "social",
+        "+"
+      ],
+      [
+        "love",
+        "+"
+      ],
+      [
+        "obstacles",
+        "-"
+      ]
+    ],
+    "7": [
+      [
+        "change",
+        "~"
+      ],
+      [
+        "inner",
+        "-"
+      ],
+      [
+        "obstacles",
+        "-"
+      ]
+    ],
+    "6": [
+      [
+        "inner",
+        "-"
+      ],
+      [
+        "money",
+        "+"
+      ],
+      [
+        "inner",
+        "+"
+      ]
+    ],
+    "5": [
+      [
+        "obstacles",
+        "-"
+      ],
+      [
+        "social",
+        "+"
+      ],
+      [
+        "obstacles",
+        "~"
+      ]
+    ],
+    "4": [
+      [
+        "inner",
+        "-"
+      ],
+      [
+        "obstacles",
+        "~"
+      ],
+      [
+        "change",
+        "~"
+      ]
+    ],
+    "3": [
+      [
+        "inner",
+        "+"
+      ],
+      [
+        "inner",
+        "+"
+      ],
+      [
+        "work",
+        "+"
+      ]
+    ],
+    "2": [
+      [
+        "inner",
+        "+"
+      ],
+      [
+        "inner",
+        "+"
+      ],
+      [
+        "social",
+        "-"
+      ]
+    ],
+    "A": [
+      [
+        "inner",
+        "-"
+      ],
+      [
+        "work",
+        "+"
+      ],
+      [
+        "change",
+        "+"
+      ]
+    ]
+  },
+  "sources": {
+    "foli": [
+      "P. R. S. Foli · Fortune-Telling by Cards, II & XV",
+      "https://hermeticcloud.com/library/foli-fortune-telling-by-cards/"
+    ],
+    "assos": [
+      "Λαογραφικό υλικό Άσσου Πρέβεζας / Assos folklore · Κʹ. Χαρτομανεία",
+      "https://preveza.gr/wp-content/uploads/2019/03/assos8.pdf"
+    ],
+    "manteion": [
+      "Μαντείον · Χαρτομαντεία: Ερμηνεία με την απλή τράπουλα",
+      "https://manteion.gr/προβλέψεις/χαρτομαντεία-eρμηνεία-με-την-απλη-τράπ/"
+    ],
+    "cafe": [
+      "Cafe Astrology · Fortune Telling Playing Cards (card meanings only)",
+      "https://cafeastrology.com/fortunetellingcards.html"
+    ],
+    "arcuri": [
+      "J. David Arcuri · A Wish and a Phone Call",
+      "https://artofcartomancy.blogspot.com/2012/12/cartomancy-daily-draw-wish-and-phone-call.html"
+    ],
+    "arcuri-combinations": [
+      "J. David Arcuri · Study Guide for Playing Card Combinations",
+      "https://artofcartomancy.blogspot.com/2019/09/study-guide-for-playing-card.html"
+    ],
+    "ekriti": [
+      "eKriti · Χαρτομαντεία με απλή τράπουλα (ερμηνείες αξίας / rank meanings)",
+      "https://www.ekriti.gr/psyhagogia/hartomanteia-bres-me-mia-apli-trapoyla-to-mellon-tis-shesis-soy"
+    ],
+    "ali": [
+      "Mohammed Ali / Carleton B. Case · Telling Fortunes by Cards, The Ordinary Method",
+      "https://www.gutenberg.org/ebooks/42008"
+    ]
+  },
+  "comparative": [
+    {
+      "id": "X01",
+      "source": "assos",
+      "cards": [
+        "10D"
+      ],
+      "relation": "context",
+      "el": "Ο Άσσος Πρέβεζας επίσης συνδέει το φύλλο με ταξίδι, με τη διάρκεια και το όφελος να εξαρτώνται από τα διπλανά φύλλα.",
+      "en": "The Assos folklore also ties this card to travel, with its length and benefit depending on its neighbours."
+    },
+    {
+      "id": "X02",
+      "source": "assos",
+      "cards": [
+        "9S"
+      ],
+      "relation": "context",
+      "el": "Στη λαογραφική καταγραφή του Άσσου το φύλλο έχει δυσμενή χροιά, αρκετά κοντά στον δύσκολο τόνο του Θησαυρού.",
+      "en": "The Assos folklore gives this card an adverse tone, close to the difficult note in Thesavros."
+    },
+    {
+      "id": "X03",
+      "source": "assos",
+      "cards": [
+        "KH"
+      ],
+      "relation": "alternative",
+      "el": "Η καταγραφή του Άσσου βλέπει εδώ έναν ξανθό παντρεμένο άνδρα. Ο Θησαυρός δίνει βάρος στην προστασία.",
+      "en": "The Assos account sees a fair-haired married man here. Thesavros emphasises protection."
+    },
+    {
+      "id": "X04",
+      "source": "assos",
+      "cards": [
+        "KC"
+      ],
+      "relation": "alternative",
+      "el": "Η καταγραφή του Άσσου συνδέει το φύλλο με μελαχρινό παντρεμένο άνδρα. Ο Θησαυρός τονίζει την υλική και ηθική στήριξη.",
+      "en": "The Assos account associates the card with a dark-haired married man. Thesavros emphasises practical and moral support."
+    },
+    {
+      "id": "X05",
+      "source": "manteion",
+      "cards": [
+        "3C"
+      ],
+      "relation": "alternative",
+      "el": "Ο οδηγός του Μαντείου δίνει έμφαση στην επαφή με καστανό πρόσωπο. Στον Θησαυρό ξεχωρίζει η απόδοση της προσπάθειας.",
+      "en": "The Manteion guide emphasises contact with a brown-haired person. In Thesavros, what stands out is the reward for effort."
+    },
+    {
+      "id": "X06",
+      "source": "manteion",
+      "cards": [
+        "3H"
+      ],
+      "relation": "alternative",
+      "el": "Στο Μαντείον το φύλλο έχει ανάγνωση επικοινωνίας ή συνάντησης. Η ιστορική μέθοδος δίνει ευόδωση μιας αισθηματικής επιδίωξης.",
+      "en": "In Manteion the card can mean contact or a meeting. The historical method gives a sign of romantic hopes doing well."
+    },
+    {
+      "id": "X07",
+      "source": "manteion",
+      "cards": [
+        "4H"
+      ],
+      "relation": "alternative",
+      "el": "Το Μαντείον βάζει στο επίκεντρο το σπίτι ενός προσώπου. Ο Θησαυρός συνδέει το φύλλο με έγνοιες.",
+      "en": "Manteion centres the home of a person. Thesavros associates this card with worries."
+    },
+    {
+      "id": "X08",
+      "source": "foli",
+      "cards": [
+        "AH"
+      ],
+      "relation": "alternative",
+      "el": "Στον Foli ο Άσος κούπα μόνος του παραπέμπει στο σπίτι. Στον Θησαυρό το βάρος πέφτει στα αισθηματικά νέα.",
+      "en": "In Foli the Ace of Hearts on its own represents the home. In Thesavros it carries romantic news."
+    },
+    {
+      "id": "X09",
+      "source": "foli",
+      "cards": [
+        "AH",
+        "AD"
+      ],
+      "relation": "context",
+      "el": "Στον Foli, όταν δίπλα στον Άσο κούπα υπάρχουν καρό, μπαίνουν στην εικόνα χρήματα ή νέα από μακριά.",
+      "en": "With Diamonds beside the Ace of Hearts, Foli brings money or news from afar into the picture."
+    },
+    {
+      "id": "X10",
+      "source": "foli",
+      "cards": [
+        "AH",
+        "9H"
+      ],
+      "relation": "context",
+      "el": "Στο πλήρες σύστημα του Foli οι κούπες δίπλα στον Άσο κούπα τονίζουν τη στοργή και τη φιλία.",
+      "en": "In Foli’s full-deck system, Hearts beside the Ace of Hearts emphasise affection and friendship."
+    },
+    {
+      "id": "X11",
+      "source": "foli",
+      "cards": [
+        "AH",
+        "KS"
+      ],
+      "relation": "context",
+      "el": "Στον Foli τα μπαστούνια δίπλα στον Άσο κούπα προσθέτουν τη δυνατότητα διαφωνίας ή παρεξήγησης.",
+      "en": "In Foli, Spades beside the Ace of Hearts add the possibility of disagreement or misunderstanding."
+    },
+    {
+      "id": "X12",
+      "source": "cafe",
+      "cards": [
+        "7H"
+      ],
+      "relation": "alternative",
+      "el": "Μια νεότερη αγγλόφωνη ανάγνωση βλέπει άστατο ενδιαφέρον, ενώ ο Θησαυρός διαβάζει ηρεμία σε έναν δεσμό.",
+      "en": "A modern English-language reading sees wavering affection, while Thesavros reads a peaceful bond."
+    },
+    {
+      "id": "X13",
+      "source": "cafe",
+      "cards": [
+        "2H"
+      ],
+      "relation": "context",
+      "el": "Η νεότερη ανάγνωση προσθέτει την αμοιβαία στήριξη ως όψη του σταθερού δεσμού.",
+      "en": "The modern reading adds mutual support as an aspect of a lasting bond."
+    },
+    {
+      "id": "X14",
+      "source": "cafe",
+      "cards": [
+        "9H"
+      ],
+      "relation": "context",
+      "el": "Η εκπλήρωση μιας επιθυμίας είναι η ευρύτερη νεότερη ανάγνωση. Ο Θησαυρός δίνει πιο συγκεκριμένα αισθηματική επιτυχία.",
+      "en": "The modern association is the fulfilment of a wish. Thesavros narrows it to success in love."
+    },
+    {
+      "id": "X15",
+      "source": "cafe",
+      "cards": [
+        "8H"
+      ],
+      "relation": "alternative",
+      "el": "Ο αγγλόφωνος οδηγός διαβάζει πρόσκληση, επίσκεψη ή δώρο. Ο Θησαυρός βλέπει εξομολόγηση αισθημάτων.",
+      "en": "The English-language guide reads an invitation, visit or gift. Thesavros reads an expression of feelings."
+    },
+    {
+      "id": "X16",
+      "source": "cafe",
+      "cards": [
+        "5H"
+      ],
+      "relation": "alternative",
+      "el": "Ο αγγλόφωνος οδηγός δίνει τη ζήλια ως πιθανή χροιά. Ο Θησαυρός προτάσσει τη συμφιλίωση.",
+      "en": "The English-language guide sees a possible note of jealousy. Thesavros foregrounds reconciliation."
+    },
+    {
+      "id": "X17",
+      "source": "cafe",
+      "cards": [
+        "6H"
+      ],
+      "relation": "alternative",
+      "el": "Η νεότερη αγγλόφωνη εκδοχή μιλά για ξαφνική καλοτυχία και φροντίδα. Στον Θησαυρό προηγείται ο δισταγμός.",
+      "en": "The modern English-language version points to a turn of luck and care from someone. In Thesavros, hesitation comes first."
+    },
+    {
+      "id": "X18",
+      "source": "cafe",
+      "cards": [
+        "QH"
+      ],
+      "relation": "context",
+      "el": "Η αφοσιωμένη παρουσία διαβάζεται επίσης ως πρόσωπο που προσφέρει φροντίδα ή συμβουλή.",
+      "en": "The devoted figure can also be read as someone who offers care or advice."
+    },
+    {
+      "id": "X19",
+      "source": "arcuri",
+      "cards": [
+        "4C"
+      ],
+      "relation": "alternative",
+      "el": "Σε δημοσιευμένο παράδειγμα του Arcuri το φύλλο λειτουργεί ως τηλέφωνο ή κλήση. Στον Θησαυρό δηλώνει δώρο ή απρόσμενο όφελος.",
+      "en": "In a published example by Arcuri, the card represents a phone or call. In Thesavros it signals a gift or unexpected gain."
+    },
+    {
+      "id": "X20",
+      "source": "arcuri-combinations",
+      "cards": [
+        "AH",
+        "6D"
+      ],
+      "relation": "alternative",
+      "el": "Στο παράδειγμα του Arcuri η γειτνίαση μπορεί να υποδηλώνει ένταση ή ζήλια στο σπίτι. Αυτή είναι χωριστή συνδυαστική ανάγνωση.",
+      "en": "In Arcuri’s example this adjacency can suggest tension or jealousy in the home. This is a separate combination reading."
+    },
+    {
+      "id": "X21",
+      "source": "arcuri-combinations",
+      "cards": [
+        "AH",
+        "7D"
+      ],
+      "relation": "alternative",
+      "el": "Ο Arcuri συνδέει τη γειτνίαση με ζητήματα ακινήτου ή δανεισμού κατοικίας. Ο συνδυασμός ανήκει στη δική του μέθοδο.",
+      "en": "Arcuri associates this adjacency with property or home financing. The combination belongs to his own method."
+    },
+    {
+      "id": "X22",
+      "source": "ekriti",
+      "cards": [
+        "7H"
+      ],
+      "relation": "alternative",
+      "el": "Σε μια ελληνική ανάγνωση που δίνει σημασία μόνο στην αξία, το επτά φέρνει αβεβαιότητα στον δεσμό. Ο Θησαυρός διαβάζει ήρεμη σχέση για το επτά κούπα.",
+      "en": "In a Greek reading based on rank alone, the Seven introduces uncertainty in a bond. Thesavros gives the Seven of Hearts a peaceful romance."
+    },
+    {
+      "id": "X23",
+      "source": "ali",
+      "cards": [
+        "AD",
+        "AS"
+      ],
+      "relation": "alternative",
+      "el": "Στο εγχειρίδιο του 1913, η συνύπαρξη των δύο Άσων συνδέεται με σιδηροδρομικό ταξίδι. Πρόκειται για ξεχωριστή συνδυαστική ερμηνεία.",
+      "en": "In the 1913 manual, the two Aces together are associated with a railway journey. This is a separate combination meaning."
+    }
+  ]
+}
