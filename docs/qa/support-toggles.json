@@ -1,0 +1,26 @@
+[
+  {
+    "feature": "bitcoin",
+    "result": "pass"
+  },
+  {
+    "feature": "revolut",
+    "result": "pass"
+  },
+  {
+    "feature": "paypal",
+    "result": "pass"
+  },
+  {
+    "feature": "facebook",
+    "result": "pass"
+  },
+  {
+    "feature": "professional",
+    "result": "pass"
+  },
+  {
+    "feature": "support",
+    "result": "pass"
+  }
+]

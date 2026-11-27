@@ -1,0 +1,922 @@
+[
+  {
+    "test": 1,
+    "start_utc": "2026-11-27T14:43:58.240Z",
+    "samples_s": 1,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "eb86c244b70b97f301ddc8244b9740581f0a833fddeca1cf441f1aa3a276090b",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 100,
+        "age_ms": 12500.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 100,
+        "age_ms": 12500.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 100,
+        "age_ms": 12500.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 100,
+        "age_ms": 12500.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 100,
+        "age_ms": 12500.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.KEK..HHZ",
+        "n": 100,
+        "age_ms": 12500.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 100,
+        "age_ms": 12500.999755859375
+      },
+      {
+        "key": "epos~FDSN~CL.MALA.01.HHZ",
+        "n": 100,
+        "age_ms": 14991.999755859375
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 100,
+        "age_ms": 12623.7001953125
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 100,
+        "age_ms": 12631.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 100,
+        "age_ms": 12623.7001953125
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 5484,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 4124,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 4982,
+        "level": 2
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 2,
+    "start_utc": "2026-11-27T14:44:16.280Z",
+    "samples_s": 3,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "7169208aff63f3d5fede55ffc800eb161cb635bb2c670669a52f8a0b59384174",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 300,
+        "age_ms": 12251.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 300,
+        "age_ms": 12251.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 300,
+        "age_ms": 12251.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 300,
+        "age_ms": 12251.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 300,
+        "age_ms": 12251.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.KEK..HHZ",
+        "n": 300,
+        "age_ms": 12251.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 300,
+        "age_ms": 12251.999755859375
+      },
+      {
+        "key": "epos~FDSN~CL.TRIZ.00.HHZ",
+        "n": 300,
+        "age_ms": 13158.999755859375
+      },
+      {
+        "key": "epos~FDSN~CL.PSAM.00.HHZ",
+        "n": 300,
+        "age_ms": 13158.999755859375
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 300,
+        "age_ms": 12240.7001953125
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 300,
+        "age_ms": 12248.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 300,
+        "age_ms": 12240.7001953125
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 5236,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 3740,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3151,
+        "level": 2
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 3,
+    "start_utc": "2026-11-27T14:44:34.330Z",
+    "samples_s": 5,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "035fe23851b5c10ffae054035a52e5bd40f1c1ffd68572f55295d0d86a266073",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 500,
+        "age_ms": 11203
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 500,
+        "age_ms": 11203
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 500,
+        "age_ms": 11203
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 500,
+        "age_ms": 11203
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 500,
+        "age_ms": 11203
+      },
+      {
+        "key": "earth~FDSN~HL.KEK..HHZ",
+        "n": 500,
+        "age_ms": 11203
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 500,
+        "age_ms": 11203
+      },
+      {
+        "key": "epos~FDSN~CL.MALA.01.HHZ",
+        "n": 500,
+        "age_ms": 12398
+      },
+      {
+        "key": "epos~FDSN~CL.TEME.00.EHZ",
+        "n": 500,
+        "age_ms": 12398
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 500,
+        "age_ms": 11733.699951171875
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 500,
+        "age_ms": 11741.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 500,
+        "age_ms": 11733.699951171875
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 4186,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 3233,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3400,
+        "level": 2
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 4,
+    "start_utc": "2026-11-27T14:44:52.370Z",
+    "samples_s": 10,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "765858c4a9211f2572781e335319d9fcba438e37551dec5a73aae64c7bf167e8",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 1000,
+        "age_ms": 6183
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 1000,
+        "age_ms": 6183
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 1000,
+        "age_ms": 6183
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 3177,
+        "level": 1
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3812,
+        "level": 2
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "error": "Λήξη χρόνου",
+        "response_ms": 3502,
+        "level": 3
+      }
+    ],
+    "errors": [
+      {
+        "host": "service.scedc.caltech.edu",
+        "cause": "TimeoutError"
+      }
+    ]
+  },
+  {
+    "test": 5,
+    "start_utc": "2026-11-27T14:45:10.400Z",
+    "samples_s": 1,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "c6fbbed4b219a6f8c640b5a53ccac421296aebf5c699b0a0424b2d460f440474",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 100,
+        "age_ms": 10284.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 100,
+        "age_ms": 10284.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 100,
+        "age_ms": 10284.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 100,
+        "age_ms": 10284.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 100,
+        "age_ms": 10284.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.KEK..HHZ",
+        "n": 100,
+        "age_ms": 10284.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 100,
+        "age_ms": 10284.999755859375
+      },
+      {
+        "key": "epos~FDSN~CL.MALA.01.HHZ",
+        "n": 100,
+        "age_ms": 13655.999755859375
+      },
+      {
+        "key": "epos~FDSN~CL.TEME.00.EHZ",
+        "n": 100,
+        "age_ms": 13655.999755859375
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 100,
+        "age_ms": 12353.7001953125
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 100,
+        "age_ms": 12361.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 100,
+        "age_ms": 12353.7001953125
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 3271,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 3853,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3646,
+        "level": 2
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 6,
+    "start_utc": "2026-11-27T14:45:28.430Z",
+    "samples_s": 3,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "ecf628a567423609a1ca37d356eef38c8b44719b2365ea478a5a004281058ad5",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 300,
+        "age_ms": 9938
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 300,
+        "age_ms": 9938
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 300,
+        "age_ms": 9938
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 300,
+        "age_ms": 9938
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 300,
+        "age_ms": 9938
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 300,
+        "age_ms": 9938
+      },
+      {
+        "key": "epos~FDSN~CL.PANR.01.HHZ",
+        "n": 300,
+        "age_ms": 13386
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 300,
+        "age_ms": 12587.699951171875
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 300,
+        "age_ms": 12595.599853515625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 300,
+        "age_ms": 12587.699951171875
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 2921,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 4086,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3377,
+        "level": 2
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 7,
+    "start_utc": "2026-11-27T14:45:46.460Z",
+    "samples_s": 5,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "ac8ffd55a52e6b8ec8f0f04adbd09f9afaa45523567839be8abc1b1f64d53f7a",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 500,
+        "age_ms": 10457.000244140625
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 500,
+        "age_ms": 10457.000244140625
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 500,
+        "age_ms": 10457.000244140625
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 500,
+        "age_ms": 10457.000244140625
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 500,
+        "age_ms": 10457.000244140625
+      },
+      {
+        "key": "earth~FDSN~HL.KEK..HHZ",
+        "n": 500,
+        "age_ms": 10457.000244140625
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 500,
+        "age_ms": 10457.000244140625
+      },
+      {
+        "key": "epos~FDSN~CL.TEME.00.EHZ",
+        "n": 500,
+        "age_ms": 11877.000244140625
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 500,
+        "age_ms": 12244.7001953125
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 500,
+        "age_ms": 12252.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 500,
+        "age_ms": 12244.7001953125
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 3437,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 3744,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 2871,
+        "level": 2
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 8,
+    "start_utc": "2026-11-27T14:46:04.490Z",
+    "samples_s": 10,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "2cbbbd30c7c2a1aa1ec46170b0f94f266962b11e0a259d5e56b0f0ad94e3fe4f",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 1000,
+        "age_ms": 6215
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 1000,
+        "age_ms": 6215
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 1000,
+        "age_ms": 6215
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 1000,
+        "age_ms": 6215
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 1000,
+        "age_ms": 7734.699951171875
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 1000,
+        "age_ms": 7742.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 1000,
+        "age_ms": 7734.699951171875
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 3207,
+        "level": 1
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3414,
+        "level": 2
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 3240,
+        "level": 3
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 9,
+    "start_utc": "2026-11-27T14:46:22.530Z",
+    "samples_s": 1,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "47c19ab0b00087c38b6ce40d6eb40f2ea47ad62174c8b093c91ec0fe90bece0d",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 100,
+        "age_ms": 10533
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 100,
+        "age_ms": 10533
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 100,
+        "age_ms": 10533
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 100,
+        "age_ms": 10533
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 100,
+        "age_ms": 10533
+      },
+      {
+        "key": "earth~FDSN~HL.KEK..HHZ",
+        "n": 100,
+        "age_ms": 10533
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 100,
+        "age_ms": 10533
+      },
+      {
+        "key": "epos~FDSN~CL.TRIZ.00.HHZ",
+        "n": 100,
+        "age_ms": 13354
+      },
+      {
+        "key": "epos~FDSN~CL.TEME.00.EHZ",
+        "n": 100,
+        "age_ms": 13354
+      },
+      {
+        "key": "epos~FDSN~CL.ZIRI.01.HHZ",
+        "n": 100,
+        "age_ms": 13354
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 100,
+        "age_ms": 12114.699951171875
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 100,
+        "age_ms": 12122.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 100,
+        "age_ms": 12114.699951171875
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 3519,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 3609,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3345,
+        "level": 2
+      }
+    ],
+    "errors": []
+  },
+  {
+    "test": 10,
+    "start_utc": "2026-11-27T14:46:40.560Z",
+    "samples_s": 3,
+    "round_s": 20,
+    "collector": "RESULT",
+    "cards": "RESULT",
+    "schema": "seismo-cards-proof.v3",
+    "verified": "RESULT",
+    "fingerprint": "19d96d3025880150c68b6649cbfecb8c53cb7eb088d2674f07c7fbae42e198b6",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "greek": 3,
+    "measurements": [
+      {
+        "key": "earth~FDSN~HT.AGG..HHZ",
+        "n": 300,
+        "age_ms": 10355.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.ALN..HHZ",
+        "n": 300,
+        "age_ms": 10355.999755859375
+      },
+      {
+        "key": "earth~FDSN~HT.LIT..HHZ",
+        "n": 300,
+        "age_ms": 10355.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ARG..HHZ",
+        "n": 300,
+        "age_ms": 10355.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.ITM..HHZ",
+        "n": 300,
+        "age_ms": 10355.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.KEK..HHZ",
+        "n": 300,
+        "age_ms": 10355.999755859375
+      },
+      {
+        "key": "earth~FDSN~HL.RDO..HHZ",
+        "n": 300,
+        "age_ms": 10355.999755859375
+      },
+      {
+        "key": "epos~FDSN~CL.MALA.01.HHZ",
+        "n": 300,
+        "age_ms": 13653.999755859375
+      },
+      {
+        "key": "epos~FDSN~CL.PANR.01.HHZ",
+        "n": 300,
+        "age_ms": 13653.999755859375
+      },
+      {
+        "key": "scedc~FDSN~CI.DEV..HHZ",
+        "n": 300,
+        "age_ms": 11697.7001953125
+      },
+      {
+        "key": "scedc~FDSN~CI.ISA..HHZ",
+        "n": 300,
+        "age_ms": 11705.60009765625
+      },
+      {
+        "key": "scedc~FDSN~CI.SVD..HHZ",
+        "n": 300,
+        "age_ms": 11697.7001953125
+      }
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "response_ms": 3334,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "response_ms": 3196,
+        "level": 3
+      },
+      {
+        "host": "seisdata.epos-france.fr",
+        "http_status": 200,
+        "response_ms": 3645,
+        "level": 2
+      }
+    ],
+    "errors": []
+  }
+]

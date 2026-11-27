@@ -1,4 +1,4 @@
-import {element, tr, shortCard, currentLanguage} from './strings.js';
+import {element, tr, shortCard, currentLanguage} from './strings.js?v=2.0.0';
 
 export function narrativeText(narrative, lang, heading) {
   const content = narrative[lang];
@@ -17,13 +17,13 @@ function localDownload(text, lang) {
   setTimeout(() => URL.revokeObjectURL(url), 1500);
 }
 
-export function narrativePanel(narrative, knowledge) {
+export function narrativePanel(narrative, knowledge, hcke) {
   const lang = currentLanguage();
   const data = narrative[lang];
   const heading = tr('narrativeTitle');
   const panel = element('article','narrative-panel');
   panel.setAttribute('aria-label',heading);
-  panel.append(element('p','eyebrow',tr('edition')), element('h2','',heading),
+  panel.append(element('p','eyebrow',tr(narrative.topic?'synthesisLabel':'edition')), element('h2','',heading),
     element('p','narrative-intro',data.introduction));
   const sections = element('div','narrative-sections');
   for (const row of data.sections) {
@@ -41,7 +41,7 @@ export function narrativePanel(narrative, knowledge) {
   const printTitle = element('h3','print-packet-heading',tr('packetNarrative'));
   panel.append(sections, printTitle, packets, element('p','narrative-conclusion',data.conclusion),
     element('p','field-note',tr('entertainment')));
-  const comparative = knowledge.comparative.filter(row => narrative.plan.comparative.includes(row.id));
+  const comparative = knowledge.comparative.filter(row => narrative.plan.comparative?.includes(row.id));
   if (comparative.length) {
     const info = element('details','narrative-sources');
     info.append(element('summary','',tr('otherReadings')),
@@ -59,6 +59,31 @@ export function narrativePanel(narrative, knowledge) {
       info.append(entry);
     }
     panel.append(info);
+  }
+  if (narrative.topic && hcke) {
+    const details=element('details','narrative-sources');
+    details.append(element('summary','',tr('hckeSources')));
+    const groups=[...narrative.plan.sections,...narrative.plan.packets];
+    const cues=[...new Set(groups.flatMap(s=>s.ids??s.claims))];
+    const sources=hcke.active.supporting_sources;
+    const related=[...new Set(cues.flatMap(id=>hcke.indexed[id].witness_ids))];
+    const nuances=[...new Set(groups.map(s=>s.nuance).filter(Boolean).map(id=>id.slice('S-REF-'.length)))];
+    const list=element('ul');
+    for (const id of [...cues,...nuances,...related]) {
+      const ref=hcke.indexed[id]?.source??sources[id];
+      if (!ref) continue;
+      const entry=element('li');
+      const link=element('a','',ref.title+' · '+tr('page')+' '+ref.locator);
+      link.href=ref.url;
+      link.target='_blank';
+      link.rel='noopener noreferrer';
+      entry.append(element('strong','mono',id),' · ',link);
+      list.append(entry);
+    }
+    const archive=element('a','',lang==='el'?'Πλήρες ιστορικό αρχείο (JSON)':'Full historical archive (JSON)');
+    archive.href=new URL('../docs/historical/knowledge.json',import.meta.url).href;
+    details.append(archive,list);
+    panel.append(details);
   }
   const controls = element('div','narrative-controls');
   const status = element('span','field-note');

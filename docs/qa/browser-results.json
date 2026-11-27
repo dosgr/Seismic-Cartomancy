@@ -1,0 +1,33 @@
+{
+  "verify": {
+    "first": "Raw miniSEED files are needed to complete verification.",
+    "final": "Reading verified."
+  },
+  "live": {
+    "result": "Το άνοιγμα ολοκληρώθηκε.",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "earth~FDSN~HT.ALN..HHZ",
+      "earth~FDSN~HT.LIT..HHZ"
+    ],
+    "schema": "seismo-cards-proof.v3"
+  },
+  "mobileLayout": "no horizontal overflow in either language",
+  "support": "closed initially, both controls, toggles, QR display, copy action and both panel switches verified",
+  "preferences": "staging preferences are isolated from production keys",
+  "errors": [],
+  "responses": [
+    {
+      "host": "service.earthscope.org",
+      "status": 200
+    },
+    {
+      "host": "service.scedc.caltech.edu",
+      "status": 200
+    },
+    {
+      "host": "seisdata.epos-france.fr",
+      "status": 200
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "archive_records": 1326,
+  "phase_two_parent_records_retained": 1326,
+  "reviewed_ABC": 451,
+  "reviewed_DE": 875,
+  "per_original_category": {
+    "A": {
+      "core": 164
+    },
+    "B": {
+      "witness": 56,
+      "nuance": 5,
+      "archive": 1
+    },
+    "C": {
+      "archive": 167,
+      "nuance": 38,
+      "witness": 20
+    },
+    "D": {
+      "archive": 725,
+      "editorial-lens": 6
+    },
+    "E": {
+      "archive": 137,
+      "editorial-lens": 7
+    }
+  },
+  "per_verdict": {
+    "core": 164,
+    "archive": 1030,
+    "witness": 76,
+    "nuance": 43,
+    "editorial-lens": 13
+  },
+  "by_disposition_reason": {
+    "A0": 164,
+    "T0": 172,
+    "B0": 76,
+    "C1": 43,
+    "S0": 44,
+    "P0": 106,
+    "K0": 26,
+    "R0": 109,
+    "G0": 188,
+    "U0": 6,
+    "D1": 6,
+    "D2": 242,
+    "E2": 137,
+    "E1": 7
+  },
+  "witness_anchors": 44,
+  "additional_historical_triggers_proposed": 0,
+  "independence_note": "Witnesses corroborate an anchor but do not increase its weight. The 39 prior supporting witnesses remain in the archive and are not added to assessment counts.",
+  "original_card_voices": 52,
+  "original_contextual_card_voices": 52,
+  "proposed_refinements": 43,
+  "editorial_lenses": 13,
+  "reading_comparison": {
+    "executed_baseline_cases": 30,
+    "editorial_v2_cases": 30,
+    "archived_NOA": 1,
+    "synthetic": 29,
+    "distinct_question_themes": {
+      "love": 5,
+      "work": 5,
+      "money": 5,
+      "family": 3,
+      "social": 4,
+      "change": 2,
+      "obstacles": 3,
+      "inner": 2,
+      "support": 1
+    },
+    "primary_pair_ids_observed": 36,
+    "distinct_cards_observed_across_shared_traces": 52,
+    "thematic_packets_authored": 120,
+    "single_language_packet_texts": 240,
+    "editorial_refinement_case_uses": 7,
+    "completed_release_tests": 18,
+    "printed_fan_reference_check": "pass",
+    "release_archive_sha256": "986d67f79284d0d80e3e7e4f020c5e5e873e4fa2f6fbf3dd734a3528c9172485"
+  },
+  "editorial_composition_rules": 15
+}

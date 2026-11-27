@@ -1,0 +1,22 @@
+{
+  "bitcoin": {
+    "enabled": true,
+    "identical_upstream_image": true,
+    "decoded_target_matches_configuration": true
+  },
+  "revolut": {
+    "enabled": true,
+    "identical_upstream_image": true,
+    "decoded_target_matches_configuration": true
+  },
+  "facebook": {
+    "enabled": true,
+    "identical_upstream_image": true,
+    "decoded_target_matches_configuration": true
+  },
+  "paypal": {
+    "enabled": false,
+    "identical_upstream_image": true,
+    "decoded_target_matches_configuration": true
+  }
+}

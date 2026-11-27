@@ -1,11 +1,14 @@
-import {produceNarrative, validateKnowledge} from './narrative.js';
-import {METHOD_VERSION, FIGURES, readCards, validateRules} from './method.js';
+import {buildHckeNarrative, HCKE_FILES, validateHcke} from './hcke.js?v=2.0.0';
+import {produceNarrative, validateKnowledge} from './narrative.js?v=2.0.0';
+import {METHOD_VERSION, FIGURES, readCards, validateRules} from './method.js?v=2.0.0';
 
 export const SCHEMA = 'seismo-cards-proof.v1';
 export const NARRATIVE_SCHEMA = 'seismo-cards-proof.v2';
+export const HCKE_SCHEMA = 'seismo-cards-proof.v3';
+const NETWORK_POLICY = 'seismo-greek-first-1.1';
 export const DURATIONS = [1, 3, 5, 10];
-export const SPIN_SECONDS = [20, 30, 45, 60];
-export const LEGAL_RECORD_NETWORKS = ['HL', 'GE'];
+export const SPIN_SECONDS = [20, 30, 45, 60, 330];
+export const LEGAL_RECORD_NETWORKS = ['HL', 'GE', 'CL'];
 export const FILE_LIMIT = 60 * 1024 * 1024;
 const shaText = async text => SeismoProof.hex(await SeismoProof.sha(SeismoProof.utf8(text)));
 
@@ -42,11 +45,15 @@ export function selectRoutes(catalogText) {
   return {version, stations};
 }
 
-export async function makeContext(catalogText, rulesText, knowledgeText) {
+export async function makeContext(catalogText, rulesText, knowledgeText, hckeTexts, legacyText) {
   const rules = validateRules(JSON.parse(rulesText));
   return {
     ...selectRoutes(catalogText), catalogText, catalogHash: await shaText(catalogText),
     rules, rulesHash: await shaText(rulesText),
+    ...(legacyText===undefined ? {} : {legacy:await makeContext(legacyText,rulesText,knowledgeText)}),
+    ...(hckeTexts===undefined ? {} : {hcke:validateHcke(hckeTexts.map(JSON.parse),rules),
+      hckeHash:await shaText(canonical(hckeTexts)),
+      networkPolicy:NETWORK_POLICY}),
     ...(knowledgeText === undefined ? {} : {knowledge:validateKnowledge(JSON.parse(knowledgeText),rules),
       knowledgeHash:await shaText(knowledgeText)})
   };
@@ -54,18 +61,25 @@ export async function makeContext(catalogText, rulesText, knowledgeText) {
 
 export async function loadContext() {
   const read = async path => {
-    const response = await fetch(new URL(path, import.meta.url));
+    const url = new URL(path, import.meta.url);
+    url.search = new URL(import.meta.url).search;
+    const response = await fetch(url);
     if (!response.ok) throw new Error('resources');
     return response.text();
   };
-  return makeContext(...await Promise.all([read('../stations.txt'), read('../data/rules.json'), read('../data/knowledge.json')]));
+  const [catalog,rules,knowledge,legacy,hcke] = await Promise.all([read('../stations.txt'), read('../data/rules.json'),
+    read('../data/knowledge.json'), read('../data/stations-v1.1.0.txt'),
+    Promise.all(HCKE_FILES.map(file=>read('../data/hcke/'+file))).catch(()=>undefined)]);
+  const context = await makeContext(catalog,rules,knowledge,hcke,legacy);
+  context.networkPolicy = NETWORK_POLICY;
+  return context;
 }
 
 export function reserveRound(accepted, duration, seconds, context) {
   const start = (Math.floor(accepted / 10) + 1) * 10;
   const reveal = accepted + seconds * 1000;
   return {
-    id: 'cards-' + accepted, mode: 'browser', algorithm: 'SEISMO-P4',
+    id: 'cards-' + accepted, mode: 'browser', ...(context.networkPolicy?{network_policy:context.networkPolicy}:{}), algorithm: 'SEISMO-P4',
     duration, spin_seconds: seconds, accepted_ms: accepted, start_ms: start,
     start_utc: new Date(start).toISOString(), end_utc: new Date(start + duration * 1000).toISOString(),
     reveal_ms: reveal, freeze_ms: reveal - 2000, catalog_version: context.version,
@@ -73,7 +87,7 @@ export function reserveRound(accepted, duration, seconds, context) {
   };
 }
 
-export async function sealRound(seismic, preferred, context) {
+export async function sealRound(seismic, preferred, context, topic='general') {
   const reading = seismic.round.state === 'RESULT'
     ? await readCards(seismic.round.input_sha256, preferred, context.rules)
     : {state: 'NO_DATA', preferred};
@@ -81,33 +95,44 @@ export async function sealRound(seismic, preferred, context) {
     schema: SCHEMA, method: METHOD_VERSION, rules: context.rules.version,
     rule_sha256: context.rulesHash, seismic, reading
   };
-  if (context.knowledge && reading.state === 'RESULT') {
+  if (context.hcke && reading.state === 'RESULT' && seismic.round.network_policy===NETWORK_POLICY) {
+    body.schema = HCKE_SCHEMA;
+    body.narrative = await buildHckeNarrative(reading,context,seismic.round.input_sha256,topic);
+  } else if (context.knowledge && reading.state === 'RESULT') {
     body.schema = NARRATIVE_SCHEMA;
     body.narrative = produceNarrative(reading, context, seismic.round.input_sha256);
   }
   return {...body, proof_sha256: await shaText(canonical(body))};
 }
 
+export function catalogContext(text,context) {
+  if (text===context.catalogText) return context;
+  if (context.legacy && text===context.legacy.catalogText) return context.legacy;
+  return null;
+}
+
 const fail = code => { throw new Error(code); };
 
 export async function verifyRound(bundle, attachments, context) {
   const {schema, method, rules, rule_sha256, seismic, reading, narrative, proof_sha256, ...extra} = bundle ?? {};
-  if (![SCHEMA,NARRATIVE_SCHEMA].includes(schema) ||
-    (schema === SCHEMA && narrative !== undefined) || (schema === NARRATIVE_SCHEMA && !narrative) || method !== METHOD_VERSION || !seismic?.round || !seismic.records ||
+  if (![SCHEMA,NARRATIVE_SCHEMA,HCKE_SCHEMA].includes(schema) ||
+    (schema === SCHEMA && narrative !== undefined) || (schema !== SCHEMA && !narrative) || method !== METHOD_VERSION || !seismic?.round || !seismic.records ||
     !FIGURES.includes(reading?.preferred) || typeof proof_sha256 !== 'string' || Object.keys(extra).length) fail('format');
   if (rules !== context.rules.version || rule_sha256 !== context.rulesHash) fail('rulehash');
-  if (seismic.stations_txt !== context.catalogText) fail('cataloghash');
-
   const round = seismic.round;
+  if (!round) fail('format');
+  const released = catalogContext(seismic.stations_txt,context);
+  if (!released || (schema===HCKE_SCHEMA && round.network_policy!==NETWORK_POLICY) ||
+      (round.network_policy??null)!==(released.networkPolicy??null)) fail('cataloghash');
   if (round.mode !== 'browser' || round.algorithm !== 'SEISMO-P4' ||
     !Number.isSafeInteger(round.accepted_ms) || !DURATIONS.includes(round.duration) ||
-    !SPIN_SECONDS.includes(round.spin_seconds) || !Array.isArray(round.routes) ||
+    !SPIN_SECONDS.includes(round.spin_seconds) || (round.spin_seconds===330 && !released.networkPolicy) || !Array.isArray(round.routes) ||
     !Array.isArray(round.used) || !['RESULT', 'NO RESULT'].includes(round.state)) fail('round');
-  const reserved = reserveRound(round.accepted_ms, round.duration, round.spin_seconds, context);
+  const reserved = reserveRound(round.accepted_ms, round.duration, round.spin_seconds, released);
   if (Object.keys(reserved).some(key => reserved[key] !== round[key])) fail('round');
   if (round.state === 'NO RESULT' && round.used.length) fail('round');
 
-  const routeIndex = new Map(context.stations.map(row => [row.key, row]));
+  const routeIndex = new Map(released.stations.map(row => [row.key, row]));
   const allowedRecords = new Set();
   for (const row of round.routes) {
     const station = routeIndex.get(row.key);
@@ -140,6 +165,13 @@ export async function verifyRound(bundle, attachments, context) {
     if (!context.knowledge || expected.state !== 'RESULT' ||
       narrative.knowledge_sha256 !== context.knowledgeHash ||
       canonical(narrative) !== canonical(produceNarrative(expected,context,checked.input_sha256))) fail('knowledge');
+  }
+  if (schema === HCKE_SCHEMA) {
+    if (expected.state!=='RESULT' || typeof narrative.topic!=='string') fail('knowledge');
+    if (!context.hcke || narrative.knowledge_sha256!==context.hckeHash) {
+      return {state:expected.state,reading:expected,narrativeState:'UNAVAILABLE'};
+    }
+    if (canonical(narrative)!==canonical(await buildHckeNarrative(expected,context,checked.input_sha256,narrative.topic))) fail('knowledge');
   }
   return {state: expected.state, reading: expected, ...(narrative ? {narrative} : {})};
 }

@@ -39,12 +39,14 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
   <link rel="manifest" href="./manifest-el.json">
   <link rel="license" href="./LICENSE">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Σεισμική Χαρτομαντεία — Seismic Cartomancy", "url": "https://dos.gr/seismiki/", "description": "Ανακάλυψε την ελληνική χαρτομαντεία του 1953 με 52 φύλλα και πραγματικές σεισμολογικές καταγραφές. Προσωπική αφήγηση, δωρεάν, δίγλωσση και επαληθεύσιμη.", "inLanguage": "el", "image": "https://dos.gr/seismiki/assets/social.jpg", "applicationCategory": "EntertainmentApplication", "operatingSystem": "Web", "softwareVersion": "1.1.0", "isAccessibleForFree": true, "creator": {"@type": "Person", "name": "Λυκούργος Κεκεμπάνος", "url": "https://lyk.gr/"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}</script>
-  <link rel="stylesheet" href="./style.css">
-  <script defer src="./js/mseed.js"></script>
-  <script defer src="./js/proof.js"></script>
-  <script defer src="./js/live.js"></script>
-  <script type="module" src="./js/app.js"></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Σεισμική Χαρτομαντεία — Seismic Cartomancy", "url": "https://dos.gr/seismiki/", "description": "Ανακάλυψε την ελληνική χαρτομαντεία του 1953 με 52 φύλλα και πραγματικές σεισμολογικές καταγραφές. Προσωπική αφήγηση, δωρεάν, δίγλωσση και επαληθεύσιμη.", "inLanguage": "el", "image": "https://dos.gr/seismiki/assets/social.jpg", "applicationCategory": "EntertainmentApplication", "operatingSystem": "Web", "softwareVersion": "2.0.0", "isAccessibleForFree": true, "creator": {"@type": "Person", "name": "Λυκούργος Κεκεμπάνος", "url": "https://lyk.gr/"}, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "EUR"}}</script>
+  <link rel="stylesheet" href="./style.css?v=2.0.0">
+  <link rel="stylesheet" href="./css/donate.css?v=2.0.0">
+  <script defer src="./donate-config.js?v=2.0.0"></script>
+  <script defer src="./js/mseed.js?v=2.0.0"></script>
+  <script defer src="./js/proof.js?v=2.0.0"></script>
+  <script defer src="./js/live.js?v=2.0.0"></script>
+  <script type="module" src="./js/app.js?v=2.0.0"></script>
 </head>
 <body>
   <a class="skip" href="#main" data-t="skip">Μετάβαση στο περιεχόμενο</a>
@@ -75,11 +77,12 @@
             <button class="primary" id="start" type="submit" disabled data-t="start">Ρίξε τα φύλλα</button>
           </div>
           <span class="field-note" data-t="figureHelp">Η φιγούρα αποθηκεύεται σε αυτή τη συσκευή.</span>
+          <label class="theme-control" for="reading-theme"><span data-t="readingTheme">Θέμα ανάγνωσης</span><select id="reading-theme" name="theme"></select></label>
           <details class="settings">
             <summary data-t="timing">Χρονικές ρυθμίσεις</summary>
             <div class="timing-fields">
               <label><span data-t="sample">Παράθυρο δειγμάτων</span><select id="duration" aria-label="Παράθυρο δειγμάτων" data-aria="sample"><option value="1">1 s</option><option value="3">3 s</option><option value="5">5 s</option><option value="10">10 s</option></select></label>
-              <label><span data-t="round">Διάρκεια γύρου</span><select id="round-seconds" aria-label="Διάρκεια γύρου" data-aria="round"><option value="20">20 s</option><option value="30" selected>30 s</option><option value="45">45 s</option><option value="60">60 s</option></select></label>
+              <label><span data-t="round">Διάρκεια γύρου</span><select id="round-seconds" aria-label="Διάρκεια γύρου" data-aria="round"><option value="20">20 s</option><option value="30" selected>30 s</option><option value="45">45 s</option><option value="60">60 s</option><option value="330" data-t="extendedRound">330 s</option></select></label>
             </div>
           </details>
           <p id="boot-status" class="field-note" role="status"></p>
@@ -133,15 +136,75 @@
       <p class="method-note" data-t="entertainment">Ιστορική και πολιτιστική αναπαράσταση για ψυχαγωγία. Οι ερμηνείες δεν προβλέπουν πραγματικά γεγονότα.</p>
     </section>
   </main>
-  <footer class="wrap footer credits-footer">
-    <div><p>Ιδέα &amp; δημιουργία: Λυκούργος Κεκεμπάνος | <a href="https://lyk.gr/">Lyk.Gr</a></p>
-    <p>Με τη συνδρομή της τεχνητής νοημοσύνης GPT.</p>
-    <p>Copyleft 2026 — <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPL v3</a> / <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p></div>
-    <a href="https://github.com/dosgr/Seismic-Cartomancy">Κώδικας στο GitHub</a>
-    <a href="#credits">Πηγές, άδειες και απόρρητο</a>
-  </footer>
   <details class="wrap credits-panel" id="credits"><summary>Πηγές, άδειες και απόρρητο</summary>
     <p><a href="./Seismiki-Chartomanteia-source.zip">Πηγαίος κώδικας αυτής της έκδοσης</a></p></details>
+<section class="wrap support-area" aria-label="Υποστήριξη και επαγγελματικές υπηρεσίες" id="support-area" data-label-el="Υποστήριξη και επαγγελματικές υπηρεσίες" data-label-en="Support and professional services">
+  <div class="support-intro">
+    <article class="support-card" id="support-card" hidden>
+      <svg class="support-icon heart-icon" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M19.5 12.572 12 20l-7.5-7.428A5 5 0 1 1 12 6.006a5 5 0 1 1 7.5 6.572"></path>
+        <path d="M12 6 8.707 9.293a1 1 0 0 0 0 1.414l.543.543c.69.69 1.81.69 2.5 0l1-1a2 2 0 0 1 2.828 0l1.75 1.75M12.5 15.5l2 2M15 13l2 2"></path>
+      </svg>
+      <h2 data-el="Στηρίξτε τη δημιουργικότητα" data-en="Support Creativity">Στηρίξτε τη δημιουργικότητα</h2>
+      <p data-el="Υποστηρίξτε προαιρετικά τις επόμενες δωρεάν δημιουργίες μου." data-en="Voluntarily support my future free creations.">Υποστηρίξτε προαιρετικά τις επόμενες δωρεάν δημιουργίες μου.</p>
+      <button type="button" id="support-donate" title="Εμφάνιση ή απόκρυψη των επιλογών υποστήριξης" class="support-action donate-action" aria-expanded="false" aria-controls="support-panel" data-title-el="Εμφάνιση ή απόκρυψη των επιλογών υποστήριξης" data-title-en="Show or hide support options">♥ Donate</button>
+    </article>
+    <article class="support-card" id="professional-card">
+      <svg class="support-icon code-icon" width="32" height="32" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="m18 16 4-4-4-4M6 8l-4 4 4 4m8.5-12-5 16"></path>
+      </svg>
+      <h2 data-el="Αναζητάτε τεχνολογικές λύσεις;" data-en="Looking for Technology Solutions?">Αναζητάτε τεχνολογικές λύσεις;</h2>
+      <p class="support-subtitle" data-el="Επαγγελματικές τεχνολογικές λύσεις από το 1996" data-en="Professional Technology Solutions Since 1996">Επαγγελματικές τεχνολογικές λύσεις από το 1996</p>
+      <p data-el="Τηλεοπτικό &amp; Ραδιοφωνικό Streaming · Διαχείριση &amp; βελτιστοποίηση διακομιστών · Μελέτη &amp; βελτιστοποίηση ιστοτόπων και streaming υπερυψηλής επισκεψιμότητας · Τεχνική υποστήριξη · Ανάπτυξη εξατομικευμένων εφαρμογών &amp; λύσεων AI" data-en="TV &amp; Radio Streaming · Server Management &amp; Optimization · Ultra-High-Traffic Website &amp; Streaming Architecture and Optimization · Technical Support · Custom-Made Applications &amp; AI Solutions">Τηλεοπτικό &amp; Ραδιοφωνικό Streaming · Διαχείριση &amp; βελτιστοποίηση διακομιστών · Μελέτη &amp; βελτιστοποίηση ιστοτόπων και streaming υπερυψηλής επισκεψιμότητας · Τεχνική υποστήριξη · Ανάπτυξη εξατομικευμένων εφαρμογών &amp; λύσεων AI</p>
+      <a href="https://dos.gr/" aria-label="Άνοιγμα dos.gr σε νέα καρτέλα" class="support-action professional-action" target="_blank" rel="noopener noreferrer" data-label-el="Άνοιγμα dos.gr σε νέα καρτέλα" data-label-en="Open dos.gr in a new tab">🌐 dos.gr</a>
+    </article>
+  </div>
+  <div class="support-disclosure" id="support-disclosure" hidden>
+    <button class="support-toggle" type="button" id="support-toggle" aria-expanded="false" aria-controls="support-panel">
+      <span class="support-chevron" aria-hidden="true"></span><span data-el="Επιλογές προαιρετικής υποστήριξης" data-en="Optional Support Options">Επιλογές προαιρετικής υποστήριξης</span>
+    </button>
+    <div class="support-panel" id="support-panel" role="region" aria-labelledby="support-toggle" inert>
+      <div class="support-clip">
+        <div class="support-methods">
+          <article data-method="bitcoin" class="support-method" hidden>
+            <h3><img data-logo="bitcoin.svg" alt="" width="26" height="26">Bitcoin (BTC)</h3>
+            <p data-el="Κρυπτονόμισμα" data-en="Cryptocurrency">Κρυπτονόμισμα</p>
+            <img class="support-qr" width="128" height="128" alt="Κωδικός QR Bitcoin" data-alt-el="Κωδικός QR Bitcoin" data-alt-en="Bitcoin QR code">
+            <code id="support-address" dir="ltr"></code>
+            <button type="button" class="support-action support-method-action" id="support-copy" data-el="Αντιγραφή διεύθυνσης" data-en="Copy address">Αντιγραφή διεύθυνσης</button>
+            <p id="support-copy-status" role="status"></p>
+          </article>
+          <article data-method="revolut" class="support-method" hidden>
+            <h3><img data-logo="revolut.png" alt="" width="26" height="26">Revolut</h3>
+            <p data-el="Εφάπαξ υποστήριξη" data-en="One-time support">Εφάπαξ υποστήριξη</p>
+            <img class="support-qr" width="128" height="128" alt="Κωδικός QR Revolut" data-alt-el="Κωδικός QR Revolut" data-alt-en="Revolut QR code">
+            <a class="support-action support-method-action" target="_blank" rel="noopener noreferrer" aria-label="Μετάβαση στο Revolut σε νέα καρτέλα" data-label-el="Μετάβαση στο Revolut σε νέα καρτέλα" data-label-en="Open Revolut in a new tab" data-el="Μετάβαση στο Revolut" data-en="Open Revolut">Μετάβαση στο Revolut</a>
+          </article>
+          <article data-method="paypal" class="support-method" hidden>
+            <h3><img data-logo="paypal.png" alt="" width="26" height="26">PayPal</h3>
+            <p data-el="Εφάπαξ υποστήριξη" data-en="One-time support">Εφάπαξ υποστήριξη</p>
+            <img class="support-qr" width="128" height="128" alt="Κωδικός QR PayPal" data-alt-el="Κωδικός QR PayPal" data-alt-en="PayPal QR code">
+            <a class="support-action support-method-action" target="_blank" rel="noopener noreferrer" aria-label="Μετάβαση στο PayPal σε νέα καρτέλα" data-label-el="Μετάβαση στο PayPal σε νέα καρτέλα" data-label-en="Open PayPal in a new tab" data-el="Μετάβαση στο PayPal" data-en="Open PayPal">Μετάβαση στο PayPal</a>
+          </article>
+          <article data-method="facebook" class="support-method" hidden>
+            <h3><img data-logo="facebook.svg" alt="" width="26" height="26">Facebook Subscription</h3>
+            <p data-el="Μηνιαία συνδρομή" data-en="Monthly subscription">Μηνιαία συνδρομή</p>
+            <img class="support-qr" width="128" height="128" alt="Κωδικός QR Facebook Subscription" data-alt-el="Κωδικός QR Facebook Subscription" data-alt-en="Facebook Subscription QR code">
+            <p data-el="Η χρέωση επαναλαμβάνεται κάθε μήνα μέσω Facebook." data-en="Billing recurs monthly through Facebook.">Η χρέωση επαναλαμβάνεται κάθε μήνα μέσω Facebook.</p>
+            <a class="support-action support-method-action" target="_blank" rel="noopener noreferrer" aria-label="Άνοιγμα μηνιαίας συνδρομής Facebook σε νέα καρτέλα" data-label-el="Άνοιγμα μηνιαίας συνδρομής Facebook σε νέα καρτέλα" data-label-en="Open the monthly Facebook subscription in a new tab" data-el="Εγγραφή στο Facebook" data-en="Subscribe on Facebook">Εγγραφή στο Facebook</a>
+          </article>
+        </div>
+        <p class="support-note" data-el="Η υποστήριξη είναι απολύτως προαιρετική. Η εφαρμογή παραμένει ελεύθερη, δωρεάν και ανοιχτού κώδικα για όλους. Η υποστήριξή σας δεν επηρεάζει τη λειτουργία ή τα αποτελέσματα της εφαρμογής." data-en="Support is entirely optional. The application remains free and open source for everyone. Your support does not affect the operation or results of the application.">Η υποστήριξη είναι απολύτως προαιρετική. Η εφαρμογή παραμένει ελεύθερη, δωρεάν και ανοιχτού κώδικα για όλους. Η υποστήριξή σας δεν επηρεάζει τη λειτουργία ή τα αποτελέσματα της εφαρμογής.</p>
+      </div>
+    </div>
+  </div>
+</section>
   <noscript>Η εφαρμογή χρειάζεται JavaScript. This application requires JavaScript.</noscript>
+  <footer class="wrap site-footer">
+    <p>Ιδέα &amp; δημιουργία: Λυκούργος Κεκεμπάνος | <a href="https://lyk.gr/" target="_blank" rel="noopener noreferrer">Lyk.Gr</a></p>
+    <p>Με τη συνδρομή της τεχνητής νοημοσύνης GPT.</p>
+    <p>(ↄ) <a href="https://en.wikipedia.org/wiki/Copyleft" target="_blank" rel="noopener noreferrer">Copyleft</a> 2026–27 — <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank" rel="noopener noreferrer">AGPL v3</a> / Λυκ · <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a></p>
+    <p><span aria-hidden="true">🔗</span> <a href="https://github.com/dosgr/Seismic-Cartomancy" target="_blank" rel="noopener noreferrer">https://github.com/dosgr/Seismic-Cartomancy</a></p>
+  </footer>
 </body>
 </html>

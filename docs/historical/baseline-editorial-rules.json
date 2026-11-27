@@ -1,0 +1,59 @@
+{
+  "schema": "hcke-editorial-research.v0.1",
+  "rules": [
+    {
+      "id": "S-01",
+      "category": "Σ",
+      "priority": 10,
+      "scope": "reading",
+      "condition": {"requires": ["historical-evidence"], "question_context": "optional", "projections": ["love", "friendship", "home", "work", "money", "travel", "communication", "agency", "general"]},
+      "el": "Η θεματική ερώτηση καθορίζει ποια τεκμήρια αναπτύσσονται πρώτα. Οι υπόλοιπες ενδείξεις παραμένουν στο πλήρες ιστορικό.",
+      "en": "The question topic determines which attestations are developed first. The other cues remain in the full historical record."
+    },
+    {
+      "id": "S-02",
+      "category": "Σ",
+      "priority": 20,
+      "scope": "centre-and-neighbours",
+      "condition": {"requires": ["stop.center", "stop.left", "stop.right"]},
+      "el": "Κάνε το κεντρικό φύλλο το θέμα της παραγράφου. Πρόσθεσε τον κάθε γείτονα στη θέση του. Χρησιμοποίησε κείμενο ιστορικού ζεύγους μόνο όταν ενεργοποιείται ο αντίστοιχος κανόνας.",
+      "en": "Make the centre card the subject of the paragraph. Bring in each neighbour in its recorded position. Use the wording of a historical pair only when its rule is triggered."
+    },
+    {
+      "id": "S-03",
+      "category": "Σ",
+      "priority": 30,
+      "scope": "passage",
+      "condition": {"requires": ["same-topic", "distinct-evidence"], "modes": ["reinforcement", "contrast", "parallel"]},
+      "el": "Όταν οι ενδείξεις μοιράζονται συγκεκριμένο νόημα, δώσε μία συνεκτική διατύπωση με παραπομπές και στις δύο. Όταν διαφωνούν, κράτησε δύο σαφείς προτάσεις χωρίς πρόβλεψη επικράτησης.",
+      "en": "When cues share a specific meaning, write one coherent account and cite both. When they disagree, give each a clear sentence and leave the outcome open."
+    },
+    {
+      "id": "S-04",
+      "category": "Σ",
+      "priority": 40,
+      "scope": "same-trigger",
+      "condition": {"requires": ["shared-trigger", "distinct-historical-meanings"]},
+      "el": "Παρουσίασε όλες τις διαφορετικές σημασίες κοινής συνθήκης. Οι εγγραφές P24 και P37 παραμένουν δύο χωριστές αναγνώσεις του ίδιου ζεύγους.",
+      "en": "Present each distinct meaning attached to a shared trigger. P24 and P37 remain two separate readings of the same pair."
+    },
+    {
+      "id": "S-05",
+      "category": "Σ",
+      "priority": 50,
+      "scope": "packet",
+      "condition": {"requires": ["packet.topic", "packet.cards"], "exogenous_evidence": "reviewed-only"},
+      "el": "Ξεκίνα από το ιστορικό θέμα του πακέτου και επέλεξε μία συγκεκριμένη γέφυρα ανάμεσα στα τρία φύλλα. Στο προαιρετικό ιστορικό επίμετρο χρησιμοποίησε μόνο τις εξωτερικές ενδείξεις των οποίων επαληθεύονται οι συνθήκες.",
+      "en": "Begin with the historic packet topic and develop one specific connection across its three cards. In the optional historical notes, include external evidence only when its conditions can be verified."
+    },
+    {
+      "id": "S-06",
+      "category": "Σ",
+      "priority": 60,
+      "scope": "sensitive-record",
+      "condition": {"topic": "historical-sensitive", "default_display": "archive-only"},
+      "el": "Κράτησε ασθένεια, εγκυμοσύνη, θάνατο και ανάλογα θέματα στο ιστορικό τεκμήριο. Η ψυχαγωγική αφήγηση μπορεί να συζητά τη συναισθηματική χροιά όταν αυτή τεκμηριώνεται χωριστά.",
+      "en": "Keep illness, pregnancy, death and similar themes in the historical record. The entertainment narrative can discuss the emotional tone when it is separately attested."
+    }
+  ]
+}

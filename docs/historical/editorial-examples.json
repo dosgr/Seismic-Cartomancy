@@ -1,0 +1,147 @@
+[
+  {
+    "id": "Σ-01",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Οικονομική στήριξη",
+      "en": "Financial support"
+    },
+    "references": [
+      "A-AC-MOD",
+      "A-AC",
+      "N-PLA-001"
+    ],
+    "text": {
+      "el": "Το A♣ δίνει βάρος στην ενίσχυση που έχεις στη διάθεσή σου. Οι δύσκολες ενδείξεις παραμένουν ορατές, αλλά μια πρακτική βοήθεια μπορεί να τις κάνει πιο διαχειρίσιμες.",
+      "en": "The Ace of Clubs brings available support into focus. The difficulties are still visible, but practical help can make them easier to handle."
+    }
+  },
+  {
+    "id": "Σ-02",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Μια είδηση ζητά συμφραζόμενα",
+      "en": "News in context"
+    },
+    "references": [
+      "A-AD",
+      "N-LAW-008"
+    ],
+    "text": {
+      "el": "Το A♦ φέρνει ένα μήνυμα στο προσκήνιο. Διάβασε τι λένε τα γειτονικά φύλλα για τον άνθρωπο που το στέλνει και για την υπόθεση που ανοίγει.",
+      "en": "The Ace of Diamonds brings a message into focus. Look to its neighbours for clues about who sends it and what matter it opens up."
+    }
+  },
+  {
+    "id": "Σ-03",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Αμοιβαιότητα",
+      "en": "Reciprocity"
+    },
+    "references": [
+      "A-2S",
+      "N-TH768-003"
+    ],
+    "text": {
+      "el": "Η αρμονία του 2♠ παίρνει αισθηματική χροιά όταν το ερώτημα αφορά δύο πρόσωπα. Η έμφαση πέφτει στην ανταπόκριση και των δύο.",
+      "en": "When the question concerns two people, the harmony of the Two of Spades takes on a romantic shade. The emphasis is on both people returning the feeling."
+    }
+  },
+  {
+    "id": "Σ-04",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Το βάρος του παρελθόντος",
+      "en": "The weight of the past"
+    },
+    "references": [
+      "A-6H",
+      "N-MCR-042"
+    ],
+    "text": {
+      "el": "Ο δισταγμός του 6♥ αποκτά χρονικό βάθος. Μια προηγούμενη εμπειρία φαίνεται να επηρεάζει το πώς σταθμίζεις την επιλογή σου σήμερα.",
+      "en": "The hesitation of the Six of Hearts has roots in the past. An earlier experience seems to shape how you weigh the choice today."
+    }
+  },
+  {
+    "id": "Σ-05",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Μικρή μετακίνηση",
+      "en": "A short trip"
+    },
+    "references": [
+      "A-8D",
+      "N-LAG-014"
+    ],
+    "text": {
+      "el": "Το 8♦ σκιαγραφεί μια κοντινή και ευχάριστη μετακίνηση. Η παλαιότερη γαλλική εικόνα δίνει έμφαση στη διαδρομή από ξηράς.",
+      "en": "The Eight of Diamonds suggests a short, pleasant trip. The earlier French image puts the emphasis on travelling overland."
+    }
+  },
+  {
+    "id": "Σ-06",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Ανάκαμψη μετά την ανατροπή",
+      "en": "Recovering from a setback"
+    },
+    "references": [
+      "A-9H",
+      "N-HAF-011"
+    ],
+    "text": {
+      "el": "Το 9♥ αφήνει χώρο για ευνοϊκή εξέλιξη. Αν το άνοιγμα δείχνει πρώτα εμπόδιο και έπειτα στήριξη, η ανάκαμψη αξίζει δική της θέση στην ανάγνωση.",
+      "en": "The Nine of Hearts leaves room for a favourable turn. If the spread shows an obstacle followed by support, recovery deserves a place of its own in the reading."
+    }
+  },
+  {
+    "id": "Σ-07",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Ένα μήνυμα αποκτά πρόσωπο",
+      "en": "A message has a bearer"
+    },
+    "references": [
+      "A-4H",
+      "N-MCR-044"
+    ],
+    "text": {
+      "el": "Η είδηση έχει και κάποιον που τη μεταφέρει. Το 4♥ προσφέρει αφορμή να εξετάσεις ποιος ανοίγει τη συζήτηση και πώς φθάνει το μήνυμα.",
+      "en": "News also has a bearer. The Four of Hearts invites you to consider who opens the conversation and how the message reaches you."
+    }
+  },
+  {
+    "id": "Σ-08",
+    "category": "Σ",
+    "publication_scope": "editorial-example",
+    "historical": false,
+    "title": {
+      "el": "Εξυπηρέτηση με αντίκρισμα",
+      "en": "A favour with practical value"
+    },
+    "references": [
+      "A-8C",
+      "N-JGT-016"
+    ],
+    "text": {
+      "el": "Το σύνολο στρέφει την προσοχή σε μια χειροπιαστή διευκόλυνση. Μπορεί να είναι οικονομική ή να έρχεται ως εξυπηρέτηση που λύνει μια πρακτική δυσκολία.",
+      "en": "The cards draw attention to tangible help. It may be financial, or it may come as a practical favour that solves a difficulty."
+    }
+  }
+]

@@ -1,0 +1,1406 @@
+{
+  "schema": "hcke-research-examples.v0.1",
+  "historical_1953_stops": [
+    {
+      "start": 5,
+      "target": 11,
+      "card": "9H",
+      "left": "7H",
+      "right": "3D",
+      "leftRules": [],
+      "rightRules": [],
+      "modifier": [],
+      "returnsToFigure": false
+    },
+    {
+      "start": 0,
+      "target": 6,
+      "card": "9C",
+      "left": "QC",
+      "right": "KD",
+      "leftRules": [
+        "P56"
+      ],
+      "rightRules": [],
+      "modifier": [],
+      "returnsToFigure": false
+    },
+    {
+      "start": 7,
+      "target": 1,
+      "card": "10S",
+      "left": "3D",
+      "right": "8D",
+      "leftRules": [],
+      "rightRules": [],
+      "modifier": [],
+      "returnsToFigure": false
+    },
+    {
+      "start": 2,
+      "target": 8,
+      "card": "JH",
+      "left": "KD",
+      "right": "AS",
+      "leftRules": [],
+      "rightRules": [],
+      "modifier": [],
+      "returnsToFigure": false
+    },
+    {
+      "start": 9,
+      "target": 3,
+      "card": "KS",
+      "left": "8D",
+      "right": "JD",
+      "leftRules": [],
+      "rightRules": [],
+      "modifier": [],
+      "returnsToFigure": false
+    },
+    {
+      "start": 4,
+      "target": 10,
+      "card": "7H",
+      "left": "AS",
+      "right": "9H",
+      "leftRules": [
+        "P54"
+      ],
+      "rightRules": [],
+      "modifier": [],
+      "returnsToFigure": false
+    },
+    {
+      "start": 11,
+      "target": 5,
+      "card": "QC",
+      "left": "JD",
+      "right": "9C",
+      "leftRules": [],
+      "rightRules": [
+        "P56"
+      ],
+      "modifier": [],
+      "returnsToFigure": true
+    }
+  ],
+  "examples": [
+    {
+      "id": "A",
+      "input_kind": "archive-NOA-fixture",
+      "input_sha256": "cce8c53c130554a44004c5850fa12b3d632df03e54151bc599b27651d9992c30",
+      "preferred": "QC",
+      "figure": "7H",
+      "fan_left_to_right": [
+        "6S",
+        "4S",
+        "7H",
+        "6D",
+        "3C",
+        "AD",
+        "JC",
+        "KS",
+        "9S",
+        "2D",
+        "10H",
+        "AC"
+      ],
+      "stops": [
+        {
+          "start": 2,
+          "target": 8,
+          "card": "9S",
+          "left": "KS",
+          "right": "2D",
+          "leftRules": [
+            "P39"
+          ],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 9,
+          "target": 3,
+          "card": "6D",
+          "left": "7H",
+          "right": "3C",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 4,
+          "target": 10,
+          "card": "10H",
+          "left": "2D",
+          "right": "AC",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [
+            "10H"
+          ],
+          "returnsToFigure": false
+        },
+        {
+          "start": 11,
+          "target": 5,
+          "card": "AD",
+          "left": "3C",
+          "right": "JC",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 6,
+          "target": 0,
+          "card": "6S",
+          "left": "AC",
+          "right": "4S",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [
+            "6S"
+          ],
+          "returnsToFigure": false
+        },
+        {
+          "start": 1,
+          "target": 7,
+          "card": "KS",
+          "left": "JC",
+          "right": "9S",
+          "leftRules": [],
+          "rightRules": [
+            "P39"
+          ],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 8,
+          "target": 2,
+          "card": "7H",
+          "left": "4S",
+          "right": "6D",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": true
+        }
+      ],
+      "packets": [
+        {
+          "topic": "personal",
+          "cards": [
+            "JC",
+            "7H",
+            "6S"
+          ]
+        },
+        {
+          "topic": "family",
+          "cards": [
+            "2D",
+            "AD",
+            "KS"
+          ]
+        },
+        {
+          "topic": "future",
+          "cards": [
+            "4S",
+            "3C",
+            "10H"
+          ]
+        },
+        {
+          "topic": "unexpected",
+          "cards": [
+            "AC",
+            "6D",
+            "9S"
+          ]
+        }
+      ],
+      "theme": "travel",
+      "question": {
+        "el": "Πώς διαβάζεται το ταξίδι στο άνοιγμα;",
+        "en": "How does travel figure in this spread?"
+      },
+      "v1_1_0": {
+        "el": {
+          "introduction": "Το πρώτο νήμα στην ανάγνωσή σου είναι όσα σε απασχολούν. Στη συνέχεια της ανάγνωσης ξεχωρίζει επίσης το εξής θέμα: ο περίγυρός σου.",
+          "sections": [
+            {
+              "heading": "Όσα σε απασχολούν",
+              "text": "Η ιστορική ανάγνωση φέρνει μπροστά σου αυτή την εικόνα: πίκρες και απογοητεύσεις. Στο ίδιο θέμα υπάρχει κι άλλη όψη. Η στενοχώρια και η λύπη αφήνουν το ίχνος τους στην ανάγνωσή σου."
+            },
+            {
+              "heading": "Οι άνθρωποι γύρω σου",
+              "text": "Στα χαρτιά σου διακρίνεται το εξής μοτίβο: μελαχρινός που σε καταδιώκει. Το ίδιο θέμα φαίνεται κι από άλλη πλευρά στις ενδείξεις σου. Στο άνοιγμά σου ξεχωρίζει ένας νέος με ειλικρίνεια, εντιμότητα και πίστη."
+            },
+            {
+              "heading": "Ο έρωτας και οι δεσμοί σου",
+              "text": "Στα αισθηματικά σου διακρίνεται χαρά. Στο πλάι της πρώτης ένδειξης, μια ήρεμη ερωτική σχέση δίνει γλυκό τόνο στην ανάγνωσή σου."
+            },
+            {
+              "heading": "Τα οικονομικά σου",
+              "text": "Διακρίνονται καλά νέα και μια προοπτική ευημερίας για σένα. Στο ίδιο σημείο, μια άλλη ιστορική ένδειξη είναι σημαντική βελτίωση της οικονομικής κατάστασης."
+            },
+            {
+              "heading": "Τα σχέδια και η δουλειά σου",
+              "text": "Οι υποθέσεις σου σκοντάφτουν σε περιπλοκές, ίσως και σε δικαστική διαμάχη. Δίπλα σε αυτή την ένδειξη, τα φύλλα σου αφήνουν χώρο και για μια διαφορετική ανάγνωση. Οι προσπάθειές σου φαίνεται να έχουν αντίκρισμα."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "Το προσωπικό σου πακέτο",
+              "text": "Ένα ταξίδι που πλησιάζει έχει ευνοϊκή έκβαση στην ανάγνωσή σου."
+            },
+            {
+              "heading": "Το πακέτο του σπιτιού σου",
+              "text": "Το πακέτο αυτό ξαναπιάνει ένα νήμα που είδες ήδη στην αφήγηση: όσα σε απασχολούν."
+            },
+            {
+              "heading": "Όσα διαφαίνονται στη συνέχεια",
+              "text": "Το πακέτο αυτό ξαναπιάνει ένα νήμα που είδες ήδη στην αφήγηση: όσα σε απασχολούν."
+            },
+            {
+              "heading": "Εκεί όπου χωρά το απρόοπτο",
+              "text": "Η βιαστική ή απερίσκεπτη κίνηση παρουσιάζεται ως κάτι που σε βλάπτει."
+            }
+          ],
+          "conclusion": "Αν μείνεις με μία εικόνα από τα χαρτιά σου, άφησέ τη να χωρά και όσα σε ενθαρρύνουν και όσα σε προβληματίζουν."
+        },
+        "en": {
+          "introduction": "The first thread running through your reading is what is on your mind. A second thread worth following is the people around you.",
+          "sections": [
+            {
+              "heading": "What is on your mind",
+              "text": "The historical reading brings this into view for you: bitterness and disappointment. There is another facet to the same theme. Sorrow and distress leave their mark on the reading."
+            },
+            {
+              "heading": "The people around you",
+              "text": "This is the pattern that appears for you: a dark-haired man pursues you. Another side of the same theme comes through in the reading. An honest and faithful young man stands out in your spread."
+            },
+            {
+              "heading": "Love and your closest bonds",
+              "text": "There is a note of happiness in your love life. Alongside the first clue, a peaceful romance lends your reading a gentle note."
+            },
+            {
+              "heading": "Your finances",
+              "text": "Good news and a prospect of prosperity stand out for you. At the same point, a related historical clue is a significant improvement in your finances."
+            },
+            {
+              "heading": "Your work and plans",
+              "text": "Your affairs meet complications, possibly including a legal dispute. Alongside that indication, your cards leave room for a different reading. Your efforts look likely to bear fruit in the reading."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "For you personally",
+              "text": "An approaching journey has a favourable outcome in your reading."
+            },
+            {
+              "heading": "For your home and family",
+              "text": "This packet returns to a thread you have already seen: what is on your mind."
+            },
+            {
+              "heading": "What comes into view next",
+              "text": "This packet returns to a thread you have already seen: what is on your mind."
+            },
+            {
+              "heading": "Where the unexpected enters",
+              "text": "A rash move appears as something that works against you."
+            }
+          ],
+          "conclusion": "If you take one image from your cards, let it make room for what encourages you as well as what gives you pause."
+        },
+        "evidence": [
+          "A-10H",
+          "A-2D",
+          "A-3C",
+          "A-4S",
+          "A-6D",
+          "A-6S",
+          "A-7H",
+          "A-9S",
+          "A-AC",
+          "A-AC-MOD",
+          "A-AD",
+          "A-JC",
+          "A-KS",
+          "A-M-6-2",
+          "A-M-A-2",
+          "A-P39"
+        ]
+      },
+      "editorial_example": {
+        "type": "manually-authored-demonstration",
+        "category": "Σ",
+        "citations": [
+          "A-6S",
+          "A-JC",
+          "A-7H",
+          "A-P39",
+          "A-AC-MOD"
+        ],
+        "el": "Το προσωπικό πακέτο βάζει το ταξίδι δίπλα στην παρουσία ενός έμπιστου προσώπου και στην ηρεμία ενός δεσμού. Έξω από αυτό το πακέτο, το ζεύγος 9♠–K♠ δίνει εικόνα επίμονης πίεσης. Στην ανάγνωση συνυπάρχουν λοιπόν μια ευνοϊκή μετακίνηση και μια δύσκολη σχέση με τον περίγυρο. Η σημείωση του Άσου σπαθί αφορά τους δικούς του γείτονες· η πίεση του άλλου ζεύγους παραμένει αυτοτελής.",
+        "en": "In the personal packet, the journey appears alongside a trustworthy person and the calm of a close bond. Elsewhere, the 9♠–K♠ pair depicts persistent pressure. A favourable journey and a difficult relationship with someone around you can both have a place in this reading. The Ace of Clubs affects its own neighbours. The pressure signalled by the other pair stands separately."
+      }
+    },
+    {
+      "id": "B",
+      "input_kind": "synthetic-research-fixture",
+      "input_sha256": "bc0dfe58b97a0f7d86e4026eb1663c793a083a3b400249e1bd45c86e8162dba2",
+      "preferred": "QC",
+      "figure": "QC",
+      "fan_left_to_right": [
+        "5C",
+        "9C",
+        "4H",
+        "7D",
+        "5D",
+        "6D",
+        "4C",
+        "2C",
+        "8D",
+        "QC",
+        "2D",
+        "10S"
+      ],
+      "stops": [
+        {
+          "start": 9,
+          "target": 3,
+          "card": "7D",
+          "left": "4H",
+          "right": "5D",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 4,
+          "target": 10,
+          "card": "2D",
+          "left": "QC",
+          "right": "10S",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 11,
+          "target": 5,
+          "card": "6D",
+          "left": "5D",
+          "right": "4C",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 6,
+          "target": 0,
+          "card": "5C",
+          "left": "10S",
+          "right": "9C",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 1,
+          "target": 7,
+          "card": "2C",
+          "left": "4C",
+          "right": "8D",
+          "leftRules": [],
+          "rightRules": [
+            "P10"
+          ],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 8,
+          "target": 2,
+          "card": "4H",
+          "left": "9C",
+          "right": "7D",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 3,
+          "target": 9,
+          "card": "QC",
+          "left": "8D",
+          "right": "2D",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": true
+        }
+      ],
+      "packets": [
+        {
+          "topic": "personal",
+          "cards": [
+            "2C",
+            "5D",
+            "7D"
+          ]
+        },
+        {
+          "topic": "family",
+          "cards": [
+            "5C",
+            "4C",
+            "10S"
+          ]
+        },
+        {
+          "topic": "future",
+          "cards": [
+            "6D",
+            "QC",
+            "8D"
+          ]
+        },
+        {
+          "topic": "unexpected",
+          "cards": [
+            "4H",
+            "9C",
+            "2D"
+          ]
+        }
+      ],
+      "theme": "money",
+      "question": {
+        "el": "Πού φαίνονται ευκαιρίες και δυσκολίες στα οικονομικά;",
+        "en": "Where does the spread show financial opportunities and difficulties?"
+      },
+      "v1_1_0": {
+        "el": {
+          "introduction": "Το άνοιγμά σου έχει ένα καθαρό κέντρο βάρους. Εκεί ξεχωρίζει όσα σε απασχολούν. Στη συνέχεια της ανάγνωσης ξεχωρίζει επίσης το εξής θέμα: τα οικονομικά σου.",
+          "sections": [
+            {
+              "heading": "Όσα σε απασχολούν",
+              "text": "Η ιστορική ανάγνωση φέρνει μπροστά σου αυτή την εικόνα: νευρικότητα ή μελαγχολική διάθεση. Εδώ συναντιούνται δύο διαφορετικοί τόνοι. Ο πιο δύσκολος αξίζει να ακουστεί μαζί με τον ευνοϊκό. Τα δικά σου φύλλα φέρνουν στο φως αυτή την εικόνα: ψυχική γαλήνη."
+            },
+            {
+              "heading": "Τα οικονομικά σου",
+              "text": "Η ευημερία δίνει ευνοϊκό τόνο στα πρακτικά σου ζητήματα. Δίπλα σε αυτή την ένδειξη, τα φύλλα σου αφήνουν χώρο και για μια διαφορετική ανάγνωση. Οι οικονομικές έγνοιες χρειάζονται χώρο στην ανάγνωσή σου."
+            },
+            {
+              "heading": "Οι δυσκολίες στο άνοιγμά σου",
+              "text": "Εδώ ξεχωρίζει μια συγκεκριμένη ένδειξη: δυσκολίες που απαιτούν θάρρος. Στο ίδιο θέμα υπάρχει κι άλλη όψη. Οι δυσκολίες ξεχωρίζουν στην υπόθεση που σε απασχολεί."
+            },
+            {
+              "heading": "Οι άνθρωποι γύρω σου",
+              "text": "Η ιστορική ανάγνωση φέρνει μπροστά σου αυτή την εικόνα: θυμός και φιλονικίες."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "Το προσωπικό σου πακέτο",
+              "text": "Η επιτυχία στο άνοιγμά σου παίρνει και υλική μορφή."
+            },
+            {
+              "heading": "Το πακέτο του σπιτιού σου",
+              "text": "Ένα δώρο ή ένα απρόσμενο κέρδος ξεχωρίζει στο άνοιγμά σου. Εδώ συναντιούνται δύο διαφορετικοί τόνοι. Ο πιο δύσκολος αξίζει να ακουστεί μαζί με τον ευνοϊκό. Στην παλιά ανάγνωση αυτό το φύλλο συνδέεται με λύπη, ασθένεια ή πένθος."
+            },
+            {
+              "heading": "Όσα διαφαίνονται στη συνέχεια",
+              "text": "Τα δικά σου φύλλα φέρνουν στο φως αυτή την εικόνα: η απερισκεψία σάς βλάπτει. Δίπλα σε αυτή την ένδειξη, τα φύλλα σου αφήνουν χώρο και για μια διαφορετική ανάγνωση. Η βοήθεια για σένα συνδέεται με μια μελαχρινή γυναίκα."
+            },
+            {
+              "heading": "Εκεί όπου χωρά το απρόοπτο",
+              "text": "Οι έγνοιες σου συνοδεύονται από δυσκολίες. Δίπλα σε αυτή την ένδειξη, τα φύλλα σου αφήνουν χώρο και για μια διαφορετική ανάγνωση. Το κέρδος στο άνοιγμά σου συνδέεται με δουλειά ή με δικαστική υπόθεση."
+            }
+          ],
+          "conclusion": "Αν μείνεις με μία εικόνα από τα χαρτιά σου, άφησέ τη να χωρά και όσα σε ενθαρρύνουν και όσα σε προβληματίζουν."
+        },
+        "en": {
+          "introduction": "Your spread has a clear centre of gravity. Here, the cards return to what is on your mind. A second thread worth following is your finances.",
+          "sections": [
+            {
+              "heading": "What is on your mind",
+              "text": "The historical reading brings this into view for you: nervousness or a low mood. Two different notes meet here. The difficult one belongs in the reading alongside the hopeful one. Your cards bring this image to light: peace of mind."
+            },
+            {
+              "heading": "Your finances",
+              "text": "Prosperity lends your practical affairs a favourable tone. Alongside that indication, your cards leave room for a different reading. Financial worries have a place in your reading."
+            },
+            {
+              "heading": "The challenges in your spread",
+              "text": "One particular sign stands out here: difficulties that call for courage. There is another facet to the same theme. Difficulties stand out in what concerns you."
+            },
+            {
+              "heading": "The people around you",
+              "text": "The historical reading brings this into view for you: anger and quarrels."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "For you personally",
+              "text": "Success takes a material form in your spread."
+            },
+            {
+              "heading": "For your home and family",
+              "text": "A gift or an unexpected gain stands out in your spread. Two different notes meet here. The difficult one belongs in the reading alongside the hopeful one. In the old reading, this card is associated with sorrow, illness or mourning."
+            },
+            {
+              "heading": "What comes into view next",
+              "text": "Your cards bring this image to light: recklessness harms you. Alongside that indication, your cards leave room for a different reading. Help for you is linked to a dark-haired woman."
+            },
+            {
+              "heading": "Where the unexpected enters",
+              "text": "Your worries are accompanied by difficulties. Alongside that indication, your cards leave room for a different reading. A gain in your spread is connected with business or a legal case."
+            }
+          ],
+          "conclusion": "If you take one image from your cards, let it make room for what encourages you as well as what gives you pause."
+        },
+        "evidence": [
+          "A-10S",
+          "A-2C",
+          "A-2D",
+          "A-4C",
+          "A-4H",
+          "A-5C",
+          "A-5D",
+          "A-6D",
+          "A-7D",
+          "A-8D",
+          "A-9C",
+          "A-M-2-2",
+          "A-M-4-2",
+          "A-M-5-2",
+          "A-P10",
+          "A-QC"
+        ]
+      },
+      "editorial_example": {
+        "type": "manually-authored-demonstration",
+        "category": "Σ",
+        "citations": [
+          "A-2C",
+          "A-5D",
+          "A-7D",
+          "A-4C",
+          "A-P10"
+        ],
+        "el": "Στο προσωπικό πακέτο οι οικονομικές έγνοιες του 2♣ βρίσκονται δίπλα στην επιτυχία του 5♦ και στις δυσκολίες του 7♦. Το σπίτι έχει ξεχωριστή ένδειξη απρόσμενου δώρου ή οφέλους στο 4♣. Στη βεντάλια το 2♣ συμμετέχει επίσης σε ζεύγος φιλονικίας. Το κέρδος, η δυσκολία και η ένταση χωρούν στην ίδια ανάγνωση, με διαφορετική προέλευση το καθένα.",
+        "en": "In the personal packet, the financial worries of the 2♣ sit alongside success in the 5♦ and difficulties in the 7♦. The home packet has a separate sign of an unexpected gift or gain in the 4♣. In the fan, the 2♣ also takes part in a pair associated with quarrels. Gain, difficulty and tension each have a place in the reading, with a distinct basis for each."
+      }
+    },
+    {
+      "id": "C",
+      "input_kind": "synthetic-research-fixture",
+      "input_sha256": "005d3b1589d9cf101a61c206e2fbbeae995bc23849d7137bd706725438695bc2",
+      "preferred": "QC",
+      "figure": "7H",
+      "fan_left_to_right": [
+        "JS",
+        "AD",
+        "2H",
+        "9H",
+        "2D",
+        "3H",
+        "8C",
+        "7H",
+        "10S",
+        "QH",
+        "4D",
+        "6H"
+      ],
+      "stops": [
+        {
+          "start": 7,
+          "target": 1,
+          "card": "AD",
+          "left": "JS",
+          "right": "2H",
+          "leftRules": [],
+          "rightRules": [
+            "P21"
+          ],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 2,
+          "target": 8,
+          "card": "10S",
+          "left": "7H",
+          "right": "QH",
+          "leftRules": [
+            "P29"
+          ],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 9,
+          "target": 3,
+          "card": "9H",
+          "left": "2H",
+          "right": "2D",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 4,
+          "target": 10,
+          "card": "4D",
+          "left": "QH",
+          "right": "6H",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 11,
+          "target": 5,
+          "card": "3H",
+          "left": "2D",
+          "right": "8C",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 6,
+          "target": 0,
+          "card": "JS",
+          "left": "6H",
+          "right": "AD",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 1,
+          "target": 7,
+          "card": "7H",
+          "left": "8C",
+          "right": "10S",
+          "leftRules": [],
+          "rightRules": [
+            "P29"
+          ],
+          "modifier": [],
+          "returnsToFigure": true
+        }
+      ],
+      "packets": [
+        {
+          "topic": "personal",
+          "cards": [
+            "8C",
+            "9H",
+            "6H"
+          ]
+        },
+        {
+          "topic": "family",
+          "cards": [
+            "3H",
+            "4D",
+            "JS"
+          ]
+        },
+        {
+          "topic": "future",
+          "cards": [
+            "10S",
+            "7H",
+            "AD"
+          ]
+        },
+        {
+          "topic": "unexpected",
+          "cards": [
+            "QH",
+            "2D",
+            "2H"
+          ]
+        }
+      ],
+      "theme": "love",
+      "question": {
+        "el": "Πώς συνυπάρχουν η ηρεμία και η αβεβαιότητα στον δεσμό;",
+        "en": "How do calm and uncertainty coexist in the relationship reading?"
+      },
+      "v1_1_0": {
+        "el": {
+          "introduction": "Το άνοιγμά σου έχει ένα καθαρό κέντρο βάρους. Εκεί ξεχωρίζει οι δυσκολίες. Στη συνέχεια της ανάγνωσης ξεχωρίζει επίσης το εξής θέμα: ο έρωτας.",
+          "sections": [
+            {
+              "heading": "Οι δυσκολίες στο άνοιγμά σου",
+              "text": "Εδώ ξεχωρίζει μια συγκεκριμένη ένδειξη: αποτυχία σχεδίων. Στο πλάι της πρώτης ένδειξης, μια άλλη ιστορική ένδειξη είναι παγίδες."
+            },
+            {
+              "heading": "Ο έρωτας και οι δεσμοί σου",
+              "text": "Τα αισθηματικά σου έχουν ευνοϊκή ένδειξη. Στο πλάι της πρώτης ένδειξης, μια αισθηματική σου επιθυμία παίρνει ευνοϊκή ένδειξη."
+            },
+            {
+              "heading": "Όσα σε απασχολούν",
+              "text": "Τα δικά σου φύλλα φέρνουν στο φως αυτή την εικόνα: ψυχική γαλήνη. Το ίδιο θέμα φαίνεται κι από άλλη πλευρά στις ενδείξεις σου. Στην απόφασή σου διακρίνεται δισταγμός και το βάρος του παρελθόντος."
+            },
+            {
+              "heading": "Οι άνθρωποι γύρω σου",
+              "text": "Εδώ ξεχωρίζει μια συγκεκριμένη ένδειξη: φιλίες που αποδεικνύονται ωφέλιμες. Εδώ συναντιούνται δύο διαφορετικοί τόνοι. Ο πιο δύσκολος αξίζει να ακουστεί μαζί με τον ευνοϊκό. Μια μελαχρινή παρουσία παρουσιάζεται με πρόθεση να σε βλάψει."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "Το προσωπικό σου πακέτο",
+              "text": "Η επιμονή σου συνδέεται με κέρδος."
+            },
+            {
+              "heading": "Το πακέτο του σπιτιού σου",
+              "text": "Το πακέτο αυτό ξαναπιάνει ένα νήμα που είδες ήδη στην αφήγηση: ο έρωτας."
+            },
+            {
+              "heading": "Όσα διαφαίνονται στη συνέχεια",
+              "text": "Η ιστορική ανάγνωση φέρνει μπροστά σου αυτή την εικόνα: λύπες, ασθένειες, πένθος. Εδώ συναντιούνται δύο διαφορετικοί τόνοι. Ο πιο δύσκολος αξίζει να ακουστεί μαζί με τον ευνοϊκό. Μια ήρεμη ερωτική σχέση δίνει γλυκό τόνο στην ανάγνωσή σου."
+            },
+            {
+              "heading": "Εκεί όπου χωρά το απρόοπτο",
+              "text": "Δίπλα σου διακρίνεται μια ξανθή γυναίκα με καλοσύνη και αφοσίωση. Εδώ συναντιούνται δύο διαφορετικοί τόνοι. Ο πιο δύσκολος αξίζει να ακουστεί μαζί με τον ευνοϊκό. Η στενοχώρια και η λύπη αφήνουν το ίχνος τους στην ανάγνωσή σου."
+            }
+          ],
+          "conclusion": "Αν μείνεις με μία εικόνα από τα χαρτιά σου, άφησέ τη να χωρά και όσα σε ενθαρρύνουν και όσα σε προβληματίζουν."
+        },
+        "en": {
+          "introduction": "Your spread has a clear centre of gravity. Here, the cards return to the challenges. A second thread worth following is love.",
+          "sections": [
+            {
+              "heading": "The challenges in your spread",
+              "text": "One particular sign stands out here: plans failing. Alongside the first clue, a related historical clue is traps."
+            },
+            {
+              "heading": "Love and your closest bonds",
+              "text": "The outlook for your affairs of the heart is favourable. Alongside the first clue, a hope you hold in love receives a favourable sign."
+            },
+            {
+              "heading": "What is on your mind",
+              "text": "Your cards bring this image to light: peace of mind. Another side of the same theme comes through in the reading. Hesitation and the weight of the past both figure in your decision."
+            },
+            {
+              "heading": "The people around you",
+              "text": "One particular sign stands out here: friendships that prove helpful. Two different notes meet here. The difficult one belongs in the reading alongside the hopeful one. A dark-haired figure appears with an intention to harm you."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "For you personally",
+              "text": "Your persistence is linked to a gain."
+            },
+            {
+              "heading": "For your home and family",
+              "text": "This packet returns to a thread you have already seen: love."
+            },
+            {
+              "heading": "What comes into view next",
+              "text": "The historical reading brings this into view for you: sorrow, illness and mourning. Two different notes meet here. The difficult one belongs in the reading alongside the hopeful one. A peaceful romance lends your reading a gentle note."
+            },
+            {
+              "heading": "Where the unexpected enters",
+              "text": "Near you stands a kind and devoted fair-haired woman. Two different notes meet here. The difficult one belongs in the reading alongside the hopeful one. Sorrow and distress leave their mark on the reading."
+            }
+          ],
+          "conclusion": "If you take one image from your cards, let it make room for what encourages you as well as what gives you pause."
+        },
+        "evidence": [
+          "A-10S",
+          "A-2D",
+          "A-2H",
+          "A-3H",
+          "A-4D",
+          "A-6H",
+          "A-7H",
+          "A-8C",
+          "A-9H",
+          "A-AD",
+          "A-JS",
+          "A-M-2-2",
+          "A-P21",
+          "A-P29",
+          "A-QH"
+        ]
+      },
+      "editorial_example": {
+        "type": "manually-authored-demonstration",
+        "category": "Σ",
+        "citations": [
+          "A-7H",
+          "A-P29",
+          "A-9H",
+          "A-3H",
+          "A-M-2-2",
+          "CIE-7H",
+          "FOL-7H"
+        ],
+        "el": "Η σχέση έχει θέση στην ανάγνωση με δύο εικόνες. Το 7♥ περιγράφει ένα ήρεμο ειδύλλιο και τα 9♥ και 3♥ φέρνουν ευνοϊκές αισθηματικές ενδείξεις. Το ζεύγος του 7♥ με το 10♠ μιλά ειδικά για σχέδια που σκοντάφτουν. Η ηρεμία ενός δεσμού και η πορεία ενός σχεδίου είναι δύο διαφορετικά θέματα. Στο ιστορικό επίμετρο, η Cielo προσφέρει συγγενές μοτίβο ηρεμίας, ενώ ο Foli διαβάζει την αστάθεια μιας φιλίας.",
+        "en": "The relationship appears in the reading through two images. The 7♥ depicts a calm romance, while the 9♥ and 3♥ give encouraging signs in love. The 7♥ paired with the 10♠ speaks specifically of plans running into difficulty. The calm of a relationship and the course of a plan are separate matters. In the historical notes, Cielo offers a related motif of calm, while Foli reads the uncertainty of a friendship."
+      }
+    },
+    {
+      "id": "D",
+      "input_kind": "synthetic-research-fixture",
+      "input_sha256": "a1b477502d78968cbff06accf9a3c710958a5aae67f2a2d6475cadd1d0cfca35",
+      "preferred": "QC",
+      "figure": "7C",
+      "fan_left_to_right": [
+        "6S",
+        "5D",
+        "KD",
+        "9H",
+        "7C",
+        "10S",
+        "5S",
+        "JH",
+        "KS",
+        "10H",
+        "4H",
+        "4C"
+      ],
+      "stops": [
+        {
+          "start": 4,
+          "target": 10,
+          "card": "4H",
+          "left": "10H",
+          "right": "4C",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 11,
+          "target": 5,
+          "card": "10S",
+          "left": "7C",
+          "right": "5S",
+          "leftRules": [
+            "P44"
+          ],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 6,
+          "target": 0,
+          "card": "6S",
+          "left": "4C",
+          "right": "5D",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 1,
+          "target": 7,
+          "card": "JH",
+          "left": "5S",
+          "right": "KS",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 8,
+          "target": 2,
+          "card": "KD",
+          "left": "5D",
+          "right": "9H",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 3,
+          "target": 9,
+          "card": "10H",
+          "left": "KS",
+          "right": "4H",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 10,
+          "target": 4,
+          "card": "7C",
+          "left": "9H",
+          "right": "10S",
+          "leftRules": [
+            "P27"
+          ],
+          "rightRules": [
+            "P44"
+          ],
+          "modifier": [],
+          "returnsToFigure": true
+        }
+      ],
+      "packets": [
+        {
+          "topic": "personal",
+          "cards": [
+            "10H",
+            "KS",
+            "5D"
+          ]
+        },
+        {
+          "topic": "family",
+          "cards": [
+            "KD",
+            "6S",
+            "7C"
+          ]
+        },
+        {
+          "topic": "future",
+          "cards": [
+            "9H",
+            "4C",
+            "4H"
+          ]
+        },
+        {
+          "topic": "unexpected",
+          "cards": [
+            "10S",
+            "5S",
+            "JH"
+          ]
+        }
+      ],
+      "theme": "work",
+      "question": {
+        "el": "Τι δείχνουν τα φύλλα για ένα επαγγελματικό σχέδιο;",
+        "en": "What do the cards suggest about a work project?"
+      },
+      "v1_1_0": {
+        "el": {
+          "introduction": "Από τα χαρτιά που έπεσαν για σένα, πρώτο θέμα είναι τα οικονομικά σου. Στη συνέχεια της ανάγνωσης ξεχωρίζει επίσης το εξής θέμα: η δουλειά και τα σχέδιά σου.",
+          "sections": [
+            {
+              "heading": "Τα οικονομικά σου",
+              "text": "Στα χαρτιά σου διακρίνεται το εξής μοτίβο: επιχειρηματικά κέρδη. Στο ίδιο σημείο, στα οικονομικά σου υπάρχει ένδειξη κέρδους."
+            },
+            {
+              "heading": "Τα σχέδια και η δουλειά σου",
+              "text": "Τα δικά σου φύλλα φέρνουν στο φως αυτή την εικόνα: επικερδές εγχείρημα. Το ίδιο θέμα φαίνεται κι από άλλη πλευρά στις ενδείξεις σου. Στα χαρτιά σου διακρίνεται το εξής μοτίβο: ανεκπλήρωτα σχέδια."
+            },
+            {
+              "heading": "Οι δυσκολίες στο άνοιγμά σου",
+              "text": "Τα δικά σου φύλλα φέρνουν στο φως αυτή την εικόνα: δυσκολίες που απαιτούν θάρρος. Στο πλάι της πρώτης ένδειξης, στην παλιά ανάγνωση αυτό το φύλλο συνδέεται με λύπη, ασθένεια ή πένθος."
+            },
+            {
+              "heading": "Ο έρωτας και οι δεσμοί σου",
+              "text": "Ένας ξανθός νέος συμβολίζει ευγενικά αισθήματα, με προοπτική γάμου στην παλιά ανάγνωση για μια νέα. Στο πλάι της πρώτης ένδειξης, μια άλλη ιστορική ένδειξη είναι ευτυχία στα αισθηματικά."
+            },
+            {
+              "heading": "Αλλαγές και προοπτικές",
+              "text": "Τα δικά σου φύλλα φέρνουν στο φως αυτή την εικόνα: σύντομο ταξίδι. Στην ίδια γραμμή, μια άλλη ιστορική ένδειξη είναι ταξίδι που πλησιάζει, με καλή έκβαση."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "Το προσωπικό σου πακέτο",
+              "text": "Οι υποθέσεις σου σκοντάφτουν σε περιπλοκές, ίσως και σε δικαστική διαμάχη. Εδώ συναντιούνται δύο διαφορετικοί τόνοι. Ο πιο δύσκολος αξίζει να ακουστεί μαζί με τον ευνοϊκό. Η επιτυχία στο άνοιγμά σου παίρνει και υλική μορφή."
+            },
+            {
+              "heading": "Το πακέτο του σπιτιού σου",
+              "text": "Η ιστορική ανάγνωση φέρνει μπροστά σου αυτή την εικόνα: πρόσωπο με δύναμη που προσφέρει προστασία."
+            },
+            {
+              "heading": "Όσα διαφαίνονται στη συνέχεια",
+              "text": "Τα αισθηματικά σου έχουν ευνοϊκή ένδειξη. Εδώ συναντιούνται δύο διαφορετικοί τόνοι. Ο πιο δύσκολος αξίζει να ακουστεί μαζί με τον ευνοϊκό. Οι έγνοιες σου συνοδεύονται από δυσκολίες."
+            },
+            {
+              "heading": "Εκεί όπου χωρά το απρόοπτο",
+              "text": "Μια υπόθεσή σου παίρνει δυσάρεστη τροπή στο άνοιγμα."
+            }
+          ],
+          "conclusion": "Κράτησε μαζί τη δυνατότητα που ανοίγεται και τη δυσκολία που τη συνοδεύει. Και οι δύο έχουν θέση στο δικό σου άνοιγμα."
+        },
+        "en": {
+          "introduction": "Of the cards laid out for you, the strongest theme is your finances. A second thread worth following is your work and plans.",
+          "sections": [
+            {
+              "heading": "Your finances",
+              "text": "This is the pattern that appears for you: business gains. At the same point, your finances carry a sign of gain."
+            },
+            {
+              "heading": "Your work and plans",
+              "text": "Your cards bring this image to light: a profitable undertaking. Another side of the same theme comes through in the reading. This is the pattern that appears for you: unfulfilled plans."
+            },
+            {
+              "heading": "The challenges in your spread",
+              "text": "Your cards bring this image to light: difficulties that call for courage. Alongside the first clue, in the old reading, this card is associated with sorrow, illness or mourning."
+            },
+            {
+              "heading": "Love and your closest bonds",
+              "text": "A fair-haired young man suggests noble feelings, with marriage a possibility in the old reading for a young woman. Alongside the first clue, a related historical clue is happiness in love."
+            },
+            {
+              "heading": "Changes and possibilities",
+              "text": "Your cards bring this image to light: a short trip. In the same part of the reading, a related historical clue is an approaching trip with a good outcome."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "For you personally",
+              "text": "Your affairs meet complications, possibly including a legal dispute. Two different notes meet here. The difficult one belongs in the reading alongside the hopeful one. Success takes a material form in your spread."
+            },
+            {
+              "heading": "For your home and family",
+              "text": "The historical reading brings this into view for you: a powerful protector."
+            },
+            {
+              "heading": "What comes into view next",
+              "text": "The outlook for your affairs of the heart is favourable. Two different notes meet here. The difficult one belongs in the reading alongside the hopeful one. Your worries are accompanied by difficulties."
+            },
+            {
+              "heading": "Where the unexpected enters",
+              "text": "An affair of yours takes an unwelcome turn in the spread."
+            }
+          ],
+          "conclusion": "Hold on to both the possibility that opens up and the difficulty beside it. Both belong in your spread."
+        },
+        "evidence": [
+          "A-10H",
+          "A-10S",
+          "A-4C",
+          "A-4H",
+          "A-5D",
+          "A-5S",
+          "A-6S",
+          "A-7C",
+          "A-9H",
+          "A-JH",
+          "A-KD",
+          "A-KS",
+          "A-M-10-2",
+          "A-M-4-2",
+          "A-M-5-2",
+          "A-M-K-2",
+          "A-P27",
+          "A-P44"
+        ]
+      },
+      "editorial_example": {
+        "type": "manually-authored-demonstration",
+        "category": "Σ",
+        "citations": [
+          "A-P27",
+          "A-P44",
+          "A-M-K-2",
+          "A-5D",
+          "A-KS"
+        ],
+        "el": "Το 7♣ συνδέει δύο διαφορετικές στάσεις της καταμέτρησης. Με το 9♥ μιλά για επικερδές εγχείρημα και με το 10♠ για επιχειρηματικά κέρδη. Στο προσωπικό πακέτο το 5♦ στηρίζει την εικόνα επιτυχίας, ενώ ο K♠ δείχνει περιπλοκές. Η βεντάλια δίνει και σχέδια που μένουν ανεκπλήρωτα μέσω των δύο ρηγάδων. Οι ευνοϊκές ενδείξεις έχουν κοινό θέμα, ενώ το άνοιγμα αφήνει ανοιχτό ποιο σχέδιο θα ευοδωθεί.",
+        "en": "The 7♣ connects two counting stops. With the 9♥ it points to a profitable undertaking, and with the 10♠ it indicates business gains. In the personal packet, the 5♦ supports the picture of success, while the K♠ introduces complications. The two kings in the fan also represent plans left unfinished. The favourable signs share a theme, and the spread leaves open which plan will work out."
+      }
+    },
+    {
+      "id": "E",
+      "input_kind": "synthetic-research-fixture",
+      "input_sha256": "2eeeea4001399a63c832b9b03f284e89317cc353cb01bb1c22922f0541842316",
+      "preferred": "QC",
+      "figure": "7H",
+      "fan_left_to_right": [
+        "6S",
+        "QH",
+        "AH",
+        "7D",
+        "KC",
+        "3S",
+        "3D",
+        "4C",
+        "7H",
+        "8S",
+        "2S",
+        "3H"
+      ],
+      "stops": [
+        {
+          "start": 8,
+          "target": 2,
+          "card": "AH",
+          "left": "QH",
+          "right": "7D",
+          "leftRules": [
+            "P24",
+            "P37"
+          ],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 3,
+          "target": 9,
+          "card": "8S",
+          "left": "7H",
+          "right": "2S",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 10,
+          "target": 4,
+          "card": "KC",
+          "left": "7D",
+          "right": "3S",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 5,
+          "target": 11,
+          "card": "3H",
+          "left": "2S",
+          "right": "6S",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 0,
+          "target": 6,
+          "card": "3D",
+          "left": "3S",
+          "right": "4C",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 7,
+          "target": 1,
+          "card": "QH",
+          "left": "6S",
+          "right": "AH",
+          "leftRules": [],
+          "rightRules": [
+            "P24",
+            "P37"
+          ],
+          "modifier": [],
+          "returnsToFigure": false
+        },
+        {
+          "start": 2,
+          "target": 8,
+          "card": "7H",
+          "left": "4C",
+          "right": "8S",
+          "leftRules": [],
+          "rightRules": [],
+          "modifier": [],
+          "returnsToFigure": true
+        }
+      ],
+      "packets": [
+        {
+          "topic": "personal",
+          "cards": [
+            "3H",
+            "AH",
+            "3S"
+          ]
+        },
+        {
+          "topic": "family",
+          "cards": [
+            "7H",
+            "6S",
+            "KC"
+          ]
+        },
+        {
+          "topic": "future",
+          "cards": [
+            "8S",
+            "3D",
+            "7D"
+          ]
+        },
+        {
+          "topic": "unexpected",
+          "cards": [
+            "4C",
+            "QH",
+            "2S"
+          ]
+        }
+      ],
+      "theme": "communication",
+      "question": {
+        "el": "Πώς διαβάζονται τα καλά νέα στη σχέση;",
+        "en": "How should the good news in the relationship reading be understood?"
+      },
+      "v1_1_0": {
+        "el": {
+          "introduction": "Αν ακολουθήσεις τη σειρά των χαρτιών σου, το θέμα που παίρνει το μεγαλύτερο βάρος είναι ο έρωτας. Στη συνέχεια της ανάγνωσης ξεχωρίζει επίσης το εξής θέμα: οι αλλαγές.",
+          "sections": [
+            {
+              "heading": "Ο έρωτας και οι δεσμοί σου",
+              "text": "Στα χαρτιά σου διακρίνεται το εξής μοτίβο: γάμος με οικονομική άνεση. Στο πλάι της πρώτης ένδειξης, μια άλλη ιστορική ένδειξη είναι ερωτική επιστολή ή καλά νέα για τα αισθηματικά."
+            },
+            {
+              "heading": "Αλλαγές και προοπτικές",
+              "text": "Η ιστορική ανάγνωση φέρνει μπροστά σου αυτή την εικόνα: ευχάριστες ειδήσεις. Στο πλάι της πρώτης ένδειξης, μια άλλη ιστορική ένδειξη είναι νέα μικρής σημασίας."
+            },
+            {
+              "heading": "Όσα σε απασχολούν",
+              "text": "Εδώ ξεχωρίζει μια συγκεκριμένη ένδειξη: ψυχική ικανοποίηση. Στο ίδιο θέμα υπάρχει κι άλλη όψη. Η αρμονία είναι μια καθαρή ένδειξη στο άνοιγμά σου."
+            },
+            {
+              "heading": "Τα οικονομικά σου",
+              "text": "Ξεχωρίζει για σένα στήριξη τόσο στα οικονομικά όσο και στο ηθικό σου. Στο πλάι της πρώτης ένδειξης, μια άλλη ιστορική ένδειξη είναι δώρο ή απροσδόκητα κέρδη."
+            },
+            {
+              "heading": "Οι δυσκολίες στο άνοιγμά σου",
+              "text": "Η ιστορική ανάγνωση φέρνει μπροστά σου αυτή την εικόνα: ζημιές και καταστροφές. Στο ίδιο σημείο, οι δυσκολίες ξεχωρίζουν στην υπόθεση που σε απασχολεί."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "Το προσωπικό σου πακέτο",
+              "text": "Μια αισθηματική σου επιθυμία παίρνει ευνοϊκή ένδειξη."
+            },
+            {
+              "heading": "Το πακέτο του σπιτιού σου",
+              "text": "Μια ήρεμη ερωτική σχέση δίνει γλυκό τόνο στην ανάγνωσή σου."
+            },
+            {
+              "heading": "Όσα διαφαίνονται στη συνέχεια",
+              "text": "Το εγχείρημά σου φαίνεται δύσκολο."
+            },
+            {
+              "heading": "Εκεί όπου χωρά το απρόοπτο",
+              "text": "Στα χαρτιά σου διακρίνεται το εξής μοτίβο: ξανθή γυναίκα, καλόκαρδη και αφοσιωμένη."
+            }
+          ],
+          "conclusion": "Κράτησε μαζί τη δυνατότητα που ανοίγεται και τη δυσκολία που τη συνοδεύει. Και οι δύο έχουν θέση στο δικό σου άνοιγμα."
+        },
+        "en": {
+          "introduction": "Follow the cards through your spread and one theme carries more weight than the others: love. A second thread worth following is change.",
+          "sections": [
+            {
+              "heading": "Love and your closest bonds",
+              "text": "This is the pattern that appears for you: a prosperous marriage. Alongside the first clue, a related historical clue is a love letter or good news about your love life."
+            },
+            {
+              "heading": "Changes and possibilities",
+              "text": "The historical reading brings this into view for you: good news. Alongside the first clue, a related historical clue is news of little importance."
+            },
+            {
+              "heading": "What is on your mind",
+              "text": "One particular sign stands out here: inner satisfaction. There is another facet to the same theme. Harmony is a clear indication in your spread."
+            },
+            {
+              "heading": "Your finances",
+              "text": "The support available to you looks both financial and moral. Alongside the first clue, a related historical clue is a gift or unexpected gains."
+            },
+            {
+              "heading": "The challenges in your spread",
+              "text": "The historical reading brings this into view for you: damage and setbacks. At the same point, difficulties stand out in what concerns you."
+            }
+          ],
+          "packets": [
+            {
+              "heading": "For you personally",
+              "text": "A hope you hold in love receives a favourable sign."
+            },
+            {
+              "heading": "For your home and family",
+              "text": "A peaceful romance lends your reading a gentle note."
+            },
+            {
+              "heading": "What comes into view next",
+              "text": "Your undertaking looks demanding."
+            },
+            {
+              "heading": "Where the unexpected enters",
+              "text": "This is the pattern that appears for you: a fair-haired, kind and devoted woman."
+            }
+          ],
+          "conclusion": "Hold on to both the possibility that opens up and the difficulty beside it. Both belong in your spread."
+        },
+        "evidence": [
+          "A-2S",
+          "A-3D",
+          "A-3H",
+          "A-3S",
+          "A-4C",
+          "A-6S",
+          "A-7D",
+          "A-7H",
+          "A-8S",
+          "A-AH",
+          "A-KC",
+          "A-M-3-3",
+          "A-M-7-2",
+          "A-P24",
+          "A-P37",
+          "A-QH"
+        ]
+      },
+      "editorial_example": {
+        "type": "manually-authored-demonstration",
+        "category": "Σ",
+        "citations": [
+          "A-P24",
+          "A-P37",
+          "A-AH",
+          "A-3H",
+          "MIN-AH",
+          "CIE-AH"
+        ],
+        "el": "Ο Άσος κούπα δίπλα στη Ντάμα κούπα έχει δύο καταχωρίσεις στη στήλη του 1953. Η μία συνδέει το ζεύγος με γάμο και οικονομική άνεση, η άλλη με ευχάριστα νέα. Η ατομική σημασία του Άσου προσθέτει την εικόνα προσωπικού μηνύματος ή καλής είδησης για τη σχέση. Μπορείς να διαβάσεις τις ειδήσεις σαν αυτόνομο μοτίβο του ανοίγματος. Η ιστορική ένδειξη γάμου παραμένει δίπλα της ως δεύτερη ανάγνωση του ίδιου ζεύγους.",
+        "en": "The Ace of Hearts beside the Queen of Hearts has two entries in the 1953 column. One associates the pair with marriage and material comfort, the other with welcome news. On its own, the Ace adds the image of a personal message or good news about the relationship. The news stands as a motif in its own right. The historical marriage indication sits alongside it as a second reading of the same pair."
+      }
+    }
+  ]
+}

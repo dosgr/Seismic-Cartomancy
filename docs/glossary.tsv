@@ -1,0 +1,57 @@
+id	el	en	note_el	note_en
+deck	τράπουλα 52 φύλλων	standard 52-card deck	Χωρίς τζόκερ.	No jokers.
+pack	πακέτο	packet	Υποσύνολο σε στάδιο του ανοίγματος.	A subset of the cards at one stage of the spread.
+suit	σύμβολο	suit	Το σύμβολο δεν είναι το απλό κόκκινο ή μαύρο χρώμα.	Suit is distinct from red or black.
+H	κούπες	hearts	♥	♥
+D	καρό	diamonds	♦	♦
+C	σπαθιά	clubs	♣ με βάση την εικονογράφηση του Θησαυρού.	♣ as identified in the illustrations.
+S	μπαστούνια	spades	♠ με βάση την εικονογράφηση του Θησαυρού.	♠ as identified in the illustrations.
+A	άσος	ace	Η αξία A.	Rank A.
+K	ρήγας	king	Η αξία K.	Rank K.
+Q	ντάμα	queen	Η αξία Q.	Rank Q.
+J	βαλές	jack	Το ιστορικό knave αποδίδεται ως βαλές.	Historical sources also use knave.
+court	φιγούρα	court card	Ρήγας, ντάμα, βαλές.	King, queen, jack.
+significator	προσωπική φιγούρα	significator	Φύλλο που αντιπροσωπεύει το πρόσωπο της ανάγνωσης.	The card representing the person receiving the reading.
+fallback	εφεδρικό φύλλο	fallback card	7♥ ή 7♣ στον Θησαυρό.	7♥ or 7♣ in Thesavros.
+cut	κόψιμο	cut	Μεταφορά του επάνω τμήματος κάτω από το υπόλοιπο στον κώδικα.	The implementation moves a top portion beneath the remainder.
+shuffle	ανακάτεμα	shuffle	Αλλαγή σειράς πριν το μοίρασμα ή τα πακέτα.	A change in order before dealing the spread or packets.
+deal	μοίρασμα	deal	Επιλογή φύλλων και τοποθέτηση.	Selecting and laying out cards.
+spread	άνοιγμα	spread	Η διάταξη των φύλλων και, κατά συμφραζόμενα, η πράξη.	The layout, and by extension the act of laying it out.
+fan	βεντάλια	fan spread	Τα 12 φύλλα με σειρά τοποθέτησης από δεξιά.	The 12 cards, dealt from right to left.
+count	καταμέτρηση ανά επτά	counting by sevens	Η αφετηρία μετρά ως ένα.	The starting card counts as one.
+stop	στάση	counting stop	Το έβδομο φύλλο κάθε περιόδου.	The seventh card of each count.
+left	αριστερός γείτονας	left-hand neighbour	Θέση ως προς το κεντρικό φύλλο.	Position relative to the central card.
+right	δεξιός γείτονας	right-hand neighbour	Θέση ως προς το κεντρικό φύλλο.	Position relative to the central card.
+pair	ζεύγος	pair	Δύο συγκεκριμένα ή παραμετρικά φύλλα.	Two specified cards or card patterns.
+trio	τριάδα	three-card combination	Τρία φύλλα με ρητή ιστορική ή σύγχρονη συνθήκη.	Three cards with a stated historical or modern condition.
+matched	όμοια φύλλα	cards of the same rank	Ίδια αξία, διαφορετικά σύμβολα.	Matching rank, different suits.
+upright	όρθιο	upright	Η συνθήκη αφορά μόνο πηγές που τη χρησιμοποιούν.	Condition restricted to sources that use orientation.
+reversed	ανεστραμμένο	reversed	Προϋπόθεση ορισμένων ξένων κανόνων.	A condition in some external rules.
+personal	προσωπικά	personal matters	Το πρώτο θεματικό πακέτο.	The first themed packet.
+family	σπίτι και οικογένεια	home and family	Το δεύτερο θεματικό πακέτο.	The second themed packet.
+future	μελλοντικά γεγονότα	future events	Ιστορικός τίτλος πακέτου σε ψυχαγωγική ανάγνωση.	Historical packet title in an entertainment reading.
+unexpected	απρόοπτο	the unexpected	Το τέταρτο θεματικό πακέτο.	The fourth themed packet.
+mitigation	μετρίαση	mitigation	Σχόλιο για τον Άσο σπαθί του 1953.	A note associated with the 1953 Ace of Clubs.
+piquet	τράπουλα πικέ	piquet pack	32 φύλλα από 7 έως Άσο.	32 cards from Seven to Ace.
+evidence	τεκμήριο	attestation	Εγγραφή συνδεδεμένη με πηγή και συγκεκριμένο χωρίο.	An entry linked to a source and a precise passage.
+signal	ένδειξη	reading cue	Κανόνας που ενεργοποιείται από φύλλα και θέση.	A rule activated by cards and position.
+provenance	προέλευση τεκμηρίου	provenance	Έργο, έκδοση, σελίδα, γλώσσα και συνθήκη.	Work, edition, page, language and condition.
+narrative	αφηγηματική σύνθεση	narrative synthesis	Σύγχρονη ανάπτυξη δεμένη με τεκμήρια.	Modern rendering grounded in attestations.
+contradiction	αντικρουόμενη ένδειξη	conflicting indication	Διαφορά νοήματος ή ασύμβατη προϋπόθεση.	A difference in meaning or incompatible condition.
+centre	κεντρικό φύλλο της στάσης	central card of the stop	Το φύλλο στο οποίο καταλήγει η καταμέτρηση.	The card reached by counting.
+scene	σκηνή ανάγνωσης	reading scene	Αφηγηματική συνάρθρωση τοπικών ενδείξεων.	A narrative grouping of local cues.
+theme	θέμα ανάγνωσης	reading theme	Επιλογή εστίασης που δεν αλλάζει την κλήρωση.	A focus selection that leaves the deal intact.
+facet	εξειδίκευση σημασίας	semantic nuance	Μια πιο ειδική όψη με ενεργό ιστορικό στήριγμα.	A more specific facet with an active historical anchor.
+motif	ερμηνευτικό μοτίβο	interpretive motif	Κοινός σημασιολογικός πυρήνας.	A shared core meaning.
+witness	επιβεβαιωτική μαρτυρία	corroborating witness	Πρόσθετη τεκμηρίωση κοινού νοήματος.	Additional evidence for a shared meaning.
+anchor	ιστορικό στήριγμα	historical anchor	Ενεργή καταχώριση του κορμού Α.	An active entry from the A core.
+historic-trigger	ιστορικό έναυσμα	historical trigger	Προϋπόθεση εμφάνισης μιας καταχώρισης Α.	The condition activating an A entry.
+editorial-lens	επιμελητική οπτική	editorial lens	Σύγχρονη διατύπωση που φωτίζει όψεις με ανεξάρτητο στήριγμα.	Modern wording that highlights independently supported facets.
+occurrence	εμφάνιση ένδειξης	cue occurrence	Η ένδειξη με τις θέσεις και τη φάση της.	The cue with its positions and phase.
+question-focus	θεματική εστίαση της ερώτησης	question focus	Καθορίζει τι παρουσιάζεται πρώτο αν υπάρχει στήριγμα.	Sets the display priority when the spread provides support.
+narrative-link	αφηγηματική σχέση	narrative relation	Σχέση όπως συνύπαρξη ή αντίθεση μετά την ενεργοποίηση των ενδείξεων.	A relation such as coexistence or contrast after cues have activated.
+trace	ίχνος ανάγνωσης	reading trace	Φύλλα, στάσεις, γείτονες, ζεύγη, πακέτα και κοψίματα.	Cards, stops, neighbours, pairs, packets and cuts.
+replay	αναπαραγωγή ανάγνωσης	reading replay	Επανεκτέλεση με ίδια είσοδο και ίδια έκδοση.	Re-execution with identical input and version.
+parallel-reading	παράλληλη ιστορική ανάγνωση	historical parallel	Κοινό νόημα που τεκμηριώνεται σε άλλη μαρτυρία.	A shared meaning attested by another witness.
+registered-plan	κοινό σημασιολογικό σχέδιο	shared semantic plan	Κοινή επιλογή ενδείξεων και σχέσεων για EL και EN.	A single selection of cues and relations underlying Greek and English.
+specification	εκδοτική προδιαγραφή	editorial specification	Δεδομένα και κανόνες που περιμένουν έγκριση και υλοποίηση.	Data and policies awaiting approval and implementation.

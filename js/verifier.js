@@ -1,9 +1,9 @@
-import {narrativePanel} from './narrative-view.js';
-import {renderCredits} from './credits.js';
-import {loadContext, verifyRound, FILE_LIMIT} from './bundle.js';
-import {dataselectRoute, evidenceUrl, evidenceGroups, obtainEvidence} from './evidence.js';
-import {cardFace, renderReading} from './reading.js';
-import {localize, tr, hasMessage, element} from './strings.js';
+import {narrativePanel} from './narrative-view.js?v=2.0.0';
+import {renderCredits} from './credits.js?v=2.0.0';
+import {loadContext, verifyRound, FILE_LIMIT, catalogContext} from './bundle.js?v=2.0.0';
+import {dataselectRoute, evidenceUrl, evidenceGroups, obtainEvidence} from './evidence.js?v=2.0.0';
+import {cardFace, renderReading} from './reading.js?v=2.0.0';
+import {localize, tr, hasMessage, element} from './strings.js?v=2.0.0';
 
 const byId = id => document.getElementById(id);
 const input = byId('proof-file');
@@ -59,7 +59,8 @@ function render() {
   if (result.state === 'MISSING') {
     announce(transfer ? 'fetching' : 'missing');
     if (notice && !transfer) evidence.append(element('p', 'field-note', tr(notice)));
-    const groups = evidenceGroups(result.missing, context);
+    const routesContext = catalogContext(bundle.seismic.stations_txt, context);
+    const groups = evidenceGroups(result.missing, routesContext);
     if (groups.length) {
       const fetchButton = element('button', 'quiet', tr('fetchEvidence'));
       fetchButton.type = 'button';
@@ -90,7 +91,7 @@ function render() {
       });
       label.append(file);
       control.append(label);
-      const route = dataselectRoute(station, context);
+      const route = dataselectRoute(station, routesContext);
       const url = route && evidenceUrl([route], bundle.seismic.round);
       if (url) {
         const link = element('a', '', tr('providerFile'));
@@ -107,6 +108,7 @@ function render() {
   const match = {RESULT: 'verified', NO_FIGURE: 'verifiedNoFigure', NO_DATA: 'reportedNoData'};
   announce(match[result.state], result.state === 'NO_DATA' ? '' : 'success');
   output.append(element('p', 'field-note', tr('proofDigest') + ' · ' + bundle.proof_sha256));
+  if (result.narrativeState==='UNAVAILABLE') output.append(element('p','field-note',tr('narrationUnavailable')));
   if (result.state === 'RESULT') {
     const cards = element('div', 'cards');
     const fan = result.reading.attempts.at(-1).fan;
@@ -117,7 +119,7 @@ function render() {
       })));
     };
     highlight();
-    if (result.narrative) output.append(narrativePanel(result.narrative,context.knowledge));
+    if (result.narrative) output.append(narrativePanel(result.narrative, context.knowledge, context.hcke));
     output.append(cards, renderReading(result.reading, context.rules, index => highlight(result.reading.steps[index])));
   }
 }

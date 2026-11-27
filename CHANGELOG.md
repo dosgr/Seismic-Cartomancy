@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.0 · 27 Νοεμβρίου 2026 / 27 November 2026
+
+- Τοπική δίγλωσση HCKE με θεματικές αναγνώσεις και πλήρες ιστορικό αρχείο 1.326 καταχωρίσεων. / Local bilingual HCKE with reading themes and a complete 1,326-entry historical archive.
+- Συλλογή με προτεραιότητα ελληνικών σταθμών μέσω SEISMO 1.1.1, απόδειξη v3 και έλεγχος προηγούμενων αποδείξεων. / Greek-first SEISMO 1.1.1 collection, v3 proofs and legacy verification.
+- Ευανάγνωστη αντίστροφη μέτρηση και ενιαίο υποσέλιδο EL/EN. / Higher-contrast countdown and unified EL/EN footer.
+- Επίσημες διευθύνσεις και metadata, δημόσιο πακέτο με προαιρετική υποστήριξη ως ρύθμιση και χωριστό προσωπικό ZIP. / Production URLs and metadata, a configurable public package and a separate personal deployment ZIP.
+- [Αναλυτικές σημειώσεις / Release notes](docs/RELEASE-2.0.0.md).
+
 ## 1.1.0 · 25 November 2026
 
 - Νέα προεξάρχουσα αφήγηση EL/EN με θέματα, αντίθετους τόνους, επαναλαμβανόμενα μοτίβα, συνδυασμούς, τέσσερα θεματικά πακέτα και συγκριτικές ερμηνείες.

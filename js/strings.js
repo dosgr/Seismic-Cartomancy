@@ -1,5 +1,14 @@
 export const SOURCE_URL = 'https://ehm-admin.repository.gr/files/original/c09215b5410dae7316d22936185f0bd1cc3c3d97.pdf';
 const words = {
+  readingTheme:['Θέμα ανάγνωσης','Reading theme'],
+  extendedRound:['330 s · εκτεταμένες εφεδρείες','330 s · extended backups'],
+  hckeSources:['Τεκμήρια της σύνθεσης','Evidence behind the reading'],
+  synthesisLabel:['Σύγχρονη συμβολική απόδοση','Modern symbolic interpretation'],
+  narrationUnavailable:['Τα φύλλα επαληθεύτηκαν. Για την αφήγηση χρειάζεται η ακριβής έκδοση του HCKE.','Cards verified. The narrative requires the exact HCKE edition.'],
+  greekOnly:['Ελληνικοί σταθμοί','Greek stations'],
+  mixedSites:['Ελληνικοί και διεθνείς σταθμοί','Greek and international stations'],
+  worldOnly:['Διεθνείς σταθμοί','International stations'],
+
   narrativeTitle: ['Τι σου λένε τα χαρτιά','What the Cards Tell You'],
   packetNarrative: ['Τα τέσσερα πακέτα στην αφήγησή σου','The four packets in your story'],
   otherReadings: ['Συμπληρωματικές αναγνώσεις άλλων πηγών','Comparative readings from other sources'],
@@ -142,12 +151,19 @@ const suitNames = {D:['καρό','Diamonds','♦'], H:['κούπα','Hearts','�
 const ranks = {A:['Άσος','Ace'], K:['Ρήγας','King'], Q:['Ντάμα','Queen'], J:['Βαλές','Jack']};
 let language = 'el';
 
+const sitePath = new URL('../', import.meta.url).pathname;
+const storagePrefix = sitePath === '/seismiki/' ? 'seismo-cards:' : 'seismo-cards:' + sitePath + ':';
+
+export function clearPreference(key) {
+  try { localStorage.removeItem(storagePrefix + key); } catch { /* Storage is optional. */ }
+}
+
 export function stored(key) {
-  try { return localStorage.getItem('seismo-cards:' + key); } catch { return null; }
+  try { return localStorage.getItem(storagePrefix + key); } catch { return null; }
 }
 
 export function store(key, value) {
-  try { localStorage.setItem('seismo-cards:' + key, value); } catch { /* Storage is optional. */ }
+  try { localStorage.setItem(storagePrefix + key, value); } catch { /* Storage is optional. */ }
 }
 
 export function tr(key) {
@@ -183,6 +199,13 @@ export function localize(onChange) {
       href.searchParams.set('lang', language);
       link.href = href.href;
       if (href.pathname.endsWith('verify.html')) link.dataset.verify = '';
+    }
+    document.querySelectorAll('#support-area [data-el][data-en]').forEach(node => {
+      node.textContent = node.dataset[language];
+    });
+    for (const [attr, key] of [['aria-label','label'], ['alt','alt'], ['title','title']]) {
+      document.querySelectorAll('#support-area [data-'+key+'-'+language+']').forEach(node =>
+        node.setAttribute(attr,node.getAttribute('data-'+key+'-'+language)));
     }
     onChange();
   }
@@ -226,7 +249,7 @@ export function routeLabel(value = '') {
   if (literal[value]) return tr(literal[value]);
   if (value.startsWith('miniSEED')) return tr('unparsed');
   if (value.startsWith('WSS') || value.startsWith('Όριο WSS')) return tr('wsFail');
-  return /^HTTP \d{3}$/.test(value) ? value : tr('noContact');
+  return /^HTTP \d{3}/.test(value) ? value.slice(0,8) : tr('noContact');
 }
 
 export function hasMessage(error) { return Object.hasOwn(words, error.message); }

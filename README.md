@@ -1,4 +1,8 @@
-# Σεισμική Χαρτομαντεία · Seismic Cartomancy 1.1.0
+# Seismic Cartomancy 2.0.0
+
+[Εγκατάσταση σε cPanel](docs/INSTALL.md) · [Τεκμηρίωση](docs/HCKE.md) · [Δοκιμές](docs/qa/TEST-REPORT.md) · [30 δίγλωσσες συγκρίσεις](docs/qa/Comparative-readings.html)
+
+## Σεισμική Χαρτομαντεία · Seismic Cartomancy
 
 Αυτόνομο δίγλωσσο έργο με τη «Μέθοδο των 7» του *Θησαυρού* (30 Αυγούστου 1953, τχ. 770, σ. 26–27). Ο browser συλλέγει πραγματικές καταγραφές από τον πυρήνα του SEISMO και παράγει μια αναπαραγώγιμη ανάγνωση κοινής τράπουλας. Η εφαρμογή είναι πολιτιστική αναπαράσταση για ψυχαγωγία.
 
@@ -19,7 +23,9 @@ Choose a significator once, then select **Deal the cards**. The default is a 1-s
 
 ## Γρήγορη εκκίνηση / Quick start
 
-Extract the installation ZIP directly into an HTTPS directory on a static web server. Browse to that directory's `index.html`. The included `source.zip` is the exact corresponding source and can be downloaded from the application footer.
+Το δημόσιο πακέτο `Seismic-Cartomancy-v2.0.0-cPanel-public.zip` αποσυμπιέζεται απευθείας σε φάκελο HTTPS. Οι ρυθμίσεις πληρωμών και τα QR του δημιουργού περιλαμβάνονται αποκλειστικά στο χωριστό προσωπικό πακέτο. Ο πηγαίος κώδικας διατίθεται από την ενότητα «Πηγές, άδειες και απόρρητο».
+
+Extract `Seismic-Cartomancy-v2.0.0-cPanel-public.zip` directly into an HTTPS directory. The creator’s payment settings and QR codes are supplied exclusively in the separate personal deployment package. “Sources, licenses and privacy” links to the bundled corresponding source.
 
 For local development, unpack the source ZIP and run:
 
@@ -48,16 +54,18 @@ Run `npm test` with Node.js 24 or run `node --test tests/*.test.js` directly. Bu
 
 Βασισμένο στον σεισμολογικό μηχανισμό του [SEISMO](https://github.com/dosgr/SEISMO). / Based on the waveform collection and proof engine of [SEISMO](https://github.com/dosgr/SEISMO).
 
-Copyleft 2026 — [GNU AGPL v3](LICENSE) για τον κώδικα / for source code · [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) για το πρωτότυπο περιεχόμενο / for original content. Οι άδειες και οι αναφορές τρίτων καταγράφονται στο [SOURCES.md](docs/SOURCES.md). / See [SOURCES.md](docs/SOURCES.md) for third-party terms and credits.
+Copyleft 2026–27 — [GNU AGPL v3](LICENSE) για τον κώδικα / for source code · [CC BY-SA 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) για το πρωτότυπο περιεχόμενο / for original content. Οι άδειες και οι αναφορές τρίτων καταγράφονται στο [SOURCES.md](docs/SOURCES.md). / See [SOURCES.md](docs/SOURCES.md) for third-party terms and credits.
 
-### Τι νέο υπάρχει στην 1.1.0
+## Κυκλοφορία 2.0.0 / Release 2.0.0
 
-Το «Τι σου λένε τα χαρτιά» συνθέτει μια προσωπική, επαληθεύσιμη ανάγνωση σε EL/EN. Διατίθενται αντιγραφή, εκτύπωση, TXT και το μενού κοινοποίησης όπου υποστηρίζεται. Η ελληνική στατική είσοδος είναι η κύρια και η αγγλική βρίσκεται στο πραγματικό `en/`. Η γλώσσα μπορεί να αλλάζει και στον ενεργό γύρο.
+Η HCKE συνθέτει το ίδιο ερμηνευτικό σχέδιο και στις δύο γλώσσες, με τεκμήρια από το ιστορικό αρχείο των 1.326 καταχωρίσεων. Η θεματική επιλογή αλλάζει την αφήγηση. Η συλλογή δίνει προτεραιότητα στους ελληνικούς σταθμούς και, όταν χρειάζεται, χρησιμοποιεί διεθνείς εφεδρείες. Μπορείς να εξαγάγεις και να ελέγξεις την απόδειξη του γύρου.
 
-- [Μηχανή αφήγησης](docs/NARRATIVE.md)
-- [Συμπληρωματικές πηγές](docs/RESEARCH.md)
-- [Δίγλωσσα παραδείγματα](docs/EXAMPLES.md)
-- [Ιστορικό εκδόσεων](CHANGELOG.md)
+HCKE builds one interpretive plan for both languages, with evidence from the 1,326-entry archive. The selected theme changes the narrative. The collector prioritises Greek stations and uses international backups when needed. You can export and independently verify a round proof.
+
+- [Σημειώσεις κυκλοφορίας / Release notes](docs/RELEASE-2.0.0.md)
+- [Ιστορικό εκδόσεων / Changelog](CHANGELOG.md)
+- [Υποστήριξη και όροι παρόχων / Support and provider terms](docs/SUPPORT.el.md) · [English](docs/SUPPORT.md)
+- [Συμπληρωματικές πηγές / Research](docs/RESEARCH.md) · [Δίγλωσσα παραδείγματα / Examples](docs/EXAMPLES.md)
 
 ## Screenshots
 

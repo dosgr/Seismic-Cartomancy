@@ -1,0 +1,59 @@
+{
+  "status": "proposed-for-approval",
+  "policy_version": "hcke-semantic-policy.1",
+  "historical_rules": "thesavros-770-method-7.v1",
+  "historical_activation": {
+    "accepted_original_categories": ["A"],
+    "immutable_trace_required": true,
+    "accepted_phases": ["counting-stop", "full-fan-rank-count", "thematic-packet"],
+    "source_condition_transfer_allowed": false
+  },
+  "proof_compatibility": {
+    "historic_schemas_retained": ["seismo-cards-proof.v1", "seismo-cards-proof.v2"],
+    "proposed_new_proof_identifiers": ["rules_sha256", "catalogue_sha256", "policy_sha256", "lexicon_sha256", "plan_sha256"],
+    "scope": "narrative proof extension only"
+  },
+  "selection": {
+    "weight": {"historical_pair": 5, "rank_count": 4, "centre": 3, "packet_card": 2, "modifier": 2, "theme": 2, "witness": 0, "contemporary_phrase": 0},
+    "tie_break": ["historical_specificity", "phase_order", "stop_or_packet_order", "ascii_evidence_id"],
+    "maximum_main_scenes": 3,
+    "theme_changes_historical_trace": false,
+    "retain_distinct_same_pair_rules": ["P24", "P37"],
+    "unresolved_agent_rule": ["P19"],
+    "allowed_relations": ["coexistence", "contrast", "echo", "specificity", "support", "mitigation"],
+    "pack_order": ["personal", "family", "future", "unexpected"]
+  },
+  "topics": {
+    "general": {"el": "Γενική ανάγνωση", "en": "General reading"},
+    "love": {"el": "Σχέσεις και αισθήματα", "en": "Relationships and feelings"},
+    "work": {"el": "Εργασία και σχέδια", "en": "Work and plans"},
+    "money": {"el": "Οικονομικά", "en": "Money"},
+    "family": {"el": "Σπίτι και οικογένεια", "en": "Home and family"},
+    "social": {"el": "Κοινωνικές σχέσεις", "en": "Social connections"},
+    "change": {"el": "Αλλαγές και μετακινήσεις", "en": "Change and travel"},
+    "obstacles": {"el": "Δυσκολίες", "en": "Challenges"},
+    "support": {"el": "Στήριξη", "en": "Support"},
+    "inner": {"el": "Προσωπικός προβληματισμός", "en": "Personal reflection"}
+  },
+  "local_secondary_tags": {
+    "authority": "Institutional or procedural facet, never assumed from a question alone.",
+    "agency": "Scope for personal action already supported in the spread.",
+    "communication": "A message, profession, or sender only where supported by an active cue.",
+    "hope": "Favourable possibility without a promise.",
+    "repair": "Reconciliation or restoration already grounded in a cue.",
+    "surprise": "Unexpected aspect, distinct from the packet name.",
+    "trust": "Reliability or cautious judgement, without identity inference."
+  },
+  "question": {
+    "phase_one_input": "enumerated-topic-only",
+    "optional_free_text_changes_narration": false,
+    "proof_contains_free_text": false
+  },
+  "realisation": {
+    "languages": ["el", "en"],
+    "one_plan": true,
+    "normalized_unicode": "NFC",
+    "byte_encoding": "UTF-8",
+    "sample_strings_are_acceptance_references": true
+  }
+}

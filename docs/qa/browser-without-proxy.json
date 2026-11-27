@@ -1,0 +1,11 @@
+{
+  "live": {
+    "result": "Δεν εκδόθηκε αποτέλεσμα. Στο πάγωμα χρειάζονται τρεις πλήρεις, διαφορετικοί σταθμοί.",
+    "used": [],
+    "schema": "seismo-cards-proof.v1"
+  },
+  "mobileLayout": "no horizontal overflow in either language",
+  "support": "closed initially, both controls, toggles, QR display, copy action and both panel switches verified",
+  "errors": [],
+  "responses": []
+}

@@ -21,3 +21,9 @@ __pycache__/
 Thumbs.db
 .idea/
 .vscode/
+
+# Personal support overlays and generated deployment packages
+/assets/support/qr/
+/Seismic-Cartomancy-v*-cPanel*.zip
+/Seismic-Cartomancy-v*-source.zip
+/personal/

@@ -21,7 +21,7 @@ for(const [file, canonical, locale, lang] of [
    assert.ok(html.includes('hreflang="en" href="https://dos.gr/seismiki/en/"'));
    const schema = JSON.parse(html.match(/<script type="application\/ld\+json">([^<]+)<\/script>/)[1]);
    assert.equal(schema['@type'],'WebApplication');
-   assert.equal(schema.softwareVersion,'1.1.0');
+   assert.equal(schema.softwareVersion,JSON.parse(await get('package.json')).version);
    assert.equal(schema.url,canonical);
    const manifest=JSON.parse(await get('manifest-'+lang+'.json'));
    await Promise.all(manifest.icons.map(icon=>access(new URL(icon.src,root))));

@@ -1,0 +1,301 @@
+[
+  {
+    "id": "S-R01",
+    "title": {
+      "el": "Στάση με κέντρο και δύο αντίθετους γείτονες",
+      "en": "A stop with a centre and two contrasting neighbours"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-7C",
+      "A-P63",
+      "A-P65"
+    ],
+    "indicative_pattern": "card@centre+pair@left+pair@right",
+    "policy": {
+      "el": "Η καταχώριση του ζεύγους κρατά τη συγκεκριμένη έκβαση στη δική της πλευρά. Αν οι δύο είναι αντίθετες, συνδέονται με «από τη μία … από την άλλη» και καθεμία διατηρεί την έκτασή της.",
+      "en": "Keep the specific outcome of each pair on its own side. If they pull in opposite directions, use a two-sided contrast and retain the scope of each."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R02",
+    "title": {
+      "el": "Στάση με μια ειδική συνάντηση",
+      "en": "A stop with one specific encounter"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-8D",
+      "A-P11",
+      "A-9D"
+    ],
+    "indicative_pattern": "card@centre+pair@one-side+card@other-neighbour-in-trace",
+    "policy": {
+      "el": "Δώσε βάρος στο ιστορικό ζεύγος. Ο άλλος γείτονας παίρνει αφηγηματικό ρόλο μόνο αν στηρίζεται αλλού ως ενεργή ένδειξη ή αναφέρεται ρητά ως συμφραζόμενο της στάσης. Διατήρησε χωριστές τις εκβάσεις.",
+      "en": "Give weight to the historical pair. Use the other neighbour in the story only when supported elsewhere as an active cue or named explicitly as context for the stop. Keep the outcomes distinct."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R03",
+    "title": {
+      "el": "Δύο ρητές εκδοχές για το ίδιο ζεύγος",
+      "en": "Two attested readings for the same pair"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-P24",
+      "A-P37"
+    ],
+    "indicative_pattern": "same-physical-pair+different-A-readings",
+    "policy": {
+      "el": "Διατύπωσε και τις δύο σημασίες, ξεκινώντας με την ειδίκευση που αφορά την ερώτηση. Η προτεραιότητα εμφάνισης δεν αναιρεί τη δεύτερη ανάγνωση.",
+      "en": "Present both meanings, placing the one most relevant to the question first. Display order leaves the second reading intact."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R04",
+    "title": {
+      "el": "Επανάληψη αξίας και ατομικές ενδείξεις",
+      "en": "Repeated rank and individual cues"
+    },
+    "scope": "fan+pack",
+    "grounding_examples": [
+      "A-M-4-3",
+      "A-4S",
+      "A-4D",
+      "A-4C"
+    ],
+    "indicative_pattern": "exact-rank-count@fan+card@active-scope",
+    "policy": {
+      "el": "Δώσε μία φράση στο ιστορικό ακριβές πλήθος. Στο πακέτο ανάφερε τις ατομικές ενδείξεις που εξηγούν γιατί έχει σημασία το θέμα.",
+      "en": "Give the exact historical count one sentence. In the packet, use the individual cues that explain why the theme matters."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R05",
+    "title": {
+      "el": "Μετρίαση δυσμενούς γείτονα",
+      "en": "Softening an adverse neighbour"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-AC-MOD",
+      "A-4H",
+      "A-JC"
+    ],
+    "indicative_pattern": "approved-AC-placement+adverse-typed-target",
+    "policy": {
+      "el": "Σύνδεσε τη μετρίαση μόνο με τον δυσμενή γείτονα που επιτρέπει η στάση. Διατήρησε χωριστά τη θετική ένδειξη και κάθε συνδυασμό με άλλη προέλευση.",
+      "en": "Attach mitigation only to the adverse neighbour allowed by the stop. Keep the favourable cue and any separate combination distinct."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R06",
+    "title": {
+      "el": "Μήνυμα με συμφραζόμενα",
+      "en": "A message in context"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-AD",
+      "A-3C",
+      "A-10H",
+      "N-LAW-008"
+    ],
+    "indicative_pattern": "ace@centre+independently-grounded-context",
+    "policy": {
+      "el": "Οι γείτονες φωτίζουν πιθανά συμφραζόμενα. Αποστολέας ή συγκεκριμένη εξέλιξη χρειάζονται πρόσθετη ενεργή ένδειξη του 770.",
+      "en": "Neighbours illuminate possible context. A sender or a specific development requires further active evidence from issue 770."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R07",
+    "title": {
+      "el": "Στήριξη και εμπόδιο στην ίδια σκηνή",
+      "en": "Support and an obstacle in the same scene"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-P18",
+      "A-KC",
+      "A-3D"
+    ],
+    "indicative_pattern": "card@centre+historical-pair+compatible-topic",
+    "policy": {
+      "el": "Η στήριξη αποκτά συγκεκριμένο αντικείμενο. Διατήρησε τις δυσκολίες και άφησε ανοιχτό αν και πόσο θα βοηθήσει.",
+      "en": "Support finds something specific to address. Keep the difficulties visible and leave open how much help will make a difference."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R08",
+    "title": {
+      "el": "Τριάδα με κοινό θεματικό αντικείμενο",
+      "en": "A three-card packet with a shared subject"
+    },
+    "scope": "pack",
+    "grounding_examples": [
+      "A-3C",
+      "A-4D",
+      "A-4C",
+      "N-TH768-064"
+    ],
+    "indicative_pattern": "all-three-in-same-packet+aligned-topics",
+    "policy": {
+      "el": "Οργάνωσε την τριάδα ως προσπάθεια, συμβολή και πρακτικό αποτέλεσμα. Η σχέση αυτή είναι επιμελητική, και δεν παράγει τέταρτο ιστορικό κανόνα.",
+      "en": "Read the packet as effort, contribution and practical result. The relationship is editorial and adds no fourth historical trigger."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R09",
+    "title": {
+      "el": "Τριάδα με δύο κύριους τόνους",
+      "en": "A three-card packet with two main tones"
+    },
+    "scope": "pack",
+    "grounding_examples": [
+      "A-5H",
+      "A-QH",
+      "A-4H"
+    ],
+    "indicative_pattern": "all-three-in-same-packet+two-tones",
+    "policy": {
+      "el": "Ξεχώρισε την ποιότητα του δεσμού από την έγνοια που τον περιβάλλει. Η δυσμενής ένδειξη κρατά δικό της χώρο.",
+      "en": "Separate the quality of the bond from the worry surrounding it. The adverse cue keeps a place of its own."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R10",
+    "title": {
+      "el": "Επαναφορά μοτίβου χωρίς διπλή στάθμιση",
+      "en": "An echoed motif without double weighting"
+    },
+    "scope": "fan+pack",
+    "grounding_examples": [
+      "A-7H",
+      "A-10H"
+    ],
+    "indicative_pattern": "same-motif-in-two-scopes",
+    "policy": {
+      "el": "Στη δεύτερη εμφάνιση πες πώς αλλάζει το πλαίσιο. Μέτρησε την ομοιότητα ως σύνδεση ανάμεσα σε σκηνές και κάθε φυσική συνάντηση μία φορά.",
+      "en": "On the second appearance, show how the context has changed. Treat the echo as a link between scenes and count each physical encounter once."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R11",
+    "title": {
+      "el": "Αμφίσημος ρόλος φιγούρας",
+      "en": "An ambiguous court-card role"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-P19",
+      "A-3D",
+      "A-QH"
+    ],
+    "indicative_pattern": "ambiguous-historical-agent",
+    "policy": {
+      "el": "Ονόμασε την προστασία και το εγχείρημα. Άφησε ακαθόριστο ποιος προσφέρει ή λαμβάνει τη βοήθεια.",
+      "en": "Name the protection and the undertaking. Leave open who offers or receives the help."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R12",
+    "title": {
+      "el": "Ερώτηση με αραιή τεκμηρίωση",
+      "en": "A question with sparse supporting evidence"
+    },
+    "scope": "reading",
+    "grounding_examples": [
+      "A-3S",
+      "A-7D"
+    ],
+    "indicative_pattern": "explicit-topic-without-matching-active-cue",
+    "policy": {
+      "el": "Δήλωσε ότι το άνοιγμα δίνει πιο καθαρή ένδειξη για άλλο θέμα. Η ουδέτερη σύνοψη σταματά εκεί όπου λείπει η τεκμηρίωση.",
+      "en": "Say that the spread speaks more clearly to a different topic. Keep the summary neutral where supporting cues are absent."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R13",
+    "title": {
+      "el": "Απογοήτευση και προοπτική αλλαγής",
+      "en": "Disappointment and possible change"
+    },
+    "scope": "reading",
+    "grounding_examples": [
+      "A-4S",
+      "A-M-10-3"
+    ],
+    "indicative_pattern": "both-cues-active+no-causal-link-proven",
+    "policy": {
+      "el": "Ανάπτυξε την αλλαγή ως χωριστή δυνατότητα. Μπορείς να συνδέσεις τις ενδείξεις με ερώτηση περισυλλογής, αφήνοντας ανοιχτή τη μεταξύ τους αιτιότητα.",
+      "en": "Develop change as a separate possibility. A reflective question can connect the cues while leaving causation open."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R14",
+    "title": {
+      "el": "Ευαίσθητη ιστορική ένδειξη",
+      "en": "A sensitive historical clue"
+    },
+    "scope": "reading",
+    "grounding_examples": [
+      "A-10S",
+      "A-P54",
+      "A-P72"
+    ],
+    "indicative_pattern": "sensitive-A-trigger-present",
+    "policy": {
+      "el": "Φύλαξε ακριβή ιστορική απόδοση στο τεκμήριο. Στην αφήγηση μίλησε μόνο για τον γενικό, υποστηριζόμενο τόνο ή παρέλειψε το επιμέρους σκέλος. Μην παράγεις διάγνωση ή βεβαιότητα.",
+      "en": "Preserve the exact historical reading in the evidence. In the story use only the supported general tone or omit that detail. Produce no diagnosis or certainty."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  },
+  {
+    "id": "S-R15",
+    "title": {
+      "el": "Ατομικός τόνος και ειδικό αποτέλεσμα",
+      "en": "Individual tone and a specific outcome"
+    },
+    "scope": "fan-stop",
+    "grounding_examples": [
+      "A-9C",
+      "A-7C",
+      "A-P61"
+    ],
+    "indicative_pattern": "matching-A-pair-and-individuals",
+    "policy": {
+      "el": "Διατήρησε την ευρεία οικονομική δυνατότητα στις ατομικές εικόνες. Για τη συγκεκριμένη αναμενόμενη είσπραξη προέχει η ρητή ένδειξη του ζεύγους.",
+      "en": "Retain the broad financial possibility in the individual cues. For the specific payment expected, give priority to what the pair expressly says."
+    },
+    "category": "Σ",
+    "historical_trigger": false
+  }
+]

@@ -1,0 +1,33 @@
+✔ verified country and physical priority is Greek-only then mixed then international (2.421919ms)
+✔ upstream timing schedules exact-window queries and reserves tier 5 for extended rounds (12.702743ms)
+✔ 204, 404, 503 and timeout responses leave an honest no-result round (383.3511ms)
+✔ approved corpus is complete and the full historical archive is unchanged (50.152792ms)
+✔ the 30 comparison cases preserve the exact cards and v1.1.0 text and run HCKE twice (153.523409ms)
+✔ one thousand distinct deterministic fixture plans preserve every historical activation across themes (1762.422642ms)
+✔ both proof formats replay, and changing topic or wording requires a new valid narrative (250.055907ms)
+✔ static discovery metadata and local assets in index.html (15.884819ms)
+✔ static discovery metadata and local assets in en/index.html (4.699233ms)
+✔ printed 1953 fan preserves the seven starts, targets, neighbours and return (3.102878ms)
+✔ the complete deterministic deck deals to the left and never duplicates an identity (0.374885ms)
+✔ prefers the locked figure, then 7H, then 7C, then returns null (0.173988ms)
+✔ every one of the 72 sourced pairs matches from either side and is bilingual (23.793031ms)
+✔ all 39 equal-rank rules use the exact count even for non-adjacent cards (2.51706ms)
+✔ real archive: compatible P3 result and reproducible P4 cards, attempts and packs (97.264413ms)
+✔ a rejected fan is recorded and the next deterministic attempt chooses 7C (2.91559ms)
+✔ Ace of Clubs annotates neighbours without replacing their basic meanings (0.456487ms)
+✔ all historic signals have bilingual narrative or historical text, and comparative sources exist (1.035705ms)
+✔ v2 verifies the narrative in both languages while v1 continues to verify the original cards (320.996968ms)
+✔ narrative uses historical contradictions and ranks, and attaches distinct comparative provenance (1.289642ms)
+✔ 256 test openings have grounded, varied, deterministic bilingual narratives (536.999429ms)
+✔ independent verifier checks the result from actual miniSEED and catches altered proof fields (208.347518ms)
+✔ missing miniSEED are named; correct attachments complete independent replay (89.522161ms)
+✔ wrong waveform or inconsistent P4 output fails even in a freshly sealed bundle (106.280419ms)
+✔ insufficient collection issues a no-data proof and never deals (26.914121ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2583.388849

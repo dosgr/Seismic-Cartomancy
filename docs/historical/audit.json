@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "baseline_record_objects_retained": 312,
+  "exact_duplicate_new_rows": 0,
+  "card_identities_with_new_individual_evidence": 52,
+  "unique_archival_positions": 144,
+  "bilingual_complete": true,
+  "valid_card_and_symbol_tokens": true,
+  "new_records_runtime_eligible": 0,
+  "supporting_witnesses_with_valid_targets": 39,
+  "limits": "Structural tests are independent of the historical and editorial judgments. Equivalent readings with distinct original triggers are compared in the study."
+}

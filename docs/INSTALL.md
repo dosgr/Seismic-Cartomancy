@@ -1,39 +1,18 @@
 # Εγκατάσταση / Installation
 
-## cPanel, Apache, Nginx
+## Υφιστάμενος φάκελος cPanel
 
-1. Δημιούργησε έναν φάκελο, π.χ. `public_html/chartomanteia/`. Ανέβασε το `Seismiki-Chartomanteia-1.0.0-install.zip` και κάνε εξαγωγή απευθείας εκεί. Το `index.html`, το `verify.html` και το `source.zip` πρέπει να βρίσκονται στο ίδιο επίπεδο.
-2. Άνοιξε από HTTPS τη διεύθυνση του φακέλου. Η εφαρμογή χρησιμοποιεί σχετικά paths και μπορεί να εγκατασταθεί στο web root ή σε υποκατάλογο.
-3. Σε Apache/Nginx, κράτησε το `index.html` ως index του φακέλου. Βεβαιώσου ότι ο server σερβίρει αρχεία `.js` με τύπο JavaScript και `.json` ως JSON. Οι ίδιες οδηγίες ισχύουν για στατική φιλοξενία. Δεν απαιτούνται PHP, βάση, rewrite rules ή server-side API.
-4. Κράτησε διαθέσιμο το `source.zip` και το `LICENSE` δίπλα στην εφαρμογή. Το ZIP περιέχει τον αντίστοιχο πηγαίο κώδικα αυτής της έκδοσης.
+1. Κράτησε αντίγραφο του υπάρχοντος φακέλου πριν την αντικατάσταση.
+2. Ανέβασε το προσωπικό **Seismic-Cartomancy-v2.0.0-cPanel.zip** στον φάκελο **seismiki/**, συνήθως **public_html/seismiki/**. Στο File Manager επίλεξε **Extract** μέσα σε αυτόν τον φάκελο και επίτρεψε αντικατάσταση. Τα `index.html`, `en/` και `donate-config.js` βρίσκονται στη ρίζα του ZIP.
+3. Άνοιξε [Ελληνικά](https://dos.gr/seismiki/), [Αγγλικά](https://dos.gr/seismiki/en/) και [Επαλήθευση](https://dos.gr/seismiki/verify.html). Κάνε πλήρη ανανέωση αν ο browser κρατά παλιό HTML.
+4. Η προσωπική διανομή έχει ήδη έτοιμους τους διακόπτες και τα QR. Το πλαίσιο ανοίγει με το Donate ή με τον τίτλο της αναδιπλούμενης ενότητας. Περισσότερα στις [ρυθμίσεις υποστήριξης](SUPPORT.el.md).
 
-Extract the installation archive into an HTTPS directory. Serve it as a regular static site with `index.html` as the directory index and standard MIME types. Keep the exact corresponding `source.zip` available in the same folder. GitHub permissions are not required.
+Το δημόσιο ZIP **Seismic-Cartomancy-v2.0.0-cPanel-public.zip** χρησιμοποιεί την ίδια εφαρμογή με κενές ρυθμίσεις πληρωμών και χωρίς QR προορισμών. Και τα δύο ZIP περιέχουν το `source.zip` και το αντίγραφό του `Seismiki-Chartomanteia-source.zip`. Χρειάζεται HTTPS για Web Crypto, ορισμός του `index.html` ως αρχείου ευρετηρίου και κανονικοί τύποι περιεχομένου για JS και JSON. Αν έχεις αυστηρό Content Security Policy, επίτρεψε στο `connect-src` τους ενεργούς προορισμούς HTTPS και WSS του `stations.txt`.
 
-## Local use and rebuild
+## Existing cPanel directory
 
-Unpack `source.zip` and run `python3 dev.py` from its directory. Open `http://127.0.0.1:4173/`. Localhost is a secure context for Web Crypto. Opening the HTML as a `file:` URL cannot load the modules and local catalog reliably. Production should use HTTPS.
+Back up the current application directory. Upload the personal ZIP to **seismiki/** (typically **public_html/seismiki/**) and extract it directly there, allowing replacement. Open the [Greek](https://dos.gr/seismiki/) and [English](https://dos.gr/seismiki/en/) editions over HTTPS. If the browser still displays cached HTML, force a reload. The personal settings are ready to use. The public ZIP ships the same app with blank payment settings and excludes payment QR codes. See [support configuration](SUPPORT.md) for details. Both packages include the corresponding source. A static server with HTTPS, `index.html` as its directory index and correct JS/JSON media types is sufficient. Under a strict CSP, allow the station catalog’s active HTTPS and WSS endpoints in `connect-src`.
 
-```sh
-node --test tests/*.test.js
-python3 release.py --out-dir releases
-```
+## Τοπικός έλεγχος και συσκευασία / Local testing and packaging
 
-The release script uses only the Python standard library. It writes an installation ZIP and separate source ZIP, directly from the files in this project. It includes no dependency on SEISMO's earlier phase ZIPs. To serve the complete built release locally, extract the install ZIP and run `python3 -m http.server 4173 --bind 127.0.0.1` inside it.
-
-## Live providers and verification
-
-The browser connects directly to the entries marked active for browser use in `stations.txt`. A deployment with a custom content security policy must allow those HTTPS and WSS `connect-src` destinations. Provider outages, availability, CORS, browser throttling and forwarding delays can produce **no result**. Open the station panel to inspect the individual responses. There is no replacement source of randomness.
-
-To verify saved evidence, visit `verify.html` on this release. Upload the JSON. For non-embedded recordings use **Retrieve from providers** for grouped, exact-window FDSN requests, or attach the original miniSEED for the listed routes. Verification can run without Internet access if all relevant evidence is available locally.
-
-For a higher-traffic rollout, review and confirm provider quotas and terms for the deployment before publishing. Keep a separate version of the verifier and catalog if you change this release's catalog or rules. A proof pins the issued versions, and the current verifier checks them against its own copies.
-
-## Αναβάθμιση από 1.0.0 στον υπάρχοντα υποφάκελο
-
-1. Κράτησε αντίγραφο του υπάρχοντος `public_html/seismiki/`, ιδίως τυχόν δικού σου `.htaccess`.
-2. Αποσυμπίεσε το install ZIP στον ίδιο φάκελο, ώστε τα `index.html`, `verify.html` και `Seismiki-Chartomanteia-source.zip` να βρίσκονται δίπλα στο `en/`. Το `source.zip` διατηρείται ως συμβατό ψευδώνυμο.
-3. Ενεργοποίησε «Show Hidden Files» στο cPanel για να δεις το `.htaccess`. Αν υπάρχουν δικοί σου κανόνες, συγχώνευσε τις οδηγίες του πακέτου στον υπάρχοντα φάκελο. Ο κανόνας αφορά μόνο το `dos.gr` και τη διαδρομή `/seismiki`. Χρησιμοποιεί το `HTTPS` του Apache. Αν το TLS τερματίζει σε CDN ή reverse proxy, όρισε την ανακατεύθυνση στο επίπεδο που γνωρίζει το πραγματικό scheme και μη χρησιμοποιήσεις διπλό redirect.
-4. Έλεγξε την έκδοση στο `/seismiki/`, την αγγλική είσοδο `/seismiki/en/`, το `verify.html` και την εικόνα `/seismiki/assets/social.jpg`. Αν υπάρχει CDN, καθάρισε την cache αυτών των διαδρομών μετά την εγκατάσταση.
-5. Οι τοπικές προτιμήσεις διατηρούνται στον ίδιο browser και origin. Ο verifier της έκδοσης 1.1.0 συνεχίζει να διαβάζει αποδείξεις της 1.0.0.
-
-Μετά την εγκατάσταση, επιβεβαίωσε με `curl -I http://dos.gr/seismiki/` ότι η απόκριση ανακατευθύνει σε HTTPS και με `curl -IL https://dos.gr/seismiki/` ότι δεν υπάρχει βρόχος. Η εικόνα έχει δηλωθεί ως JPEG 1200 × 630 με απόλυτο URL. Οι πλατφόρμες κοινοποίησης διατηρούν δική τους cache και χρειάζονται έλεγχο αφού είναι διαθέσιμα τα νέα δημόσια assets.
+From the source archive, run `python3 dev.py` for a local HTTP server and `npm test` for the suite. Use `python3 release.py --out-dir releases` for the public packages. An operator with the original personal SEISMO v1.1.1 files can additionally pass `--personal-support-dir /path/to/extracted/seismo` to build the personal cPanel ZIP in the `personal/` output directory. Υποστηρίζεται Python 3.9+ / Requires Python 3.9+.

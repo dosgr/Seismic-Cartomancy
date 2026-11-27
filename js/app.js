@@ -1,13 +1,15 @@
-import {narrativePanel} from './narrative-view.js';
-import {renderCredits} from './credits.js';
-import {loadContext, reserveRound, sealRound} from './bundle.js';
-import {FIGURES} from './method.js';
-import {cardFace, renderReading} from './reading.js';
-import {cardName, tr, localize, element, stored, store, routeLabel} from './strings.js';
+import './donate.js?v=2.0.0';
+import {narrativePanel} from './narrative-view.js?v=2.0.0';
+import {renderCredits} from './credits.js?v=2.0.0';
+import {loadContext, reserveRound, sealRound} from './bundle.js?v=2.0.0';
+import {FIGURES} from './method.js?v=2.0.0';
+import {cardFace, renderReading} from './reading.js?v=2.0.0';
+import {cardName, tr, localize, element, stored, store, routeLabel, currentLanguage} from './strings.js?v=2.0.0';
 
 const byId = id => document.getElementById(id);
 const form = byId('start-form');
 const figure = byId('figure');
+const theme = byId('reading-theme');
 const stageNames = ['collect', 'shuffle', 'cut', 'deal', 'count', 'packets'];
 const reducedPref = matchMedia('(prefers-reduced-motion: reduce)');
 let reduceMotion = stored('reduced-motion') === 'true' || reducedPref.matches;
@@ -30,6 +32,15 @@ function renderForm() {
   byId('start').textContent = tr(proof ? 'again' : 'start');
   byId('boot-status').textContent = bootError ? tr(bootError) : '';
   byId('start').disabled = active || !context;
+  const topic = theme.value || stored('theme') || 'general';
+  const topics = context?.hcke?.policy.topics ?? {general:{el:'Γενική ανάγνωση',en:'General reading'}};
+  theme.replaceChildren(...Object.entries(topics).map(([id,label])=>{
+    const option=element('option','',label[currentLanguage()]);
+    option.value=id;
+    return option;
+  }));
+  theme.value = Object.hasOwn(topics,topic) ? topic : 'general';
+  theme.disabled = active;
   figure.disabled = active;
   byId('duration').disabled = active;
   byId('round-seconds').disabled = active;
@@ -112,6 +123,10 @@ function renderTelemetry() {
   const telemetry = byId('telemetry-counts');
   telemetry.replaceChildren(element('span', '', tr(seismic ? 'selectedSites' : 'fullRoutes')),
     element('strong', '', seismic ? '' + seismic.used.length : complete + ' / ' + (context?.stations.length ?? '–')));
+  if (seismic?.used.length) {
+    const greek=seismic.used.filter(key=>context.stations.find(station=>station.key===key)?.country_code==='GR').length;
+    telemetry.append(element('span','field-note',tr(greek===3?'greekOnly':greek?'mixedSites':'worldOnly')));
+  }
   byId('telemetry-time').textContent = reserved?.start_utc ?? '';
   const wave = routes.find(row => row.key === waveKey);
   byId('wave-caption').textContent = wave ? tr('waveFor') + ' · ' + wave.key.split('~').at(-1) : tr('noWave');
@@ -141,7 +156,7 @@ function renderFinishedReading() {
   const reading = byId('reading');
   reading.hidden = active || proof?.reading.state !== 'RESULT';
   if (reading.hidden) return;
-  const narrative = proof.narrative ? [narrativePanel(proof.narrative, context.knowledge)] : [];
+  const narrative = proof.narrative ? [narrativePanel(proof.narrative, context.knowledge, context.hcke)] : [];
   reading.replaceChildren(...narrative, renderReading(proof.reading, context.rules, index => {
     stop = index;
     renderCards();
@@ -208,6 +223,7 @@ form.addEventListener('submit', async event => {
   event.preventDefault();
   if (!context || active || !FIGURES.includes(figure.value)) return;
   const preferred = figure.value;
+  const topic = theme.value;
   store('figure', preferred);
   active = true;
   proof = null;
@@ -253,7 +269,7 @@ form.addEventListener('submit', async event => {
       issue = true;
     }
     seismic.stations_txt = context.catalogText;
-    proof = await sealRound(seismic, preferred, context);
+    proof = await sealRound(seismic, preferred, context, topic);
     await new Promise(resolve => setTimeout(resolve, Math.max(0, deadline - performance.now())));
     clearInterval(timer);
     counter = '';
@@ -273,6 +289,8 @@ form.addEventListener('submit', async event => {
     renderFinishedReading();
   }
 });
+
+theme.addEventListener('change', () => store('theme', theme.value));
 
 figure.addEventListener('change', () => {
   if (FIGURES.includes(figure.value)) store('figure', figure.value);
@@ -315,9 +333,13 @@ localize(() => {
 
 try {
   if (!globalThis.crypto?.subtle) bootError = 'crypto';
-  else context = await loadContext();
+  else {
+    context = await loadContext();
+    if (!context.hcke) throw Error('HCKE unavailable');
+  }
 } catch (error) {
   console.error(error);
+  context = undefined;
   bootError = 'resources';
 }
 renderForm();

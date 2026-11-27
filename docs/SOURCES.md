@@ -2,9 +2,9 @@
 
 ## SEISMO
 
-Ο μηχανισμός συλλογής, ο αποκωδικοποιητής miniSEED 2, ο κατάλογος και η κρυπτογραφική επαλήθευση προέρχονται από το **SEISMO v1.0.0**, Λυκούργος Κεκεμπάνος / Lyk.Gr, 2026. [Upstream commit d77e837](https://github.com/dosgr/SEISMO/tree/d77e837f37ab03514ffee529209b68b457ec6270).
+Ο μηχανισμός συλλογής, ο αποκωδικοποιητής miniSEED 2, ο κατάλογος και η κρυπτογραφική επαλήθευση έχουν ως βάση το **SEISMO v1.0.0** και αναβαθμίστηκαν από το συνημμένο **SEISMO v1.1.1-cPanel.zip**, Λυκούργος Κεκεμπάνος / Lyk.Gr, 2026. [Upstream commit d77e837](https://github.com/dosgr/SEISMO/tree/d77e837f37ab03514ffee529209b68b457ec6270).
 
-- `js/mseed.js`, `js/live.js`, `stations.txt` are carried over unchanged. In `js/proof.js`, the canonical input builder was extracted from the existing P3/P4 computation. This refactoring preserves the canonical bytes and the original P3/P4 output. The card layer and its UI are additions.
+- `js/mseed.js`, `js/live.js`, `stations.txt` were refreshed from the supplied package. The existing miniSEED decoder and old catalog remain available for prior proofs. In `js/proof.js`, the canonical input builder was extracted from the existing P3/P4 computation. This refactoring preserves the canonical bytes and the original P3/P4 output. The card layer and its UI are additions.
 - Derivative code is distributed under [GNU AGPL v3](../LICENSE). The installation archive includes a clearly linked, complete corresponding source archive with tests and scripts. Preserve the notices and license when serving or distributing the release. [GNU AGPL](https://www.gnu.org/licenses/agpl-3.0.en.html)
 - The copied upstream algorithm and upstream notices retain their author credits and original terms. Original SEISMO documentation/content is CC BY‑SA 4.0. [Upstream notice](NOTICE.md) · [Upstream content license](LICENSE-CONTENT.md)
 
@@ -14,11 +14,13 @@
 
 ## Waveforms
 
-- NOA network HL and GEOFON GE are marked CC BY 4.0 in upstream's notices and catalog. Only these networks are eligible to have original miniSEED embedded by this version, and only when the route's redistribution flag is set. `tests/fixtures/noa-archive.json` contains three NOA recordings from upstream's archived demonstration with the original attribution. [NOA HL · DOI 10.7914/SN/HL](https://doi.org/10.7914/SN/HL) · [GEOFON GE · DOI 10.14470/TR560404](https://doi.org/10.14470/TR560404) · [Όροι EIDA/NOA](https://eida2.gein.noa.gr/waveform/) · [GFZ data license](https://geofon.gfz.de/doi/network/GE)
+- NOA HL, GEOFON GE and EPOS France CL are marked CC BY 4.0 in upstream's notices and catalog. Only these networks are eligible to have original miniSEED embedded by this version, and only when the route's redistribution flag is set. `tests/fixtures/noa-archive.json` contains three NOA recordings from upstream's archived demonstration with the original attribution. [NOA HL · DOI 10.7914/SN/HL](https://doi.org/10.7914/SN/HL) · [GEOFON GE · DOI 10.14470/TR560404](https://doi.org/10.14470/TR560404) · [Όροι EIDA/NOA](https://eida2.gein.noa.gr/waveform/) · [GFZ data license](https://geofon.gfz.de/doi/network/GE)
 - SCEDC/CI and EarthScope routes retain network and station attribution. The generated JSON leaves their restricted recordings with hashes and exact-window provider links. The verifier can retrieve or read those files locally. These recordings are not bundled in the installation or source ZIP. [SCEDC citation](https://scedc.caltech.edu/about/citation.html) · [IU network](https://www.fdsn.org/networks/detail/IU/) · [EarthScope access and terms](https://service.earthscope.org/fdsnws/)
 - Dataselect usage is bounded and on demand. The provider policies distinguish this from continuous polling. [FDSN web services](https://www.fdsn.org/webservices/) · [SCEDC Dataselect](https://service.scedc.caltech.edu/fdsnws/dataselect/1/)
 
 ## Assets
+
+- Optional support panels, branding and their local configuration come from the supplied SEISMO v1.1.1. The [upstream notice](NOTICE.md) identifies the mark owners. The personal deployment overlays the original payment configuration and QR images. The public source and installation archives use blank destinations and omit payment QR codes. See the [support guide](SUPPORT.md).
 
 - Playing-card faces from Austin Gabriel, *Public Domain and CC0 Playing Cards*, commit `3765067c32fcef42a30e87022332db729658e7cd`. The upstream repository dedicates the deck under CC0. The 52 supplied faces were resized and re-encoded as WebP. The license is preserved in [assets/cards/CC0.txt](../assets/cards/CC0.txt). [Deck source](https://github.com/AustinGabriel/Public-Domain-and-CC0-Playing-Cards/tree/3765067c32fcef42a30e87022332db729658e7cd)
 - `assets/table.webp` is a new generated illustrative still life for this project. The project favicon and CSS card backs are original project assets. There are no round-time image, AI or external font calls.

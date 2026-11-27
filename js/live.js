@@ -7,25 +7,44 @@ const SeismoLive=(()=>{
     return buf;
   };
   const utc=ms=>new Date(ms).toISOString();
+  const policy="seismo-greek-first-1.1";
+  const timing={
+    1:[7000,5000], 2:[10000,4000], 3:[8500,3500], 4:[12000,3500], 5:[300000,5000]
+  };
+  const httpState={
+    204:"HTTP 204 · Κενό χρονικό παράθυρο", 400:"HTTP 400 · Απορρίφθηκε το αίτημα",
+    404:"HTTP 404 · Πόρος μη διαθέσιμος", 413:"HTTP 413 · Όριο μεγέθους αιτήματος"
+  };
   const wait=ms=>new Promise(done=>setTimeout(done,Math.max(0,ms)));
   const cooldown=new Map();
 
   function routeGroups(routes){
     const map=new Map();
     for(const row of routes){
-      const [net,,loc,cha]=row.id.split(".");
-      const key=row.protocol==="WSS"?row.url:JSON.stringify([row.url,net,loc,cha]);
+      const key=JSON.stringify([row.url,row.level]);
       if(!map.has(key))map.set(key,[]);
       map.get(key).push(row);
     }
     return [...map.values()];
   }
   function queryURL(rows,r){
-    const [network,,loc,channel]=rows[0].id.split(".");
-    const args=new URLSearchParams({network,location:loc||"--",channel,
-      station:rows.map(s=>s.id.split(".")[1]).join(","),
-      starttime:r.start_utc,endtime:r.end_utc,nodata:"404"});
+    const ids=rows.map(s=>s.id.split("."));
+    const by=(column)=>[...new Set(ids.map(parts=>parts[column]||"--"))].join(",");
+    const args=new URLSearchParams({network:by(0),station:by(1),location:by(2),channel:by(3),
+      starttime:r.start_utc,endtime:r.end_utc,nodata:"204"});
     return rows[0].url+"?"+args;
+  }
+  function plan(r,routes){
+    const end=r.start_ms+r.duration*1000;
+    const extended=r.spin_seconds===330;
+    return routeGroups(routes).map(rows=>{
+      const {level,protocol,url}=rows[0];
+      const inactive=(!extended&&level===5)||(protocol==="WSS"&&!extended);
+      const [pause,reserve]=timing[level]||[10000,5000];
+      const send=inactive?null:protocol==="WSS"?r.accepted_ms:
+        Math.max(end,Math.min(end+pause,r.freeze_ms-reserve));
+      return {host:new URL(url).host,protocol,level,keys:rows.map(s=>s.key),send_ms:send};
+    });
   }
   async function boundedBody(response,maxBytes=768000){
     const reader=response.body.getReader();
@@ -145,7 +164,10 @@ const SeismoLive=(()=>{
           row.arrival_ms=receivedMs;
           row.window_delay_ms=receivedMs-(r.start_ms+r.duration*1000);
           delete row.sample_age_ms;
-          if(decoded.lastSampleMs!==null)row.sample_age_ms=receivedMs-decoded.lastSampleMs;
+          if(decoded.lastSampleMs!==null){
+            row.sample_age_ms=receivedMs-decoded.lastSampleMs;
+            row.last_sample_utc=utc(decoded.lastSampleMs);
+          }
           row.status={...row.status,state:row.complete?"Πλήρης λήψη":decoded.count?"Μερική κάλυψη":"Εκτός παραθύρου"};
           candidates.delete(st.key);
           rawByRoute.delete(st.key);
@@ -166,60 +188,86 @@ const SeismoLive=(()=>{
       update();
     }
 
-    const groups=routeGroups(routes),byHost=new Map();
-    const websocketGroups=groups.filter(g=>g[0].protocol==="WSS");
-    const ws=websocketGroups.slice(0,1).map(g=>stream(g,remaining(),remaining,receive,state));
-    websocketGroups.slice(1).forEach(g=>state(g,"Όριο WSS του γύρου"));
-    for(const g of groups.filter(g=>g[0].protocol==="FDSN")){
-      const host=new URL(g[0].url).host;
-      if(!byHost.has(host))byHost.set(host,[]);
-      byHost.get(host).push(g);
+    const routesByKey=new Map(routes.map(row=>[row.key,row]));
+    const networkPlan=plan(r,routes);
+    const ws=[];
+    const hosts=new Map();
+    const requests=[];
+    for(const task of networkPlan){
+      const rows=task.keys.map(key=>routesByKey.get(key));
+      if(task.send_ms===null){state(rows,"Αρχειακή διαδρομή στον σύντομο γύρο");continue;}
+      for(const row of rows)marks.get(row.key).planned_send_utc=utc(task.send_ms);
+      if(task.protocol==="WSS"){
+        if(!ws.length)ws.push(stream(rows,remaining(),remaining,receive,state));
+        else state(rows,"Όριο WSS του γύρου");
+        continue;
+      }
+      if(!hosts.has(task.host))hosts.set(task.host,[]);
+      hosts.get(task.host).push({...task,rows});
     }
-    // Τέσσερις HTTP hosts ενεργοί ταυτόχρονα, μία ομαδική κλήση ανά host κάθε φορά.
-    const hosts=[...byHost.entries()];
-    const earthAt={20:13,30:20,45:35,60:49}[r.spin_seconds];
-    const tasks=hosts.map(([host,batches])=>({host,batches,
-      when:Math.max(r.start_ms-r.accepted_ms+r.duration*1000,
-                    batches[0][0].provider==="earth"?earthAt*1000:batches[0][0].provider==="scedc"?5000:1200)}))
-      .sort((a,b)=>a.when-b.when);
-    let cursor=0;
-    async function worker(){
-      while(cursor<tasks.length){
-        const task=tasks[cursor++];
-        await wait(task.when-(performance.now()-anchor));
-        for(const [i,rows] of task.batches.entries()){
-          if(i)await wait(Math.min(remaining(),1500));
+    let occupied=0;
+    const queue=[];
+    async function acquire(){
+      if(occupied<4){occupied++;return;}
+      await new Promise(resolve=>queue.push(resolve));
+    }
+    function release(){
+      const next=queue.shift();
+      if(next)next();
+      else occupied--;
+    }
+    async function worker(tasks){
+      for(const task of tasks.sort((a,b)=>a.send_ms-b.send_ms||a.level-b.level)){
+        const rows=task.rows;
+        await wait(task.send_ms-r.accepted_ms-(performance.now()-anchor));
+        await acquire();
+        const begun=performance.now();
+        const sentMs=r.accepted_ms+Math.floor(begun-anchor);
+        const timingInfo={requested_utc:utc(sentMs),request_after_window_ms:sentMs-r.start_ms-r.duration*1000};
+        let attempt;
+        try{
           if(remaining()<350){state(rows,"Εκτός διαθέσιμου χρόνου");continue;}
           if((cooldown.get(task.host)||0)>Date.now()){state(rows,"Σε αναμονή λόγω Retry-After / ορίου παρόχου");continue;}
-          const begun=performance.now();
+          const readyGreek=()=>SeismoProof.pick(routes.filter(st=>st.country_code==="GR"),candidates).length===3;
+          if(task.level>=4&&readyGreek()){state(rows,"Επαρκούν οι ελληνικοί σταθμοί");continue;}
           const timeout=Math.floor(Math.min(remaining(),...rows.map(x=>x.timeout_ms)));
-          state(rows,"Αίτημα FDSN");
-          try{
-            const response=await fetch(queryURL(rows,r),{mode:"cors",credentials:"omit",cache:"no-store",
-                 referrerPolicy:"no-referrer",signal:AbortSignal.timeout(timeout)});
-            if(response.status===429||response.status===503){
-              const header=response.headers.get("Retry-After");
-              const pause=header&&/^\d+$/.test(header)?Number(header)*1000:Date.parse(header)-Date.now();
-              cooldown.set(task.host,Date.now()+Math.max(120000,pause||0));
+          state(rows,"Αίτημα FDSN",timingInfo);
+          const url=queryURL(rows,r);
+          attempt={host:task.host,level:task.level,url,...timingInfo};
+          requests.push(attempt);
+          const response=await fetch(url,{mode:"cors",credentials:"omit",cache:"no-store",
+            referrerPolicy:"no-referrer",signal:AbortSignal.timeout(timeout)});
+          attempt.http_status=response.status;
+          if(response.status===429||response.status===503){
+            const header=response.headers.get("Retry-After");
+            const pause=header&&/^\d+$/.test(header)?Number(header)*1000:Date.parse(header)-Date.now();
+            cooldown.set(task.host,Date.now()+Math.max(120000,pause||0));
+          }
+          const observation={...timingInfo,http_status:response.status,response_ms:Math.round(performance.now()-begun)};
+          state(rows,httpState[response.status]||"HTTP "+response.status,observation);
+          if(response.status!==200)continue;
+          const raw=await boundedBody(response);
+          state(rows,"HTTP 200",{...observation,response_ms:Math.round(performance.now()-begun)});
+          if(remaining()>0){
+            receive(rows,raw,false);
+            for(const st of rows){
+              const row=marks.get(st.key);
+              if(row.status.state==="HTTP 200")row.status.state="HTTP 200 · κανένα δείγμα καναλιού";
             }
-            state(rows,"HTTP "+response.status,{response_ms:Math.round(performance.now()-begun)});
-            if(response.status!==200)continue;
-            const raw=await boundedBody(response);
-            state(rows,"HTTP 200",{response_ms:Math.round(performance.now()-begun)});
-            if(remaining()>0){
-              receive(rows,raw,false);
-              for(const st of rows){
-                const row=marks.get(st.key);
-                if(row.status.state==="HTTP 200")row.status.state="HTTP 200 · κανένα δείγμα καναλιού";
-              }
-              update();
-            }
-          }catch(e){state(rows,e.name==="TimeoutError"?"Λήξη χρόνου":"Αποτυχία HTTPS/CORS",
-                          {response_ms:Math.round(performance.now()-begun)});}
+            update();
+          }
+        }catch(e){
+          const message=e.name==="TimeoutError"?"Λήξη χρόνου":
+            e.message==="Υπέρβαση μεγέθους miniSEED"?e.message:"Αποτυχία HTTPS/CORS";
+          if(attempt)attempt.error=message;
+          state(rows,message,{...timingInfo,response_ms:Math.round(performance.now()-begun)});
+        }finally{
+          if(attempt)attempt.response_ms=Math.round(performance.now()-begun);
+          release();
         }
       }
     }
-    await Promise.all([...ws,...Array.from({length:Math.min(4,tasks.length)},worker)]);
+    await Promise.all([...ws,...[...hosts.values()].map(worker)]);
     await wait(remaining());
     const selected=SeismoProof.pick(routes,candidates);
     const records={};
@@ -242,7 +290,7 @@ const SeismoLive=(()=>{
       result={state:"RESULT",used:selected.map(x=>x.key),...await SeismoProof.compute(r.start_ms,r.duration,
                 selected,selected.map(x=>candidates.get(x.key)),r.algorithm)};
     }
-    return {round:{...r,...result,routes:[...marks.values()]},records};
+    return {round:{...r,...result,network_plan:networkPlan,http_requests:requests,routes:[...marks.values()]},records};
   }
-  return {evaluate,queryURL};
+  return {evaluate,queryURL,plan,policy};
 })();

@@ -8,7 +8,7 @@ for (const name of ['mseed', 'proof', 'live']) {
 }
 const readText = url => readFile(new URL(url, import.meta.url), 'utf8');
 export const fixture = JSON.parse(await readText('./fixtures/noa-archive.json'));
-export const context = await makeContext(...await Promise.all([readText('../stations.txt'), readText('../data/rules.json')]));
+export const context = await makeContext(...await Promise.all([readText('../data/stations-v1.1.0.txt'), readText('../data/rules.json')]));
 
 export async function replayRecordedRound(dropRaw = false) {
   const accepted = fixture.start_ms - 10;

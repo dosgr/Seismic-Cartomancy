@@ -1,0 +1,53 @@
+[
+  {
+    "mode": "live-mixed-controlled",
+    "greek_routes_available": 1,
+    "start_utc": "2026-11-27T14:48:09.790Z",
+    "state": "RESULT",
+    "used": [
+      "earth~FDSN~HT.AGG..HHZ",
+      "scedc~FDSN~CI.DEV..HHZ",
+      "scedc~FDSN~CI.ISA..HHZ"
+    ],
+    "requests": [
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "level": 1
+      },
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "level": 3
+      },
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "level": 4
+      }
+    ]
+  },
+  {
+    "mode": "live-international-controlled",
+    "greek_routes_available": 0,
+    "start_utc": "2026-11-27T14:48:37.810Z",
+    "state": "RESULT",
+    "used": [
+      "scedc~FDSN~CI.DEV..HHZ",
+      "scedc~FDSN~CI.ISA..HHZ",
+      "scedc~FDSN~CI.SVD..HHZ"
+    ],
+    "requests": [
+      {
+        "host": "service.scedc.caltech.edu",
+        "http_status": 200,
+        "level": 3
+      },
+      {
+        "host": "service.earthscope.org",
+        "http_status": 200,
+        "level": 4
+      }
+    ]
+  }
+]

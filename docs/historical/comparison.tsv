@@ -1,0 +1,19 @@
+metric	subcategory	before	after	change
+total		312	1182	870
+category	A	164	164	0
+category	B	42	62	20
+category	C	43	225	182
+category	D	63	731	668
+kind	card	136	423	287
+kind	group	0	10	10
+kind	modifier	5	106	101
+kind	multiple	63	110	47
+kind	pair	102	493	391
+kind	quartet	1	12	11
+kind	trio	5	28	23
+compatible		85	287	202
+card_identities_with_individual_readings		52	52	0
+archival_positions	E	0	144	144
+unified_total		312	1326	1014
+main_evidence_source_ids		10	25	15
+bibliographic_records		41	57	16

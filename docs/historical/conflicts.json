@@ -1,0 +1,62 @@
+[
+  {
+    "id": "TH-AD-LEFT-CLUB",
+    "references": [{"id": "TH766", "page": "27"}],
+    "el": "Για τον Άσο καρό, λείπει η ένδειξη για σπαθί στα αριστερά. Η δεξιά ένδειξη για καθυστερούμενη είσπραξη δεν χρησιμοποιείται για να καλύψει το κενό.",
+    "en": "For the Ace of Diamonds, the meaning of a club on the left is missing. The right-hand meaning of receiving overdue money does not fill the gap."
+  },
+  {
+    "id": "TH-JC-RIGHT-D",
+    "references": [{"id": "TH767", "page": "26"}],
+    "el": "Η δεύτερη γραμμή καρό για τον βαλέ σπαθί τυπώνεται πριν από τον τίτλο της δεξιάς στήλης. Η απόδοση στη δεξιά πλευρά ακολουθεί τη διάταξη των τεσσάρων συμβόλων και επισημαίνεται ως αβέβαιη.",
+    "en": "The second Diamond line for the Jack of Clubs appears before the right-hand heading. Assignment to the right follows the four-suit pattern and is marked uncertain."
+  },
+  {
+    "id": "TH-36-LABELS",
+    "references": [{"id": "TH768", "page": "26"}, {"id": "TH769", "page": "26–27"}],
+    "el": "Στη θέση 23 το συνοπτικό σχέδιο γράφει τρυφερός φίλος και ο επόμενος πίνακας εραστής. Στη θέση 25, ευεργεσία και εργασία. Στη θέση 32, κέρδη ή χρηματικά κέρδη και τύχη. Διατηρούνται και οι δύο τίτλοι.",
+    "en": "For position 23 the summary diagram has affectionate friend and the next table has lover. For 25, beneficence and work. For 32, gains or financial gains and fortune. Both labels are retained."
+  },
+  {
+    "id": "TH-EIGHTS-AND-ACES",
+    "references": [{"id": "TH767", "page": "27"}, {"id": "TH", "page": "27"}],
+    "el": "Τέσσερις άσοι στο πικέ του 767 συνδέονται με ατυχήματα και καταστροφές. Στη μέθοδο των 52 του 770 συνδέονται με εύνοια της τύχης. Τρία οκτάρια στο 767 δείχνουν εφήμερους έρωτες και στο 770 γάμο που θεωρείται βέβαιος.",
+    "en": "Four aces in issue 767's piquet are associated with accidents and disasters. In issue 770's 52-card method they are associated with good fortune. Three eights indicate fleeting romances in issue 767 and a marriage considered certain in issue 770."
+  },
+  {
+    "id": "TH-FOUR-ACES-TEST",
+    "references": [{"id": "TH767", "page": "27"}, {"id": "TH", "page": "27"}, {"id": "TH771", "page": "26"}],
+    "el": "Στο 771 η πτώση των τεσσάρων άσων δίνει χωριστή επιβεβαίωση έκβασης, ανάλογα με την απόπειρα. Οι τρεις ενδείξεις αποδίδονται στους τρεις διαφορετικούς χειρισμούς.",
+    "en": "In issue 771, drawing all four aces provides a separate indication of success that depends on the attempt. Each of the three readings belongs to its own procedure."
+  },
+  {
+    "id": "TRI-LAG-TRAVEL",
+    "references": [{"id": "TRI", "page": "44"}, {"id": "LAG", "page": "169"}],
+    "el": "Η πρόταση για την έκβαση θαλάσσιου ταξιδιού αρχίζει με 10♦ και έπειτα κάνει λόγο για άσο. Η γειτνίαση με 9♥, 10♠, 10♣ ή 9♣ φυλάσσεται με επιφύλαξη για το φύλλο αναφοράς.",
+    "en": "The sentence on the outcome of a sea voyage begins with the Ten of Diamonds and then mentions an Ace. The conditions involving the Nine of Hearts, Ten of Spades, Ten of Clubs or Nine of Clubs are retained with the anchor flagged as uncertain."
+  },
+  {
+    "id": "TRI-LAG-RANK",
+    "references": [{"id": "TRI", "page": "45–46"}, {"id": "LAG", "page": "169–170"}],
+    "el": "Ο Trismégiste αποδίδει αντίζηλο ή ανταγωνισμό για θέση στο εννέα σπαθί με την αντίστοιχη φιγούρα. Ο de La Grange τυπώνει το δεκάρι δύο φορές εκεί όπου ο άλλος δίνει δεκάρι και μετά εννέα.",
+    "en": "Trismégiste assigns romantic or professional rivalry to the Nine of Clubs when it meets the relevant court card. De La Grange prints the Ten twice where the other source gives the Ten and then the Nine."
+  },
+  {
+    "id": "CAS-REPEATED-TRIGGERS",
+    "references": [{"id": "CAS", "page": "96–101"}],
+    "el": "Ίδια σειρά και προσανατολισμός μπορούν να δώσουν δύο ή περισσότερα αποτελέσματα. Ενδεικτικά 8♦–8♠ για δυσκολία μεταξύ προσώπων ή ασθένεια και ανεστραμμένος K♥–όρθιος A♥ για πολλούς διαφορετικούς χώρους. Τα επιμέρους αποτελέσματα διατηρούνται μαζί.",
+    "en": "Identical order and orientation can yield two or more outcomes. For instance, Eight of Diamonds–Eight of Spades indicates interpersonal difficulty or illness, and reversed King of Hearts–upright Ace of Hearts points to a range of venues. The alternative readings stay together."
+  },
+  {
+    "id": "MCR-NEIGHBOURS",
+    "references": [{"id": "MCR", "page": "68–70"}, {"id": "MIN", "page": "53–56"}, {"id": "TH", "page": "27"}],
+    "el": "Ο Minetta αναφέρει τόσο προηγούμενο και επόμενο στη σειρά των εβδόμων όσο και φύλλα που εφάπτονται. Η εκδοχή με ολική αναδιάταξη της δωδεκάδας είναι σαφής στο παράδειγμα. Η γεωμετρία του 770 εξετάζει τους άμεσους γείτονες κάθε στάσης.",
+    "en": "Minetta mentions both the previous and next stops in the order of sevens and the touching cards. The example clearly shows the alternative with all twelve cards reordered. Issue 770 examines the immediate neighbours of each stop."
+  },
+  {
+    "id": "TH770-TWO-READINGS",
+    "references": [{"id": "TH", "page": "26–27"}],
+    "el": "Η συνάντηση Q♥ και A♥ εμφανίζεται σε δύο διαφορετικά χωρία του 770. Τα αρχικά αναγνωριστικά A-P24 και A-P37 παραμένουν διαθέσιμα.",
+    "en": "The Queen and Ace of Hearts pairing appears in two different places in issue 770. The original identifiers A-P24 and A-P37 are both retained."
+  }
+]

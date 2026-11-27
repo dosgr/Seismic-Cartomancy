@@ -1,0 +1,1614 @@
+[
+  {
+    "id": "S-CARD-KD",
+    "card": "KD",
+    "authority": "A-KD",
+    "topics": [
+      "support",
+      "authority"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Ένα πρόσωπο με επιρροή μπορεί να σου προσφέρει κάλυψη ή να σε συστήσει εκεί όπου μόνος σου δυσκολεύεσαι να φτάσεις.",
+      "en": "Someone with influence may offer backing or speak for you where it is harder to get a hearing on your own."
+    },
+    "contextual_reading": {
+      "id": "S-CON-KD",
+      "topic": "work",
+      "text": {
+        "el": "Σε μια εργασιακή υπόθεση, η προστασία μπορεί να είναι μια σύσταση ή υποστήριξη από άνθρωπο με κύρος.",
+        "en": "In a work matter, protection may take the form of an introduction or backing from someone with standing."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "προστασία από πρόσωπο με επιρροή",
+      "en": "backing from someone with influence"
+    }
+  },
+  {
+    "id": "S-CARD-KH",
+    "card": "KH",
+    "authority": "A-KH",
+    "topics": [
+      "support",
+      "trust"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η προστασία εδώ είναι ουσιαστική. Δώσε προσοχή στο πρόσωπο που μπορεί να σταθεί δίπλα σου όταν η υπόθεση δυσκολεύει.",
+      "en": "There is substantial protection here. Pay attention to who can stand beside you when the matter becomes difficult."
+    },
+    "contextual_reading": {
+      "id": "S-CON-KH",
+      "topic": "family",
+      "text": {
+        "el": "Στο σπίτι η προστασία μπορεί να διαβαστεί ως σταθερή παρουσία την ώρα που αυξάνονται οι απαιτήσεις.",
+        "en": "At home, protection may show itself as someone staying present when demands increase."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "σταθερή προστασία",
+      "en": "steady protection"
+    }
+  },
+  {
+    "id": "S-CARD-KS",
+    "card": "KS",
+    "authority": "A-KS",
+    "topics": [
+      "obstacles",
+      "authority"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η υπόθεση μπλέκεται σε διαδικασίες, αντιδικία ή όρους που χρειάζονται προσοχή.",
+      "en": "The matter is caught up in procedures, disputes or terms that need careful attention."
+    },
+    "contextual_reading": {
+      "id": "S-CON-KS",
+      "topic": "work",
+      "text": {
+        "el": "Στη δουλειά δώσε βάρος στο σημείο όπου η διαδικασία, οι όροι ή η αντιδικία δυσκολεύουν την πρόοδο.",
+        "en": "At work, focus on where procedure, terms or a dispute make progress harder."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "διαδικαστικές και δικαστικές περιπλοκές",
+      "en": "procedural and legal complications"
+    }
+  },
+  {
+    "id": "S-CARD-KC",
+    "card": "KC",
+    "authority": "A-KC",
+    "topics": [
+      "support",
+      "money"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η στήριξη έχει δύο όψεις. Κάποιος μπορεί να προσφέρει πρακτικούς πόρους και ταυτόχρονα να σου δώσει κουράγιο.",
+      "en": "Support takes two forms here. Someone may offer practical resources while also giving you encouragement."
+    },
+    "contextual_reading": {
+      "id": "S-CON-KC",
+      "topic": "money",
+      "text": {
+        "el": "Σε οικονομική ερώτηση, ξεχώρισε τη βοήθεια σε πόρους από την ενθάρρυνση που σου επιτρέπει να τους αξιοποιήσεις.",
+        "en": "In a financial question, distinguish help with resources from the encouragement to make use of them."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "πρακτική και ηθική στήριξη",
+      "en": "practical and personal support"
+    }
+  },
+  {
+    "id": "S-CARD-QD",
+    "card": "QD",
+    "authority": "A-QD",
+    "topics": [
+      "trust",
+      "social"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η ιστορική φιγούρα θέτει ζήτημα συνέπειας. Πρόσεξε πού διαφέρουν οι εντυπώσεις από τη συμπεριφορά που τις ακολουθεί.",
+      "en": "This historical figure raises a question of consistency. Notice where an impression differs from the conduct that follows."
+    },
+    "contextual_reading": {
+      "id": "S-CON-QD",
+      "topic": "social",
+      "text": {
+        "el": "Αν εξετάζεις μια γνωριμία, η ιστορική ασυνέπεια της φιγούρας γίνεται ερώτημα για το πόσο σταθερά κάποιος τηρεί τον λόγο του.",
+        "en": "If you are considering a new acquaintance, the figure’s historical inconsistency raises the question of how reliably someone keeps their word."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "επιφυλάξεις για τη συνέπεια ενός προσώπου",
+      "en": "doubts about someone’s consistency"
+    }
+  },
+  {
+    "id": "S-CARD-QH",
+    "card": "QH",
+    "authority": "A-QH",
+    "topics": [
+      "trust",
+      "support",
+      "love"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Εδώ η στοργή φαίνεται στη σταθερή παρουσία και στην αφοσίωση ενός προσώπου.",
+      "en": "Affection shows here in someone’s steady presence and devotion."
+    },
+    "contextual_reading": {
+      "id": "S-CON-QH",
+      "topic": "family",
+      "text": {
+        "el": "Η φροντίδα γίνεται ορατή σε όσα κάποιος συνεχίζει να κάνει για τους δικούς του, ακόμη και χωρίς αναγνώριση.",
+        "en": "Care shows in what someone continues to do for those close to them, even without recognition."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "αφοσίωση και φροντίδα",
+      "en": "devotion and care"
+    }
+  },
+  {
+    "id": "S-CARD-QS",
+    "card": "QS",
+    "authority": "A-QS",
+    "topics": [
+      "trust",
+      "obstacles"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η ιστορική φιγούρα δίνει οξύ τόνο στο άνοιγμα. Πρόσεξε πώς επηρεάζουν την υπόθεση οι αιχμές και οι δύσκολες διαθέσεις.",
+      "en": "This historical figure lends the spread a sharp tone. Notice how cutting words and difficult feelings affect the matter."
+    },
+    "contextual_reading": {
+      "id": "S-CON-QS",
+      "topic": "social",
+      "text": {
+        "el": "Σε κοινωνικό ζήτημα, δες αν οι αιχμές δυσκολεύουν τη συνεννόηση περισσότερο από το ίδιο το θέμα της συζήτησης.",
+        "en": "In a social matter, ask whether sharp remarks make agreement harder than the subject itself."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "αιχμηρή στάση και δυσκολία συνεννόησης",
+      "en": "a sharp attitude that makes understanding harder"
+    }
+  },
+  {
+    "id": "S-CARD-QC",
+    "card": "QC",
+    "authority": "A-QC",
+    "topics": [
+      "support",
+      "social"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Στο άνοιγμα διακρίνεται βοήθεια από μια γυναίκα. Σκέψου ποια προσφορά θα έκανε συγκεκριμένη διαφορά.",
+      "en": "The spread points to help from a woman. Consider what kind of offer would make a concrete difference."
+    },
+    "contextual_reading": {
+      "id": "S-CON-QC",
+      "topic": "work",
+      "text": {
+        "el": "Όταν η δουλειά ζητά υποστήριξη, σκέψου ποια πρακτική συμβολή από τη μορφή της πηγής θα είχε αντίκρισμα.",
+        "en": "When work calls for support, consider what practical contribution from the figure described in the source would make a difference."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "βοήθεια από μια γυναίκα",
+      "en": "help from a woman"
+    }
+  },
+  {
+    "id": "S-CARD-JD",
+    "card": "JD",
+    "authority": "A-JD",
+    "topics": [
+      "communication",
+      "hope"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια ευχάριστη είδηση ανοίγει τη δυνατότητα να δεις την υπόθεση με περισσότερη αισιοδοξία.",
+      "en": "Welcome news opens up a more hopeful way of looking at the matter."
+    },
+    "contextual_reading": {
+      "id": "S-CON-JD",
+      "topic": "communication",
+      "text": {
+        "el": "Άφησε το περιεχόμενο της καλής είδησης να προσδιοριστεί από την ίδια την ερώτηση ή από σαφή γειτονική ένδειξη.",
+        "en": "Let the subject of the good news come from the question itself or a clear neighbouring cue."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια ευχάριστη είδηση",
+      "en": "welcome news"
+    }
+  },
+  {
+    "id": "S-CARD-JH",
+    "card": "JH",
+    "authority": "A-JH",
+    "topics": [
+      "trust",
+      "love"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η ευγένεια των αισθημάτων έχει βάρος. Στο ιστορικό κείμενο παραμένει και η ειδική εκδοχή του επικείμενου γάμου.",
+      "en": "Sincere, considerate feelings carry weight here. The historical text also retains its specific reading about an approaching marriage."
+    },
+    "contextual_reading": {
+      "id": "S-CON-JH",
+      "topic": "love",
+      "text": {
+        "el": "Δώσε έμφαση στην ποιότητα των αισθημάτων που δείχνει η μορφή, με την ειδική παλαιά ερμηνεία διαθέσιμη στο τεκμήριο.",
+        "en": "Emphasise the quality of feeling shown by the figure, with the specific period interpretation available in the evidence."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ευγενικά αισθήματα",
+      "en": "considerate feelings"
+    }
+  },
+  {
+    "id": "S-CARD-JS",
+    "card": "JS",
+    "authority": "A-JS",
+    "topics": [
+      "obstacles",
+      "trust"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η ιστορική φιγούρα προσωποποιεί την εχθρική στάση. Στην ανάγνωση το βάρος πέφτει στις πράξεις που μπορούν να σε δυσκολέψουν.",
+      "en": "The historical figure personifies hostility. The reading focuses on actions that could make things harder for you."
+    },
+    "contextual_reading": {
+      "id": "S-CON-JS",
+      "topic": "social",
+      "text": {
+        "el": "Αν το θέμα είναι συνεργασία, η εχθρικότητα μπορεί να διαβαστεί ως μια συμπεριφορά που δυσχεραίνει την εμπιστοσύνη.",
+        "en": "If the question concerns working together, hostility can be read as conduct that makes trust harder."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια στάση εχθρότητας",
+      "en": "a hostile attitude"
+    }
+  },
+  {
+    "id": "S-CARD-JC",
+    "card": "JC",
+    "authority": "A-JC",
+    "topics": [
+      "trust",
+      "social",
+      "support"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Ο βαλές μιλά για ειλικρίνεια και αξιοπιστία που αντέχουν όταν δοκιμάζονται.",
+      "en": "This Jack evokes honesty and loyalty that hold up when put to the test."
+    },
+    "contextual_reading": {
+      "id": "S-CON-JC",
+      "topic": "support",
+      "text": {
+        "el": "Όταν οι περιστάσεις απαιτούν βοήθεια, η πίστη που δηλώνει το φύλλο γίνεται πιο συγκεκριμένη μέσα από όσα τηρεί ένα πρόσωπο.",
+        "en": "When circumstances call for help, the loyalty of this card becomes clearer through what someone follows through on."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "αξιοπιστία και εντιμότητα",
+      "en": "reliability and honesty"
+    }
+  },
+  {
+    "id": "S-CARD-10D",
+    "card": "10D",
+    "authority": "A-10D",
+    "topics": [
+      "change",
+      "money"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια μετακίνηση έχει προοπτική οικονομικού οφέλους. Το άνοιγμα ξεχωρίζει την αξία που μπορεί να φέρει η διαδρομή.",
+      "en": "A journey carries the prospect of financial benefit. The spread draws attention to what the trip could be worth."
+    },
+    "contextual_reading": {
+      "id": "S-CON-10D",
+      "topic": "work",
+      "text": {
+        "el": "Εκτίμησε την πρακτική αξία μιας μετακίνησης που ήδη απασχολεί την υπόθεση, όπως τον σκοπό και το πιθανό όφελος.",
+        "en": "Consider the practical value of a journey already relevant to the matter, including its purpose and possible benefit."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια μετακίνηση με πρακτικό όφελος",
+      "en": "a journey with a practical benefit"
+    }
+  },
+  {
+    "id": "S-CARD-10H",
+    "card": "10H",
+    "authority": "A-10H",
+    "topics": [
+      "love",
+      "hope"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το δεκάρι δίνει χώρο στη χαρά που μεγαλώνει όταν υπάρχει αμοιβαία ζεστασιά στη σχέση.",
+      "en": "The Ten makes room for the joy that grows when a relationship feels warm on both sides."
+    },
+    "contextual_reading": {
+      "id": "S-CON-10H",
+      "topic": "family",
+      "text": {
+        "el": "Αν το ερώτημα αφορά το σπίτι και υπάρχει ήδη αισθηματικό σκέλος, η χαρά του δεσμού μπορεί να φανεί στην καθημερινή συμβίωση.",
+        "en": "If the question concerns home and a romantic theme is already present, joy in the relationship may show in daily life together."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "χαρά στα αισθηματικά",
+      "en": "joy in love"
+    }
+  },
+  {
+    "id": "S-CARD-10S",
+    "card": "10S",
+    "authority": "A-10S",
+    "topics": [
+      "obstacles",
+      "inner"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το δεκάρι βαραίνει τον τόνο με λύπη ή αίσθηση απώλειας. Οι ευαίσθητες σημασίες της εποχής μένουν στο ιστορικό σημείωμα.",
+      "en": "The Ten deepens the tone with sorrow or a sense of loss. Sensitive period meanings are retained in the historical note."
+    },
+    "contextual_reading": {
+      "id": "S-CON-10S",
+      "topic": "inner",
+      "text": {
+        "el": "Η ανάγνωση δίνει χώρο σε μια δύσκολη συναισθηματική εμπειρία. Μπορείς να μείνεις στη λύπη που όντως αναγνωρίζεις.",
+        "en": "The reading makes room for a difficult emotional experience. You can stay with the sadness you actually recognise."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "λύπη ή αίσθηση απώλειας",
+      "en": "sorrow or a sense of loss"
+    }
+  },
+  {
+    "id": "S-CARD-10C",
+    "card": "10C",
+    "authority": "A-10C",
+    "topics": [
+      "work",
+      "money"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η επιτυχία έχει πρακτικό αντίκρισμα. Δες τι μπορεί να σταθεροποιηθεί ή να αναπτυχθεί από όσα έχουν ήδη αρχίσει να πηγαίνουν καλά.",
+      "en": "Success has a practical payoff. Look at what could grow or become more secure now that things are beginning to go well."
+    },
+    "contextual_reading": {
+      "id": "S-CON-10C",
+      "topic": "money",
+      "text": {
+        "el": "Στα οικονομικά, η ευημερία διαβάζεται ως απόδοση που αποκτά υλική υπόσταση.",
+        "en": "In a financial question, prosperity reads as a return that takes tangible form."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "επιτυχία με πρακτικό αντίκρισμα",
+      "en": "success with a tangible payoff"
+    }
+  },
+  {
+    "id": "S-CARD-9D",
+    "card": "9D",
+    "authority": "A-9D",
+    "topics": [
+      "obstacles",
+      "change"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Κάτι απαιτεί περισσότερο χρόνο από όσο υπολόγιζες. Η καθυστέρηση αφορά τον ρυθμό της υπόθεσης.",
+      "en": "Something is taking longer than you expected. The delay concerns the pace of the matter."
+    },
+    "contextual_reading": {
+      "id": "S-CON-9D",
+      "topic": "work",
+      "text": {
+        "el": "Αν περιμένεις εξέλιξη στη δουλειά, ο χρόνος είναι το κύριο θέμα. Η συγκεκριμένη έκβαση χρειάζεται τη δική της ένδειξη.",
+        "en": "If you are waiting for progress at work, timing is central. The specific outcome needs a cue of its own."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "καθυστέρηση στην εξέλιξη",
+      "en": "a delay in how things move forward"
+    }
+  },
+  {
+    "id": "S-CARD-9H",
+    "card": "9H",
+    "authority": "A-9H",
+    "topics": [
+      "love",
+      "hope"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το εννιάρι φωτίζει την πρόοδο σε ένα αισθηματικό θέμα, ιδίως εκεί όπου ξεχωρίζει τι επιθυμούν πραγματικά οι δύο πλευρές.",
+      "en": "The Nine highlights progress in love, particularly where what both people really want is coming into view."
+    },
+    "contextual_reading": {
+      "id": "S-CON-9H",
+      "topic": "love",
+      "text": {
+        "el": "Σε ερώτηση για προοπτική σχέσης, εστίασε στο σημείο όπου φαίνεται ήδη πρόοδος και άφησε το επόμενο στάδιο ανοιχτό.",
+        "en": "When asking where a relationship is going, focus on where progress is already visible and leave the next stage open."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "πρόοδος σε αισθηματικό θέμα",
+      "en": "progress in a relationship"
+    }
+  },
+  {
+    "id": "S-CARD-9S",
+    "card": "9S",
+    "authority": "A-9S",
+    "topics": [
+      "obstacles",
+      "trust"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Οι εχθρικές στάσεις αφήνουν συναισθηματικό βάρος. Το φύλλο δίνει χώρο σε όσα έχουν ήδη προκαλέσει στενοχώρια.",
+      "en": "Hostile attitudes take an emotional toll. This card makes space for the distress they have already caused."
+    },
+    "contextual_reading": {
+      "id": "S-CON-9S",
+      "topic": "social",
+      "text": {
+        "el": "Ξεχώρισε τη στενοχώρια από τη συγκεκριμένη εχθρική συμπεριφορά. Οι δύο όψεις μπορούν να χρειάζονται διαφορετική φροντίδα.",
+        "en": "Distinguish the distress from the specific hostile conduct. The two may call for different kinds of care."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "στενοχώρια από εχθρικές στάσεις",
+      "en": "distress caused by hostility"
+    }
+  },
+  {
+    "id": "S-CARD-9C",
+    "card": "9C",
+    "authority": "A-9C",
+    "topics": [
+      "money",
+      "work",
+      "authority"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το κέρδος συνδέεται με συγκεκριμένη υπόθεση, επιχειρηματική ή δικαστική.",
+      "en": "The prospect of gain is tied to a specific business or legal matter."
+    },
+    "contextual_reading": {
+      "id": "S-CON-9C",
+      "topic": "authority",
+      "text": {
+        "el": "Αν φαίνεται ήδη νομική ή διοικητική υπόθεση, το φύλλο στρέφει την προσοχή στο πρακτικό κέρδος που αφορά εκείνη την υπόθεση.",
+        "en": "If a legal or administrative matter is already in view, the card points to practical gain connected to that matter."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "κέρδος από συγκεκριμένη υπόθεση",
+      "en": "a gain tied to a specific matter"
+    }
+  },
+  {
+    "id": "S-CARD-8D",
+    "card": "8D",
+    "authority": "A-8D",
+    "topics": [
+      "change",
+      "social"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια σύντομη και ευχάριστη έξοδος δίνει στην υπόθεση την κλίμακα μιας μικρής μετακίνησης.",
+      "en": "A short, pleasant outing gives the matter the scale of a small trip."
+    },
+    "contextual_reading": {
+      "id": "S-CON-8D",
+      "topic": "social",
+      "text": {
+        "el": "Μια κοντινή έξοδος μπορεί να είναι η περίσταση που αφήνει χώρο για ευχάριστη συναναστροφή.",
+        "en": "A short outing may provide the occasion for pleasant company."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια κοντινή και ευχάριστη έξοδος",
+      "en": "a short, pleasant outing"
+    }
+  },
+  {
+    "id": "S-CARD-8H",
+    "card": "8H",
+    "authority": "A-8H",
+    "topics": [
+      "love",
+      "communication"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Κάποιο συναίσθημα βρίσκει φωνή. Δώσε βάρος στο τι εκφράζεται ανοιχτά.",
+      "en": "A feeling finds its voice. Give some weight to what is expressed openly."
+    },
+    "contextual_reading": {
+      "id": "S-CON-8H",
+      "topic": "love",
+      "text": {
+        "el": "Το βάρος πέφτει στη στιγμή που τα αισθήματα εκφράζονται καθαρά και μπορούν να ακουστούν.",
+        "en": "The emphasis is on the moment feelings are expressed clearly enough to be heard."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ανοιχτή έκφραση αισθημάτων",
+      "en": "open expression of feelings"
+    }
+  },
+  {
+    "id": "S-CARD-8S",
+    "card": "8S",
+    "authority": "A-8S",
+    "topics": [
+      "obstacles"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια αναποδιά έχει συνέπειες που χρειάζονται προσοχή. Το φύλλο μεταφέρει την έμφαση στη ζημιά που αφήνει πίσω της.",
+      "en": "A setback has consequences that need attention. The card shifts the focus to the damage it leaves behind."
+    },
+    "contextual_reading": {
+      "id": "S-CON-8S",
+      "topic": "work",
+      "text": {
+        "el": "Σε ένα σχέδιο που δυσκολεύει, ονόμασε πρώτα τη συγκεκριμένη αναποδιά και μετά τις συνέπειές της.",
+        "en": "In a plan running into difficulty, name the particular setback before considering its consequences."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια αναποδιά που αφήνει συνέπειες",
+      "en": "a setback with consequences"
+    }
+  },
+  {
+    "id": "S-CARD-8C",
+    "card": "8C",
+    "authority": "A-8C",
+    "topics": [
+      "work",
+      "money"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το όφελος συνδέεται με δουλειά που συνεχίστηκε αρκετά ώστε να αποδώσει.",
+      "en": "The gain is tied to work that continued long enough to pay off."
+    },
+    "contextual_reading": {
+      "id": "S-CON-8C",
+      "topic": "money",
+      "text": {
+        "el": "Όταν υπάρχει υλικό όφελος, η ένδειξη σε καλεί να το συνδέσεις με τη διάρκεια της προσπάθειας.",
+        "en": "When there is a material benefit, the card asks you to connect it to sustained effort."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "όφελος που έρχεται με την επιμονή",
+      "en": "a gain earned through persistence"
+    }
+  },
+  {
+    "id": "S-CARD-7D",
+    "card": "7D",
+    "authority": "A-7D",
+    "topics": [
+      "obstacles",
+      "work"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η πορεία έχει εμπόδια. Εδώ αξίζει να ξεχωρίσεις ποιο βήμα είναι πιο δύσκολο να προχωρήσει.",
+      "en": "There are obstacles along the way. It helps to identify which step is hardest to move forward."
+    },
+    "contextual_reading": {
+      "id": "S-CON-7D",
+      "topic": "work",
+      "text": {
+        "el": "Η δυσκολία γίνεται πιο διαχειρίσιμη όταν μπορείς να ονομάσεις ποιο στάδιο του σχεδίου επηρεάζει.",
+        "en": "A difficulty is easier to manage when you can identify which part of the plan it affects."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "εμπόδια στην πορεία",
+      "en": "obstacles along the way"
+    }
+  },
+  {
+    "id": "S-CARD-7H",
+    "card": "7H",
+    "authority": "A-7H",
+    "topics": [
+      "love",
+      "inner"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Ο δεσμός βρίσκει ηρεμία μέσα στην οικειότητα και την καθημερινή συντροφικότητα.",
+      "en": "The relationship finds calm in familiarity and day-to-day companionship."
+    },
+    "contextual_reading": {
+      "id": "S-CON-7H",
+      "topic": "family",
+      "text": {
+        "el": "Στο σπίτι, η ηρεμία ενός ήδη ορατού δεσμού μπορεί να φανεί σε μικρές στιγμές συντροφικότητας.",
+        "en": "At home, calm in an already visible relationship can show in small moments of companionship."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ηρεμία μέσα στον δεσμό",
+      "en": "calm in the relationship"
+    }
+  },
+  {
+    "id": "S-CARD-7S",
+    "card": "7S",
+    "authority": "A-7S",
+    "topics": [
+      "obstacles",
+      "work"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το εμπόδιο έχει περιθώριο να ξεπεραστεί. Η ανάγνωση αναγνωρίζει το πέρασμα από τη δυσκολία σε κάτι πιο διαχειρίσιμο.",
+      "en": "There is room to get past the obstacle. The reading traces a move from difficulty toward something more manageable."
+    },
+    "contextual_reading": {
+      "id": "S-CON-7S",
+      "topic": "work",
+      "text": {
+        "el": "Η ανάγνωση δίνει χώρο στην υπέρβαση. Δες ποιο επιμέρους εμπόδιο έχει περιθώριο να ξεπεραστεί τώρα.",
+        "en": "The reading leaves room for overcoming difficulty. Consider which obstacle can be addressed now."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "περιθώριο υπέρβασης της δυσκολίας",
+      "en": "room to get past the difficulty"
+    }
+  },
+  {
+    "id": "S-CARD-7C",
+    "card": "7C",
+    "authority": "A-7C",
+    "topics": [
+      "money"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το επτάρι στρέφει την προσοχή σε οικονομικό όφελος. Η έκτασή του εξαρτάται από το τι δείχνει η υπόλοιπη ανάγνωση.",
+      "en": "The Seven brings a financial gain into focus. Its scale depends on the rest of the reading."
+    },
+    "contextual_reading": {
+      "id": "S-CON-7C",
+      "topic": "money",
+      "text": {
+        "el": "Κράτησε το γενικό θέμα κέρδους χωριστά από κάθε συγκεκριμένη είσπραξη που έχει δικό της ζεύγος.",
+        "en": "Keep the general prospect of gain separate from any particular payment with a pairing of its own."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ένα οικονομικό όφελος",
+      "en": "a financial gain"
+    }
+  },
+  {
+    "id": "S-CARD-6D",
+    "card": "6D",
+    "authority": "A-6D",
+    "topics": [
+      "agency",
+      "obstacles"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η βιασύνη μπορεί να κάνει δυσκολότερη μια υπόθεση που ήδη ζητά καθαρή κρίση.",
+      "en": "Haste can make an issue that already calls for clear judgement harder to manage."
+    },
+    "contextual_reading": {
+      "id": "S-CON-6D",
+      "topic": "work",
+      "text": {
+        "el": "Η προειδοποίηση για βιασύνη αφορά ιδιαίτερα την απόφαση που θα ήταν δύσκολο να διορθωθεί αργότερα.",
+        "en": "The caution about haste is especially relevant to a decision that would be hard to put right later."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ανάγκη προσοχής στη βιασύνη",
+      "en": "a need for care around rushed decisions"
+    }
+  },
+  {
+    "id": "S-CARD-6H",
+    "card": "6H",
+    "authority": "A-6H",
+    "topics": [
+      "inner",
+      "change"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Ο δισταγμός έχει ιστορία. Μια παλιότερη εμπειρία εξακολουθεί να επηρεάζει το πώς ζυγίζεις την επιλογή σου.",
+      "en": "Hesitation has a history. An earlier experience still shapes how you weigh the choice."
+    },
+    "contextual_reading": {
+      "id": "S-CON-6H",
+      "topic": "inner",
+      "text": {
+        "el": "Ο δισταγμός μπορεί να δείξει ποια εμπειρία χρειάζεται ακόμη να πάρεις υπόψη πριν αποφασίσεις.",
+        "en": "Hesitation may show which earlier experience still needs to be considered before you decide."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "δισταγμός που κουβαλά το παρελθόν",
+      "en": "hesitation shaped by the past"
+    }
+  },
+  {
+    "id": "S-CARD-6S",
+    "card": "6S",
+    "authority": "A-6S",
+    "topics": [
+      "change",
+      "hope"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η μετακίνηση που πλησιάζει έχει ευνοϊκό τόνο. Φέρνει στο προσκήνιο μια αλλαγή που μπορεί να εξελιχθεί ομαλά.",
+      "en": "The approaching journey has a favourable tone. It brings a change into view that may go smoothly."
+    },
+    "contextual_reading": {
+      "id": "S-CON-6S",
+      "topic": "change",
+      "text": {
+        "el": "Σε θέμα αλλαγής, η ευνοϊκή μετακίνηση δίνει βάρος στη δυνατότητα να προσαρμοστείς ομαλά.",
+        "en": "In a question about change, the favourable journey emphasises the possibility of adapting smoothly."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια μετακίνηση με ευνοϊκό τόνο",
+      "en": "a journey with a favourable tone"
+    }
+  },
+  {
+    "id": "S-CARD-6C",
+    "card": "6C",
+    "authority": "A-6C",
+    "topics": [
+      "agency",
+      "work"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το επόμενο βήμα απαιτεί τόλμη. Η προοπτική επιτυχίας συνδέεται με την απόφαση να το επιχειρήσεις.",
+      "en": "The next step calls for courage. The prospect of success is tied to being willing to try it."
+    },
+    "contextual_reading": {
+      "id": "S-CON-6C",
+      "topic": "money",
+      "text": {
+        "el": "Όταν το ερώτημα αφορά πόρους, η τόλμη παίρνει τη μορφή ενός συγκεκριμένου βήματος που το άνοιγμα ήδη επιτρέπει να σκεφτείς.",
+        "en": "When resources are the issue, courage takes the form of a specific step the spread already gives you grounds to consider."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "τόλμη στο επόμενο βήμα",
+      "en": "courage in taking the next step"
+    }
+  },
+  {
+    "id": "S-CARD-5D",
+    "card": "5D",
+    "authority": "A-5D",
+    "topics": [
+      "money",
+      "work"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η υλική πρόοδος έχει συγκεκριμένο αποτέλεσμα. Διακρίνεται πεδίο όπου η επιτυχία μπορεί να αποκτήσει αξία και διάρκεια.",
+      "en": "Material progress has a tangible result. There is room for success to gain value and last."
+    },
+    "contextual_reading": {
+      "id": "S-CON-5D",
+      "topic": "work",
+      "text": {
+        "el": "Η επιτυχία παίρνει πρακτικό νόημα όταν μπορείς να ονομάσεις τι ακριβώς απέδωσε.",
+        "en": "Success becomes practical when you can name what actually paid off."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "πρόοδος με υλικό αντίκρισμα",
+      "en": "progress with material results"
+    }
+  },
+  {
+    "id": "S-CARD-5H",
+    "card": "5H",
+    "authority": "A-5H",
+    "topics": [
+      "love",
+      "repair"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Υπάρχει χώρος να αποκατασταθεί μια σχέση. Ο πυρήνας της ένδειξης είναι η συμφιλίωση.",
+      "en": "There is room for a relationship to mend. Reconciliation is the heart of the reading."
+    },
+    "contextual_reading": {
+      "id": "S-CON-5H",
+      "topic": "family",
+      "text": {
+        "el": "Η συμφιλίωση γίνεται πιο συγκεκριμένη ως δυνατότητα να ξαναρχίσει μια δύσκολη συζήτηση σε ηπιότερο τόνο.",
+        "en": "Reconciliation can take the concrete form of resuming a difficult conversation on gentler terms."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "χώρος για συμφιλίωση",
+      "en": "room for reconciliation"
+    }
+  },
+  {
+    "id": "S-CARD-5S",
+    "card": "5S",
+    "authority": "A-5S",
+    "topics": [
+      "obstacles",
+      "change"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια δυσάρεστη τροπή ζητά να ξαναδείς πώς προχωρά η υπόθεση.",
+      "en": "An unwelcome turn calls for a fresh look at how the matter is unfolding."
+    },
+    "contextual_reading": {
+      "id": "S-CON-5S",
+      "topic": "work",
+      "text": {
+        "el": "Η δυσάρεστη τροπή έχει χρησιμότητα όταν σε βοηθά να δεις ποιο μέρος του σχεδίου χρειάζεται αναθεώρηση.",
+        "en": "An unwelcome turn can help you see which part of the plan needs rethinking."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια δυσάρεστη τροπή",
+      "en": "an unwelcome turn"
+    }
+  },
+  {
+    "id": "S-CARD-5C",
+    "card": "5C",
+    "authority": "A-5C",
+    "topics": [
+      "money",
+      "family"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η ευημερία αποτυπώνεται ως περισσότερη άνεση ή σταθερότητα στα πρακτικά της ζωής.",
+      "en": "Prosperity takes the form of greater comfort or stability in practical life."
+    },
+    "contextual_reading": {
+      "id": "S-CON-5C",
+      "topic": "family",
+      "text": {
+        "el": "Η άνεση μπορεί να φανεί σε όσα γίνονται ευκολότερα στην καθημερινή ζωή του σπιτιού.",
+        "en": "Comfort can show in the things that become easier in everyday life at home."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ευημερία και πρακτική άνεση",
+      "en": "prosperity and practical comfort"
+    }
+  },
+  {
+    "id": "S-CARD-4D",
+    "card": "4D",
+    "authority": "A-4D",
+    "topics": [
+      "social",
+      "support"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια φιλία αποδεικνύεται πολύτιμη μέσα από κάτι που κάνει ευκολότερη την υπόθεσή σου.",
+      "en": "A friendship proves valuable through something that makes the matter easier for you."
+    },
+    "contextual_reading": {
+      "id": "S-CON-4D",
+      "topic": "work",
+      "text": {
+        "el": "Μια φιλία έχει πρακτική αξία όταν η συμβολή της αντιστοιχεί σε ανάγκη του σχεδίου.",
+        "en": "A friendship has practical value when what it offers meets a need in the plan."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια φιλία που αποδεικνύεται χρήσιμη",
+      "en": "a friendship that proves helpful"
+    }
+  },
+  {
+    "id": "S-CARD-4H",
+    "card": "4H",
+    "authority": "A-4H",
+    "topics": [
+      "obstacles",
+      "inner"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Οι έγνοιες παίρνουν χώρο στην καθημερινότητα. Δώσε όνομα στη συγκεκριμένη δυσκολία που τις τροφοδοτεί.",
+      "en": "Worries take up space in everyday life. Put a name to the particular difficulty feeding them."
+    },
+    "contextual_reading": {
+      "id": "S-CON-4H",
+      "topic": "family",
+      "text": {
+        "el": "Σε ερώτηση για το σπίτι, ξεχώρισε τη συγκεκριμένη έγνοια από το υπόλοιπο κλίμα της οικογένειας.",
+        "en": "In a question about home, distinguish the particular worry from the wider atmosphere in the family."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "έγνοιες που ζητούν προσοχή",
+      "en": "worries that need attention"
+    }
+  },
+  {
+    "id": "S-CARD-4S",
+    "card": "4S",
+    "authority": "A-4S",
+    "topics": [
+      "inner",
+      "obstacles"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η απογοήτευση αφορά κάτι στο οποίο είχες επενδύσει προσδοκίες. Το φύλλο δίνει βάρος σε αυτή τη διαφορά.",
+      "en": "Disappointment concerns something in which you had placed expectations. The card gives weight to that gap."
+    },
+    "contextual_reading": {
+      "id": "S-CON-4S",
+      "topic": "inner",
+      "text": {
+        "el": "Η απογοήτευση σε καλεί να εξετάσεις ποια προσδοκία είχε μεγαλύτερη σημασία για σένα.",
+        "en": "Disappointment invites you to consider which expectation mattered most to you."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια προσδοκία που απογοητεύει",
+      "en": "an expectation that leads to disappointment"
+    }
+  },
+  {
+    "id": "S-CARD-4C",
+    "card": "4C",
+    "authority": "A-4C",
+    "topics": [
+      "money",
+      "surprise"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια προσφορά ή απρόσμενη είσπραξη αλλάζει την εικόνα των διαθέσιμων πόρων.",
+      "en": "An offer or unexpected gain changes the picture of what resources are available."
+    },
+    "contextual_reading": {
+      "id": "S-CON-4C",
+      "topic": "social",
+      "text": {
+        "el": "Μια απρόσμενη προσφορά γίνεται πιο συγκεκριμένη όταν έχεις ήδη λόγο να τη συνδέσεις με κάποιον από τον περίγυρο.",
+        "en": "An unexpected offer takes clearer shape when the spread already gives you grounds to connect it to someone around you."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ένα δώρο ή απρόσμενο όφελος",
+      "en": "a gift or an unexpected gain"
+    }
+  },
+  {
+    "id": "S-CARD-3D",
+    "card": "3D",
+    "authority": "A-3D",
+    "topics": [
+      "work",
+      "obstacles"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Το εγχείρημα έχει πραγματικές απαιτήσεις. Δες πού χρειάζεται περισσότερη προσπάθεια ή στήριξη.",
+      "en": "The undertaking makes real demands. Look for where it needs more effort or support."
+    },
+    "contextual_reading": {
+      "id": "S-CON-3D",
+      "topic": "work",
+      "text": {
+        "el": "Το εγχείρημα χρειάζεται να φανεί στην πραγματική του κλίμακα. Ονόμασε τις απαιτήσεις που κάνουν την προσπάθεια δύσκολη.",
+        "en": "The undertaking needs to be seen at its true scale. Name the demands that make the effort difficult."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ένα απαιτητικό εγχείρημα",
+      "en": "a demanding undertaking"
+    }
+  },
+  {
+    "id": "S-CARD-3H",
+    "card": "3H",
+    "authority": "A-3H",
+    "topics": [
+      "love",
+      "hope"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια αισθηματική επιδίωξη βρίσκει χώρο να προχωρήσει. Το φύλλο αναδεικνύει όσα πάνε προς την επιθυμητή κατεύθυνση.",
+      "en": "An aim in love finds room to move forward. The card highlights what is heading in the hoped-for direction."
+    },
+    "contextual_reading": {
+      "id": "S-CON-3H",
+      "topic": "love",
+      "text": {
+        "el": "Στα αισθηματικά, η πρόοδος αποκτά νόημα όταν είναι σαφές ποια επιθυμία βρίσκει ανταπόκριση.",
+        "en": "In love, progress matters most when it is clear which hope is being met."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια αισθηματική επιδίωξη που προχωρά",
+      "en": "a romantic hope that moves forward"
+    }
+  },
+  {
+    "id": "S-CARD-3S",
+    "card": "3S",
+    "authority": "A-3S",
+    "topics": [
+      "change"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια μετακίνηση έρχεται στο προσκήνιο. Η ίδια η διαδρομή είναι η βασική ένδειξη.",
+      "en": "A journey comes into view. The trip itself is the central clue."
+    },
+    "contextual_reading": {
+      "id": "S-CON-3S",
+      "topic": "work",
+      "text": {
+        "el": "Αν υπάρχει επαγγελματική μετακίνηση στο ερώτημα, η έμφαση είναι στην ίδια τη διαδρομή και στον σκοπό της.",
+        "en": "If the question already involves a work trip, keep the focus on the journey and its purpose."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια διαδρομή που πλησιάζει",
+      "en": "an approaching journey"
+    }
+  },
+  {
+    "id": "S-CARD-3C",
+    "card": "3C",
+    "authority": "A-3C",
+    "topics": [
+      "work",
+      "agency"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η προσπάθεια αρχίζει να δείχνει τι απέδωσε. Αναγνώρισε τη δουλειά που βρίσκεται πίσω από το αποτέλεσμα.",
+      "en": "The effort is beginning to show what it achieved. Give credit to the work behind the result."
+    },
+    "contextual_reading": {
+      "id": "S-CON-3C",
+      "topic": "money",
+      "text": {
+        "el": "Σε οικονομικό θέμα, δες ποιο υπάρχον αποτέλεσμα μπορεί να αποδοθεί στη δική σου προσπάθεια.",
+        "en": "In a financial matter, consider which result already in view can be credited to your own effort."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "προσπάθεια που αποδίδει",
+      "en": "effort that pays off"
+    }
+  },
+  {
+    "id": "S-CARD-2D",
+    "card": "2D",
+    "authority": "A-2D",
+    "topics": [
+      "inner",
+      "obstacles"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η στενοχώρια έχει θέση στην ανάγνωση. Άφησε χώρο για ό,τι σε βαραίνει πριν κρίνεις το σύνολο της κατάστασης.",
+      "en": "Distress belongs in the reading. Make room for what weighs on you before judging the situation as a whole."
+    },
+    "contextual_reading": {
+      "id": "S-CON-2D",
+      "topic": "love",
+      "text": {
+        "el": "Όταν το θέμα είναι ένας δεσμός, η στενοχώρια αξίζει να αναγνωριστεί πριν ερμηνεύσεις την πρόθεση του άλλου.",
+        "en": "When a relationship is the subject, acknowledge the sadness before trying to interpret the other person’s intention."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "στενοχώρια που χρειάζεται χώρο",
+      "en": "distress that needs room"
+    }
+  },
+  {
+    "id": "S-CARD-2H",
+    "card": "2H",
+    "authority": "A-2H",
+    "topics": [
+      "love",
+      "trust"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η σχέση έχει εικόνα συνέχειας. Η σταθερότητα γίνεται ευδιάκριτη μέσα από την αίσθηση ότι υπάρχει δεσμός με διάρκεια.",
+      "en": "The relationship has a sense of continuity. Its steadiness comes through in the feeling of a bond that lasts."
+    },
+    "contextual_reading": {
+      "id": "S-CON-2H",
+      "topic": "love",
+      "text": {
+        "el": "Η σταθερότητα φαίνεται στην επανάληψη της φροντίδας και στην αίσθηση συνέχειας.",
+        "en": "Stability shows through repeated care and a sense of continuity."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "σταθερότητα στον δεσμό",
+      "en": "steadiness in the relationship"
+    }
+  },
+  {
+    "id": "S-CARD-2S",
+    "card": "2S",
+    "authority": "A-2S",
+    "topics": [
+      "inner",
+      "repair"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η αρμονία δείχνει ότι διαφορετικές πλευρές μπορούν να συνυπάρχουν χωρίς να τραβούν την κατάσταση σε αντίθετες κατευθύνσεις.",
+      "en": "Harmony suggests that different sides can coexist without pulling the situation in opposite directions."
+    },
+    "contextual_reading": {
+      "id": "S-CON-2S",
+      "topic": "family",
+      "text": {
+        "el": "Στο σπίτι, η αρμονία μπορεί να πάρει μορφή συνεννόησης γύρω από μια κοινή ανάγκη.",
+        "en": "At home, harmony may take the form of understanding each other around a shared need."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια αίσθηση αρμονίας",
+      "en": "a sense of harmony"
+    }
+  },
+  {
+    "id": "S-CARD-2C",
+    "card": "2C",
+    "authority": "A-2C",
+    "topics": [
+      "money",
+      "obstacles"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Ένα οικονομικό ζήτημα χρειάζεται συγκεκριμένη προσοχή. Ξεχώρισε τη δυσκολία που υπάρχει ήδη από όσα ακόμη υποθέτεις.",
+      "en": "A financial issue needs specific attention. Separate the difficulty already present from what you are still assuming."
+    },
+    "contextual_reading": {
+      "id": "S-CON-2C",
+      "topic": "money",
+      "text": {
+        "el": "Η οικονομική δυσκολία γίνεται σαφέστερη όταν την περιγράφεις ως συγκεκριμένο έξοδο, έλλειψη ή εκκρεμότητα που ήδη γνωρίζεις.",
+        "en": "Financial difficulty becomes clearer when you describe an expense, shortfall or outstanding matter you already know about."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "μια πρακτική οικονομική δυσκολία",
+      "en": "a practical financial difficulty"
+    }
+  },
+  {
+    "id": "S-CARD-AD",
+    "card": "AD",
+    "authority": "A-AD",
+    "topics": [
+      "communication",
+      "money"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Μια ευχάριστη είδηση συνδέεται με προοπτική βελτίωσης. Η φύση του μηνύματος έχει σημασία για το πώς προχωρά η υπόθεση.",
+      "en": "Welcome news comes with the prospect of improvement. What the message is about matters to how the situation moves forward."
+    },
+    "contextual_reading": {
+      "id": "S-CON-AD",
+      "topic": "work",
+      "text": {
+        "el": "Σε ερώτηση για δουλειά, η καλή είδηση έχει αξία όταν μπορείς να συνδέσεις το θέμα της με μια ενεργή υπόθεση.",
+        "en": "In a work question, welcome news matters when you can connect its subject to something already under way."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "καλά νέα με προοπτική βελτίωσης",
+      "en": "good news with the prospect of improvement"
+    }
+  },
+  {
+    "id": "S-CARD-AH",
+    "card": "AH",
+    "authority": "A-AH",
+    "topics": [
+      "love",
+      "communication"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Ένα μήνυμα δίνει μορφή σε όσα έχουν αισθηματική σημασία. Μπορεί να έρθει ως γράμμα ή ως είδηση που αφορά τη σχέση.",
+      "en": "A message gives shape to something that matters in love. It may be a letter or news about the relationship."
+    },
+    "contextual_reading": {
+      "id": "S-CON-AH",
+      "topic": "love",
+      "text": {
+        "el": "Η επικοινωνία αποκτά σημασία από το πόσο καθαρά δείχνει τι νιώθεις ή τι άκουσες από το άλλο πρόσωπο.",
+        "en": "The exchange matters for how clearly it reveals what you feel or what you heard from the other person."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ένα μήνυμα που αφορά τα αισθήματα",
+      "en": "a message about feelings"
+    }
+  },
+  {
+    "id": "S-CARD-AS",
+    "card": "AS",
+    "authority": "A-AS",
+    "topics": [
+      "support",
+      "surprise"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Η βοήθεια εμφανίζεται εκεί όπου δεν την υπολόγιζες, την ώρα που οι άλλες δυνατότητες φαίνονται να κλείνουν.",
+      "en": "Help appears where you had not counted on it, just when other avenues seem to be closing."
+    },
+    "contextual_reading": {
+      "id": "S-CON-AS",
+      "topic": "obstacles",
+      "text": {
+        "el": "Όταν οι επιλογές φαίνονται περιορισμένες, η βοήθεια μπορεί να έχει αξία ακόμη και αν λύνει μόνο ένα μέρος της δυσκολίας.",
+        "en": "When options seem limited, help can matter even if it resolves only one part of the difficulty."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "στήριξη από απρόσμενη πλευρά",
+      "en": "support from an unexpected quarter"
+    }
+  },
+  {
+    "id": "S-CARD-AC",
+    "card": "AC",
+    "authority": "A-AC",
+    "topics": [
+      "money",
+      "support"
+    ],
+    "status": "modern-synthesis",
+    "text": {
+      "el": "Ο άσος τονίζει τη σημαντική οικονομική βελτίωση. Όταν ο ιστορικός κανόνας βρίσκει δυσμενή γείτονα, ο τόνος εκείνης της ένδειξης μαλακώνει.",
+      "en": "The Ace highlights a significant financial improvement. When its historical rule reaches an adverse neighbour, that neighbour’s tone is softened."
+    },
+    "contextual_reading": {
+      "id": "S-CON-AC",
+      "topic": "money",
+      "text": {
+        "el": "Η βελτίωση παίρνει τη μορφή μεγαλύτερου περιθωρίου στα οικονομικά. Η μετρίαση άλλης ένδειξης χρειάζεται την ιδιαίτερη ιστορική συνθήκη.",
+        "en": "Improvement may take the form of more financial room. Softening another cue requires the specific historical condition."
+      },
+      "status": "modern-synthesis",
+      "requires": [
+        "matching-active-A-card",
+        "matching-question-theme"
+      ]
+    },
+    "packet_motif": {
+      "el": "ουσιαστική οικονομική βελτίωση",
+      "en": "a substantial improvement in finances"
+    }
+  }
+]

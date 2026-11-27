@@ -1,4 +1,4 @@
-import {cardName, shortCard, currentLanguage, tr, sourcePage, element} from './strings.js';
+import {cardName, shortCard, currentLanguage, tr, sourcePage, element} from './strings.js?v=2.0.0';
 
 export function cardFace(card, {index, animation = '', highlight = ''} = {}) {
   const style = ['card', card ? 'card-front' : 'card-back', animation, highlight].filter(Boolean).join(' ');
